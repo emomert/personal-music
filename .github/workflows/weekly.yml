@@ -22,18 +22,19 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: node scripts/fetch-lastfm.js
 
-      # Spotify requires Premium for the app owner, so we use Last.fm fallback for now.
-      # When you have a Premium-linked Spotify app, uncomment the step below and remove the fallback.
-      # - name: Fetch Spotify recommendations
-      #   env:
-      #     SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-      #     SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-      #   run: node scripts/fetch-spotify.js
-
-      - name: Fetch fallback recommendations (Last.fm)
+      # Try Spotify first. If the app owner doesn't have Premium (403), 
+      # automatically fall back to Last.fm similar tracks/artists.
+      - name: Fetch recommendations (Spotify → Last.fm fallback)
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-        run: node scripts/fetch-recommendations-fallback.js
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          echo "Attempting Spotify recommendations..."
+          node scripts/fetch-spotify.js || (
+            echo "Spotify failed (likely Premium required). Falling back to Last.fm..." &&
+            node scripts/fetch-recommendations-fallback.js
+          )
 
       - name: Commit and push if changed
         run: |

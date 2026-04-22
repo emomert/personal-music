@@ -26,6 +26,18 @@ const topArtist7 = lastfm?.topArtists_last7days?.[0];
 function formatNumber(num) {
   return Number(num).toLocaleString();
 }
+
+function getImage(images, size = 'large') {
+  if (!images || !Array.isArray(images)) return null;
+  const img = images.find(i => i.size === size);
+  return img?.['#text'] || null;
+}
+
+function isPlaceholderImage(url) {
+  return !url || url.includes('2a96cbd8b46e442fc41c2b86b821562f');
+}
+
+const recentTrackImage = getImage(recentTrack?.image, 'extralarge') || getImage(recentTrack?.image, 'large');
 ---
 
 <Layout title="home">
@@ -42,23 +54,38 @@ function formatNumber(num) {
         )}
       </div>
 
-      <div class="space-y-2">
-        <p class="text-text-dim text-sm">{isNowPlaying ? 'Currently playing' : 'Last played'}</p>
-        {recentTrack ? (
-          <div>
-            <h2 class="text-2xl md:text-3xl font-bold text-phosphor phosphor-glow">
-              {recentTrack.name}
-            </h2>
-            <p class="text-lg text-amber amber-glow mt-1">
-              {recentTrack.artist?.['#text'] || recentTrack.artist}
-            </p>
-            <p class="text-sm text-text-dim mt-1">
-              {recentTrack.album?.['#text'] || 'Unknown Album'}
-            </p>
-          </div>
+      <div class="flex flex-col md:flex-row gap-6 items-start">
+        {/* Album Art */}
+        {recentTrack && !isPlaceholderImage(recentTrackImage) ? (
+          <img
+            src={recentTrackImage}
+            alt={recentTrack.name}
+            class="w-32 h-32 object-cover border border-terminal-border shrink-0"
+          />
         ) : (
-          <p class="text-text-dim">No recent tracks found.</p>
+          <div class="w-32 h-32 bg-terminal-bg border border-terminal-border flex items-center justify-center shrink-0">
+            <span class="text-text-dim text-2xl">♫</span>
+          </div>
         )}
+
+        <div class="flex-1 space-y-2">
+          <p class="text-text-dim text-sm">{isNowPlaying ? 'Currently playing' : 'Last played'}</p>
+          {recentTrack ? (
+            <div>
+              <h2 class="text-2xl md:text-3xl font-bold text-phosphor phosphor-glow">
+                {recentTrack.name}
+              </h2>
+              <p class="text-lg text-amber amber-glow mt-1">
+                {recentTrack.artist?.['#text'] || recentTrack.artist}
+              </p>
+              <p class="text-sm text-text-dim mt-1">
+                {recentTrack.album?.['#text'] || 'Unknown Album'}
+              </p>
+            </div>
+          ) : (
+            <p class="text-text-dim">No recent tracks found.</p>
+          )}
+        </div>
       </div>
 
       <div class="mt-6 pt-4 border-t border-terminal-border flex items-center gap-2 text-xs text-text-dim">
@@ -103,20 +130,31 @@ function formatNumber(num) {
       <div class="border border-terminal-border bg-terminal-panel">
         <div class="grid grid-cols-12 gap-2 px-4 py-2 border-b border-terminal-border text-xs text-text-dim uppercase">
           <span class="col-span-1">#</span>
-          <span class="col-span-5">Track</span>
+          <span class="col-span-1"></span>
+          <span class="col-span-4">Track</span>
           <span class="col-span-3">Artist</span>
           <span class="col-span-3 text-right">Time</span>
         </div>
-        {(lastfm?.recentTracks?.slice(0, 10) || []).map((track, i) => (
-          <div class="grid grid-cols-12 gap-2 px-4 py-3 border-b border-terminal-border last:border-b-0 hover:bg-white/[0.02] transition-colors">
-            <span class="col-span-1 text-text-dim">{(i + 1).toString().padStart(2, '0')}</span>
-            <span class="col-span-5 text-phosphor truncate">{track.name}</span>
-            <span class="col-span-3 text-amber truncate">{track.artist?.['#text'] || track.artist}</span>
-            <span class="col-span-3 text-right text-text-dim text-xs">
-              {track.date ? new Date(track.date.uts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'now'}
-            </span>
-          </div>
-        ))}
+        {(lastfm?.recentTracks?.slice(0, 10) || []).map((track, i) => {
+          const img = getImage(track.image, 'small');
+          return (
+            <div class="grid grid-cols-12 gap-2 px-4 py-3 border-b border-terminal-border last:border-b-0 hover:bg-white/[0.02] transition-colors items-center">
+              <span class="col-span-1 text-text-dim">{(i + 1).toString().padStart(2, '0')}</span>
+              <span class="col-span-1">
+                {img && !isPlaceholderImage(img) ? (
+                  <img src={img} alt="" class="w-8 h-8 object-cover border border-terminal-border" loading="lazy" />
+                ) : (
+                  <div class="w-8 h-8 bg-terminal-bg border border-terminal-border flex items-center justify-center text-[10px] text-text-dim">♫</div>
+                )}
+              </span>
+              <span class="col-span-4 text-phosphor truncate">{track.name}</span>
+              <span class="col-span-3 text-amber truncate">{track.artist?.['#text'] || track.artist}</span>
+              <span class="col-span-3 text-right text-text-dim text-xs">
+                {track.date ? new Date(track.date.uts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'now'}
+              </span>
+            </div>
+          );
+        })}
       </div>
 
       <div class="mt-4 text-right">

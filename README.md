@@ -49,7 +49,7 @@ The workflows are in `.github/workflows/`:
 - **`daily.yml`** — Runs every day at 03:00 UTC, fetches Last.fm + ListenBrainz data
 - **`weekly.yml`** — Runs every Monday at 04:00 UTC, generates recommendations
 
-> **Note about Spotify**: Spotify's Web API now requires the app owner to have a **Premium subscription** for Search & Recommendations endpoints. If you don't have Premium, the site will use a **Last.fm fallback** for recommendations. When you get Premium (or a friend with Premium creates the app), uncomment the Spotify step in `weekly.yml` and remove the fallback step.
+> **Note about Spotify**: Spotify's Web API requires the app owner to have a **Premium subscription**. The workflow is smart — it **tries Spotify first**, and if it gets a 403 error (Premium required), it **automatically falls back** to Last.fm similar tracks/artists. When you get a Premium-linked app (from a friend or yourself), just update the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` secrets — no code changes needed!
 
 ### 4. Deploy to Netlify
 
