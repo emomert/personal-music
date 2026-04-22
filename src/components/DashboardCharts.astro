@@ -1,0 +1,178 @@
+---
+// No server-side logic needed, charts render client-side
+---
+
+<div class="space-y-8">
+  {/* Chart: Top Artists */}
+  <div class="border border-terminal-border bg-terminal-panel p-4">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="text-amber">$</span>
+      <h3 class="text-sm font-bold uppercase tracking-widest text-amber amber-glow">top_artists</h3>
+    </div>
+    <div class="h-64 md:h-80">
+      <canvas id="artistChart"></canvas>
+    </div>
+  </div>
+
+  {/* Chart: Top Tracks */}
+  <div class="border border-terminal-border bg-terminal-panel p-4">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="text-phosphor">$</span>
+      <h3 class="text-sm font-bold uppercase tracking-widest text-phosphor phosphor-glow">top_tracks</h3>
+    </div>
+    <div class="h-64 md:h-80">
+      <canvas id="trackChart"></canvas>
+    </div>
+  </div>
+
+  {/* Chart: Top Albums */}
+  <div class="border border-terminal-border bg-terminal-panel p-4">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="text-phosphor">$</span>
+      <h3 class="text-sm font-bold uppercase tracking-widest text-phosphor phosphor-glow">top_albums</h3>
+    </div>
+    <div class="h-64 md:h-80">
+      <canvas id="albumChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>
+  import Chart from 'chart.js/auto';
+
+  // Global chart config for retro terminal look
+  Chart.defaults.color = '#555555';
+  Chart.defaults.borderColor = '#1a1a1a';
+  Chart.defaults.font.family = "'JetBrains Mono', 'Fira Code', monospace";
+  Chart.defaults.font.size = 11;
+
+  // Expose render function globally so dashboard page can call it
+  window.renderDashboardCharts = function(data) {
+    const artists = data.topArtists || [];
+    const tracks = data.topTracks || [];
+    const albums = data.topAlbums || [];
+
+    // Destroy existing charts
+    if (window._artistChart) window._artistChart.destroy();
+    if (window._trackChart) window._trackChart.destroy();
+    if (window._albumChart) window._albumChart.destroy();
+
+    window._artistChart = new Chart(document.getElementById('artistChart'), {
+      type: 'bar',
+      data: {
+        labels: artists.slice(0, 10).map(a => a.name),
+        datasets: [{
+          label: 'Plays',
+          data: artists.slice(0, 10).map(a => parseInt(a.playcount)),
+          backgroundColor: 'rgba(51, 255, 0, 0.15)',
+          borderColor: '#33ff00',
+          borderWidth: 1,
+          hoverBackgroundColor: 'rgba(51, 255, 0, 0.3)',
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#111111',
+            titleColor: '#33ff00',
+            bodyColor: '#ffb000',
+            borderColor: '#1a8000',
+            borderWidth: 1,
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#555555', maxRotation: 45, minRotation: 45 },
+            grid: { color: '#111111' }
+          },
+          y: {
+            ticks: { color: '#555555' },
+            grid: { color: '#111111' }
+          }
+        }
+      }
+    });
+
+    window._trackChart = new Chart(document.getElementById('trackChart'), {
+      type: 'bar',
+      data: {
+        labels: tracks.slice(0, 10).map(t => t.name),
+        datasets: [{
+          label: 'Plays',
+          data: tracks.slice(0, 10).map(t => parseInt(t.playcount)),
+          backgroundColor: 'rgba(255, 176, 0, 0.15)',
+          borderColor: '#ffb000',
+          borderWidth: 1,
+          hoverBackgroundColor: 'rgba(255, 176, 0, 0.3)',
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#111111',
+            titleColor: '#33ff00',
+            bodyColor: '#ffb000',
+            borderColor: '#1a8000',
+            borderWidth: 1,
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#555555' },
+            grid: { color: '#111111' }
+          },
+          y: {
+            ticks: { color: '#555555' },
+            grid: { color: '#111111' }
+          }
+        }
+      }
+    });
+
+    window._albumChart = new Chart(document.getElementById('albumChart'), {
+      type: 'bar',
+      data: {
+        labels: albums.slice(0, 10).map(a => a.name),
+        datasets: [{
+          label: 'Plays',
+          data: albums.slice(0, 10).map(a => parseInt(a.playcount)),
+          backgroundColor: 'rgba(51, 255, 0, 0.1)',
+          borderColor: '#1a8000',
+          borderWidth: 1,
+          hoverBackgroundColor: 'rgba(51, 255, 0, 0.25)',
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#111111',
+            titleColor: '#33ff00',
+            bodyColor: '#ffb000',
+            borderColor: '#1a8000',
+            borderWidth: 1,
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#555555', maxRotation: 45, minRotation: 45 },
+            grid: { color: '#111111' }
+          },
+          y: {
+            ticks: { color: '#555555' },
+            grid: { color: '#111111' }
+          }
+        }
+      }
+    });
+  };
+</script>

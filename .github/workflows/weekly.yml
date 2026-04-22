@@ -1,0 +1,43 @@
+name: Weekly Recommendations
+
+on:
+  schedule:
+    - cron: '0 4 * * 1' # Every Monday at 04:00 UTC
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Last.fm data (for seeds)
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: node scripts/fetch-lastfm.js
+
+      # Spotify requires Premium for the app owner, so we use Last.fm fallback for now.
+      # When you have a Premium-linked Spotify app, uncomment the step below and remove the fallback.
+      # - name: Fetch Spotify recommendations
+      #   env:
+      #     SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      #     SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+      #   run: node scripts/fetch-spotify.js
+
+      - name: Fetch fallback recommendations (Last.fm)
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: node scripts/fetch-recommendations-fallback.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git diff --staged --quiet || (git commit -m 'chore: update weekly recommendations' && git push)

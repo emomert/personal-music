@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terminal-bg: #0a0a0a;
+  --color-terminal-panel: #111111;
+  --color-terminal-border: #1a1a1a;
+  --color-phosphor: #33ff00;
+  --color-phosphor-dim: #1a8000;
+  --color-phosphor-bright: #66ff33;
+  --color-amber: #ffb000;
+  --color-amber-dim: #805500;
+  --color-text-dim: #555555;
+  --color-text-muted: #333333;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+html {
+  background-color: #0a0a0a;
+  color: #33ff00;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+body {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* CRT scanline effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Subtle CRT flicker animation */
+@keyframes flicker {
+  0% { opacity: 0.97; }
+  5% { opacity: 0.95; }
+  10% { opacity: 0.97; }
+  15% { opacity: 0.94; }
+  20% { opacity: 0.98; }
+  50% { opacity: 0.95; }
+  80% { opacity: 0.98; }
+  100% { opacity: 0.97; }
+}
+
+.crt-flicker {
+  animation: flicker 0.15s infinite;
+}
+
+/* Phosphor glow */
+.phosphor-glow {
+  text-shadow: 0 0 2px rgba(51, 255, 0, 0.4), 0 0 8px rgba(51, 255, 0, 0.2);
+}
+
+.phosphor-glow-strong {
+  text-shadow: 0 0 4px rgba(51, 255, 0, 0.6), 0 0 12px rgba(51, 255, 0, 0.3);
+}
+
+.amber-glow {
+  text-shadow: 0 0 2px rgba(255, 176, 0, 0.4), 0 0 8px rgba(255, 176, 0, 0.2);
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '_';
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a8000;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #33ff00;
+}
+
+/* Selection */
+::selection {
+  background: rgba(51, 255, 0, 0.3);
+  color: #ffffff;
+}
+
+/* Custom range input styling */
+input[type="date"] {
+  background-color: #111111;
+  color: #33ff00;
+  border: 1px solid #1a8000;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(50deg);
+  cursor: pointer;
+}

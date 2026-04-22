@@ -12,6 +12,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.1.9"
+    "@tailwindcss/vite": "^4.2.4",
+    "astro": "^6.1.9",
+    "chart.js": "^4.5.1",
+    "date-fns": "^4.1.0",
+    "tailwindcss": "^4.2.4"
   }
 }

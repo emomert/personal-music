@@ -1,43 +1,113 @@
-# Astro Starter Kit: Minimal
+# ~/music — Personal Music Dashboard
 
-```sh
-npm create astro@latest -- --template minimal
+A retro-terminal-style personal website that combines your Last.fm & ListenBrainz listening history with weekly music recommendations.
+
+## Features
+
+- **Homepage**: Now Playing / Last Played, total scrobbles, quick stats, recent history preview
+- **Dashboard**: Interactive charts (Top Artists, Tracks, Albums) with period switching (7 days, month, 3 months, year, all time)
+- **Recommendations**: Weekly curated music recommendations based on your listening habits
+- **Data Pipeline**: Fully automated via GitHub Actions — daily history fetch + weekly recommendations
+
+## Tech Stack
+
+- [Astro](https://astro.build/) — Static site generator
+- [Tailwind CSS](https://tailwindcss.com/) — Styling
+- [Chart.js](https://www.chartjs.org/) — Dashboard charts
+- [GitHub Actions](https://github.com/features/actions) — Data fetching automation
+- [Netlify](https://www.netlify.com/) — Hosting
+
+## Design
+
+Retro CRT terminal aesthetic with:
+- Phosphor green & amber glow effects
+- CRT scanlines and subtle flicker
+- JetBrains Mono monospace typography
+- Boxy, terminal-inspired UI components
+
+## Setup
+
+### 1. Fork / Push to GitHub
+
+Push this repo to your GitHub account.
+
+### 2. Add Repository Secrets
+
+Go to **Settings → Secrets and variables → Actions** and add:
+
+| Secret | Value |
+|--------|-------|
+| `LASTFM_API_KEY` | Your Last.fm API key |
+| `LISTENBRAINZ_TOKEN` | Your ListenBrainz user token |
+| `SPOTIFY_CLIENT_ID` | *(Optional)* Spotify Client ID |
+| `SPOTIFY_CLIENT_SECRET` | *(Optional)* Spotify Client Secret |
+
+### 3. Configure GitHub Actions
+
+The workflows are in `.github/workflows/`:
+
+- **`daily.yml`** — Runs every day at 03:00 UTC, fetches Last.fm + ListenBrainz data
+- **`weekly.yml`** — Runs every Monday at 04:00 UTC, generates recommendations
+
+> **Note about Spotify**: Spotify's Web API now requires the app owner to have a **Premium subscription** for Search & Recommendations endpoints. If you don't have Premium, the site will use a **Last.fm fallback** for recommendations. When you get Premium (or a friend with Premium creates the app), uncomment the Spotify step in `weekly.yml` and remove the fallback step.
+
+### 4. Deploy to Netlify
+
+1. Connect your GitHub repo to Netlify
+2. Build settings are already configured in `netlify.toml`:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+3. Deploy!
+
+### 5. Update Site URL
+
+Change the `site` URL in `astro.config.mjs` to your actual Netlify domain.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+To fetch data locally:
 
-## 🚀 Project Structure
+```bash
+export LASTFM_API_KEY=your_key
+export LISTENBRAINZ_TOKEN=your_token
+node scripts/fetch-lastfm.js
+node scripts/fetch-listenbrainz.js
+node scripts/fetch-recommendations-fallback.js
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+Then build:
 
-```text
-/
-├── public/
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+├── .github/workflows/    # GitHub Actions automation
+├── data/                 # Fetched JSON data (committed by Actions)
+├── scripts/              # Node.js data fetching scripts
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/       # Astro components (Charts, Navigation)
+│   ├── layouts/          # Page layouts
+│   ├── pages/            # Site pages (Home, Dashboard, Recommendations)
+│   └── styles/           # Global CSS + Tailwind config
+├── astro.config.mjs
+└── netlify.toml
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Data Sources
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Last.fm** — Scrobbles, top artists/tracks/albums, user stats
+- **ListenBrainz** — Listen history, additional stats
+- **Spotify** *(optional)* — Advanced recommendations based on audio features
+- **Last.fm Fallback** — Similar tracks & artists when Spotify is unavailable
 
-Any static assets, like images, can be placed in the `public/` directory.
+## License
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Personal project — feel free to fork and adapt for your own listening history!

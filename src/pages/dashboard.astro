@@ -1,0 +1,165 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import DashboardCharts from '../components/DashboardCharts.astro';
+import { readFileSync } from 'fs';
+
+let lastfm = null;
+try {
+  lastfm = JSON.parse(readFileSync('./data/lastfm.json', 'utf-8'));
+} catch {
+  console.warn('lastfm.json not found');
+}
+
+// Embed all period data for client-side switching
+const periodData = {
+  last7days: {
+    label: 'Last 7 Days',
+    topArtists: lastfm?.topArtists_last7days || [],
+    topTracks: lastfm?.topTracks_last7days || [],
+    topAlbums: lastfm?.topAlbums_last7days || [],
+  },
+  lastMonth: {
+    label: 'Last Month',
+    topArtists: lastfm?.topArtists_lastMonth || [],
+    topTracks: lastfm?.topTracks_lastMonth || [],
+    topAlbums: lastfm?.topAlbums_lastMonth || [],
+  },
+  last3Months: {
+    label: 'Last 3 Months',
+    topArtists: lastfm?.topArtists_last3Months || [],
+    topTracks: lastfm?.topTracks_last3Months || [],
+    topAlbums: lastfm?.topAlbums_last3Months || [],
+  },
+  lastYear: {
+    label: 'Last Year',
+    topArtists: lastfm?.topArtists_lastYear || [],
+    topTracks: lastfm?.topTracks_lastYear || [],
+    topAlbums: lastfm?.topAlbums_lastYear || [],
+  },
+  allTime: {
+    label: 'All Time',
+    topArtists: lastfm?.topArtists_allTime || [],
+    topTracks: lastfm?.topTracks_allTime || [],
+    topAlbums: lastfm?.topAlbums_allTime || [],
+  },
+};
+---
+
+<Layout title="dashboard">
+  <Navigation />
+
+  <main class="space-y-8">
+    <section>
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div class="flex items-center gap-3">
+          <span class="text-phosphor text-xl font-bold">$</span>
+          <h1 class="text-2xl font-bold phosphor-glow">dashboard</h1>
+        </div>
+
+        {/* Period selector */}
+        <div class="flex flex-wrap gap-2" id="periodButtons">
+          {Object.entries(periodData).map(([key, data]) => (
+            <button
+              data-period={key}
+              class:list={[
+                'px-3 py-1.5 text-xs border transition-all duration-200',
+                key === 'last7days'
+                  ? 'border-phosphor text-phosphor bg-phosphor/10'
+                  : 'border-terminal-border text-text-dim hover:border-phosphor-dim hover:text-phosphor',
+              ]}
+            >
+              {data.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <DashboardCharts />
+    </section>
+
+    {/* Top Lists Tables */}
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="border border-terminal-border bg-terminal-panel">
+        <div class="px-4 py-3 border-b border-terminal-border">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-amber amber-glow">Top Artists</h3>
+        </div>
+        <div id="artistList" class="divide-y divide-terminal-border">
+          {/* Populated by JS */}
+        </div>
+      </div>
+
+      <div class="border border-terminal-border bg-terminal-panel">
+        <div class="px-4 py-3 border-b border-terminal-border">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-phosphor phosphor-glow">Top Tracks</h3>
+        </div>
+        <div id="trackList" class="divide-y divide-terminal-border">
+          {/* Populated by JS */}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 pt-8 border-t border-terminal-border text-xs text-text-dim">
+    <span>Data refreshed daily via GitHub Actions</span>
+  </footer>
+
+  <script define:vars={{ periodData }}>
+    let currentPeriod = 'last7days';
+
+    function renderLists(data) {
+      const artistList = document.getElementById('artistList');
+      const trackList = document.getElementById('trackList');
+
+      artistList.innerHTML = data.topArtists.slice(0, 20).map((a, i) => `
+        <div class="px-4 py-3 flex items-center gap-3 hover:bg-white/[0.02] transition-colors">
+          <span class="text-text-dim w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
+          <div class="flex-1 min-w-0">
+            <div class="text-phosphor truncate">${a.name}</div>
+            <div class="text-xs text-text-dim">${Number(a.playcount).toLocaleString()} plays</div>
+          </div>
+        </div>
+      `).join('');
+
+      trackList.innerHTML = data.topTracks.slice(0, 20).map((t, i) => `
+        <div class="px-4 py-3 flex items-center gap-3 hover:bg-white/[0.02] transition-colors">
+          <span class="text-text-dim w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
+          <div class="flex-1 min-w-0">
+            <div class="text-amber truncate">${t.name}</div>
+            <div class="text-xs text-text-dim truncate">${t.artist?.name || t.artist?.['#text'] || 'Unknown'}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function switchPeriod(key) {
+      currentPeriod = key;
+      const data = periodData[key];
+
+      // Update buttons
+      document.querySelectorAll('#periodButtons button').forEach(btn => {
+        if (btn.dataset.period === key) {
+          btn.className = 'px-3 py-1.5 text-xs border transition-all duration-200 border-phosphor text-phosphor bg-phosphor/10';
+        } else {
+          btn.className = 'px-3 py-1.5 text-xs border transition-all duration-200 border-terminal-border text-text-dim hover:border-phosphor-dim hover:text-phosphor';
+        }
+      });
+
+      // Update charts
+      if (window.renderDashboardCharts) {
+        window.renderDashboardCharts(data);
+      }
+
+      // Update lists
+      renderLists(data);
+    }
+
+    // Bind buttons
+    document.querySelectorAll('#periodButtons button').forEach(btn => {
+      btn.addEventListener('click', () => switchPeriod(btn.dataset.period));
+    });
+
+    // Initial render
+    switchPeriod('last7days');
+  </script>
+</Layout>

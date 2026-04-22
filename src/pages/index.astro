@@ -1,17 +1,136 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import { readFileSync } from 'fs';
 
+let lastfm = null;
+let listenbrainz = null;
+
+try {
+  lastfm = JSON.parse(readFileSync('./data/lastfm.json', 'utf-8'));
+} catch {
+  console.warn('lastfm.json not found');
+}
+
+try {
+  listenbrainz = JSON.parse(readFileSync('./data/listenbrainz.json', 'utf-8'));
+} catch {
+  console.warn('listenbrainz.json not found');
+}
+
+const recentTrack = lastfm?.recentTracks?.[0];
+const isNowPlaying = recentTrack?.['@attr']?.nowplaying === 'true';
+const totalScrobbles = lastfm?.userInfo?.playcount || '0';
+const topArtist7 = lastfm?.topArtists_last7days?.[0];
+
+function formatNumber(num) {
+  return Number(num).toLocaleString();
+}
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="home">
+  <Navigation />
+
+  <main class="space-y-12">
+    {/* Hero / Now Playing */}
+    <section class="border border-terminal-border bg-terminal-panel p-6 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-[1px] bg-phosphor opacity-20" />
+      <div class="flex items-start justify-between mb-4">
+        <span class="text-xs text-text-dim uppercase tracking-widest">Status</span>
+        {isNowPlaying && (
+          <span class="text-xs text-phosphor animate-pulse">● LIVE</span>
+        )}
+      </div>
+
+      <div class="space-y-2">
+        <p class="text-text-dim text-sm">{isNowPlaying ? 'Currently playing' : 'Last played'}</p>
+        {recentTrack ? (
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-phosphor phosphor-glow">
+              {recentTrack.name}
+            </h2>
+            <p class="text-lg text-amber amber-glow mt-1">
+              {recentTrack.artist?.['#text'] || recentTrack.artist}
+            </p>
+            <p class="text-sm text-text-dim mt-1">
+              {recentTrack.album?.['#text'] || 'Unknown Album'}
+            </p>
+          </div>
+        ) : (
+          <p class="text-text-dim">No recent tracks found.</p>
+        )}
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-terminal-border flex items-center gap-2 text-xs text-text-dim">
+        <span class="text-phosphor">$</span>
+        <span class="cursor-blink">fetching_listening_data</span>
+      </div>
+    </section>
+
+    {/* Quick Stats Grid */}
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="border border-terminal-border bg-terminal-panel p-5">
+        <span class="text-xs text-text-dim uppercase tracking-widest block mb-2">Total Scrobbles</span>
+        <span class="text-3xl font-bold text-phosphor phosphor-glow">{formatNumber(totalScrobbles)}</span>
+      </div>
+
+      <div class="border border-terminal-border bg-terminal-panel p-5">
+        <span class="text-xs text-text-dim uppercase tracking-widest block mb-2">Top Artist (7d)</span>
+        <span class="text-xl font-bold text-amber amber-glow truncate block">
+          {topArtist7?.name || '—'}
+        </span>
+        <span class="text-xs text-text-dim mt-1 block">
+          {topArtist7?.playcount ? `${formatNumber(topArtist7.playcount)} plays` : ''}
+        </span>
+      </div>
+
+      <div class="border border-terminal-border bg-terminal-panel p-5">
+        <span class="text-xs text-text-dim uppercase tracking-widest block mb-2">Recent Tracks</span>
+        <span class="text-3xl font-bold text-phosphor phosphor-glow">
+          {lastfm?.recentTracks?.length || 0}
+        </span>
+        <span class="text-xs text-text-dim mt-1 block">fetched today</span>
+      </div>
+    </section>
+
+    {/* Recent History Preview */}
+    <section>
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-phosphor">$</span>
+        <h2 class="text-lg font-bold phosphor-glow">recent_history</h2>
+      </div>
+
+      <div class="border border-terminal-border bg-terminal-panel">
+        <div class="grid grid-cols-12 gap-2 px-4 py-2 border-b border-terminal-border text-xs text-text-dim uppercase">
+          <span class="col-span-1">#</span>
+          <span class="col-span-5">Track</span>
+          <span class="col-span-3">Artist</span>
+          <span class="col-span-3 text-right">Time</span>
+        </div>
+        {(lastfm?.recentTracks?.slice(0, 10) || []).map((track, i) => (
+          <div class="grid grid-cols-12 gap-2 px-4 py-3 border-b border-terminal-border last:border-b-0 hover:bg-white/[0.02] transition-colors">
+            <span class="col-span-1 text-text-dim">{(i + 1).toString().padStart(2, '0')}</span>
+            <span class="col-span-5 text-phosphor truncate">{track.name}</span>
+            <span class="col-span-3 text-amber truncate">{track.artist?.['#text'] || track.artist}</span>
+            <span class="col-span-3 text-right text-text-dim text-xs">
+              {track.date ? new Date(track.date.uts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'now'}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-4 text-right">
+        <a href="/dashboard" class="text-sm text-phosphor-dim hover:text-phosphor transition-colors border border-phosphor-dim hover:border-phosphor px-4 py-2 inline-block">
+          [ view_full_dashboard ]
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 pt-8 border-t border-terminal-border text-xs text-text-dim">
+    <div class="flex flex-col sm:flex-row justify-between gap-2">
+      <span>Last updated: {lastfm?.userInfo?.registered ? new Date(lastfm.userInfo.registered.unixtime * 1000).toLocaleDateString() : '—'}</span>
+      <span>Data sources: Last.fm | ListenBrainz | Spotify</span>
+    </div>
+  </footer>
+</Layout>

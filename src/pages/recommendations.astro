@@ -1,0 +1,104 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import { readFileSync } from 'fs';
+
+let recs = null;
+try {
+  recs = JSON.parse(readFileSync('./data/recommendations.json', 'utf-8'));
+} catch {
+  console.warn('recommendations.json not found');
+}
+
+const generatedDate = recs?.generatedAt
+  ? new Date(recs.generatedAt).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+---
+
+<Layout title="recommendations">
+  <Navigation />
+
+  <main class="space-y-10">
+    <section>
+      <div class="flex items-center gap-3 mb-2">
+        <span class="text-phosphor text-xl font-bold">$</span>
+        <h1 class="text-2xl font-bold phosphor-glow">weekly_recommendations</h1>
+      </div>
+      <p class="text-text-dim text-sm">
+        {generatedDate
+          ? `Generated on ${generatedDate} based on your recent listening.`
+          : 'No recommendations generated yet. They update every Monday.'}
+      </p>
+      {recs?.seedArtists?.length > 0 && (
+        <p class="text-xs text-text-dim mt-2">
+          Seed artists: {recs.seedArtists.join(', ')}
+        </p>
+      )}
+    </section>
+
+    {recs?.tracks?.length > 0 ? (
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {recs.tracks.map((track, i) => (
+          <div class="border border-terminal-border bg-terminal-panel p-4 hover:border-phosphor-dim transition-colors group">
+            <div class="flex items-start gap-4">
+              {track.image ? (
+                <img
+                  src={track.image}
+                  alt={track.name || track.artist}
+                  class="w-16 h-16 object-cover border border-terminal-border group-hover:border-phosphor-dim transition-colors"
+                  loading="lazy"
+                />
+              ) : (
+                <div class="w-16 h-16 bg-terminal-bg border border-terminal-border flex items-center justify-center text-text-dim text-xs">
+                  N/A
+                </div>
+              )}
+              <div class="flex-1 min-w-0">
+                <div class="flex items-start justify-between gap-2">
+                  <span class="text-xs text-text-dim">#{i + 1}</span>
+                  {track.spotifyUrl && (
+                    <a
+                      href={track.spotifyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-xs text-phosphor-dim hover:text-phosphor border border-phosphor-dim hover:border-phosphor px-2 py-0.5 transition-colors"
+                    >
+                      open ↗
+                    </a>
+                  )}
+                </div>
+                {track.name ? (
+                  <>
+                    <h3 class="text-phosphor font-bold truncate mt-1 phosphor-glow">{track.name}</h3>
+                    <p class="text-amber text-sm truncate">{track.artist}</p>
+                  </>
+                ) : (
+                  <>
+                    <h3 class="text-amber font-bold truncate mt-1 amber-glow">{track.artist}</h3>
+                    <p class="text-phosphor text-sm truncate">Similar artist</p>
+                  </>
+                )}
+                {track.sourceTrack && (
+                  <p class="text-text-dim text-xs truncate mt-0.5">Because you like: {track.sourceTrack}</p>
+                )}
+                {track.sourceArtist && (
+                  <p class="text-text-dim text-xs truncate mt-0.5">Because you like: {track.sourceArtist}</p>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </section>
+    ) : (
+      <div class="border border-terminal-border bg-terminal-panel p-8 text-center">
+        <span class="text-4xl block mb-4">♫</span>
+        <p class="text-text-dim">No recommendations available yet.</p>
+        <p class="text-text-dim text-sm mt-2">Check back after the next weekly update.</p>
+      </div>
+    )}
+  </main>
+
+  <footer class="mt-16 pt-8 border-t border-terminal-border text-xs text-text-dim">
+    <span>Powered by {recs?.source === 'lastfm_fallback' ? 'Last.fm Similar Tracks' : 'Spotify Recommendations API'}</span>
+  </footer>
+</Layout>

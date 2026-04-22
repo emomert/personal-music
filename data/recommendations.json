@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-04-22T21:44:28.279Z",
+  "source": "lastfm_fallback",
+  "seedArtists": [
+    "Grup Yorum",
+    "Kanye West",
+    "DakhaBrakha"
+  ],
+  "seedTracks": [
+    "Im tanzen liebe",
+    "soleil soleil",
+    "9 nedilechok",
+    "Herne Peş",
+    "I Love Kanye"
+  ],
+  "tracks": [
+    {
+      "name": "Grandiose",
+      "artist": "Pomme",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Ceux qui rêvent",
+      "artist": "Pomme",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Petit Corps",
+      "artist": "Solann",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Les ogres",
+      "artist": "Solann",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "La symphonie des éclairs",
+      "artist": "Zaho de Sagazan",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Des mythos",
+      "artist": "Theodora",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Je t'accuse",
+      "artist": "Suzane",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "ILS ME RIENT TOUS AU NEZ",
+      "artist": "Theodora",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Je rêve",
+      "artist": "Zaho de Sagazan",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "La vie en rose",
+      "artist": "Édith Piaf",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "soleil soleil"
+    },
+    {
+      "name": "Siiiiiiiiilver Surffffeeeeer Intermission",
+      "artist": "Kanye West",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Who Will Survive in America",
+      "artist": "Kanye West",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Fire",
+      "artist": "KIDS SEE GHOSTS",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Cudi Montage",
+      "artist": "KIDS SEE GHOSTS",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "BURN",
+      "artist": "¥$",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "VULTURES",
+      "artist": "¥$",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Alright",
+      "artist": "Kendrick Lamar",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Back To Me",
+      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Carnival",
+      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": "Slow Jamz",
+      "artist": "Twista",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "I Love Kanye"
+    },
+    {
+      "name": null,
+      "artist": "¥$",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "KIDS SEE GHOSTS",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "JAY-Z & Kanye West",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "The Throne",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Ty Dolla $ign",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "DONDA",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Travi$ Scott",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Kendrick Lamar",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "A$AP Rocky",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Pusha T",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    }
+  ]
+}
