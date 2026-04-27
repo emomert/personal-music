@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-22T21:59:53.499Z",
+  "generatedAt": "2026-04-27T06:22:41.824Z",
   "source": "lastfm_fallback",
   "seedArtists": [
+    "DakhaBrakha",
     "Grup Yorum",
-    "Kanye West",
-    "DakhaBrakha"
+    "Kanye West"
   ],
   "seedTracks": [
     "Im tanzen liebe",
     "soleil soleil",
     "9 nedilechok",
-    "Herne Peş",
-    "I Love Kanye"
+    "Shchedryi metal",
+    "Gartenzwerghasslied Country"
   ],
   "tracks": [
     {
@@ -105,179 +105,179 @@
       "sourceTrack": "soleil soleil"
     },
     {
-      "name": "Siiiiiiiiilver Surffffeeeeer Intermission",
-      "artist": "Kanye West",
+      "name": "Ansage Zum Gartenzwerghasslied",
+      "artist": "Revolte Springen",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Who Will Survive in America",
-      "artist": "Kanye West",
+      "name": "Gartenzwerghasslied Acapella",
+      "artist": "Revolte Springen",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Fire",
-      "artist": "KIDS SEE GHOSTS",
+      "name": "Revolution",
+      "artist": "Konny",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Cudi Montage",
-      "artist": "KIDS SEE GHOSTS",
+      "name": "Extremistensong",
+      "artist": "Konny",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "BURN",
-      "artist": "¥$",
+      "name": "In meinem Kopf ist eine Bombe",
+      "artist": "Früchte des Zorns",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "VULTURES",
-      "artist": "¥$",
+      "name": "Scheiben splittern",
+      "artist": "Früchte des Zorns",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Alright",
-      "artist": "Kendrick Lamar",
+      "name": "Komm' zu den Autonomen",
+      "artist": "Quetschenpaua",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Back To Me",
-      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "name": "Das Einheitsfrontlied",
+      "artist": "Hannes Wader",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Carnival",
-      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "name": "Die Internationale",
+      "artist": "Hannes Wader",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Gartenzwerghasslied Country"
     },
     {
-      "name": "Slow Jamz",
-      "artist": "Twista",
+      "name": null,
+      "artist": "Onuka",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Один В Каное",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "BLOOMS CORDA",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Пиріг і Батіг",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Vivienne Mort",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Zwyntar",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Океан Ельзи",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Latexfauna",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Ницо Потворно",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Jerry Heil",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
     },
     {
       "name": null,
       "artist": "¥$",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "KIDS SEE GHOSTS",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "JAY-Z & Kanye West",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "The Throne",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Ty Dolla $ign",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "DONDA",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Travi$ Scott",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Kendrick Lamar",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "A$AP Rocky",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Pusha T",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
