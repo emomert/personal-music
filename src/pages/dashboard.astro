@@ -7,11 +7,8 @@ import { readFileSync } from 'fs';
 let lastfm = null;
 try {
   lastfm = JSON.parse(readFileSync('./data/lastfm.json', 'utf-8'));
-} catch {
-  console.warn('lastfm.json not found');
-}
+} catch {}
 
-// Embed all period data for client-side switching
 const periodData = {
   last7days: {
     label: 'Last 7 Days',
@@ -46,28 +43,28 @@ const periodData = {
 };
 ---
 
-<Layout title="dashboard">
+<Layout title="Dashboard" description="Interactive charts of your top artists, tracks, and albums">
   <Navigation />
 
-  <main class="space-y-8">
+  <main class="space-y-8 animate-section">
     <section>
       <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-        <div class="flex items-center gap-3">
-          <span class="text-phosphor text-xl font-bold">$</span>
-          <h1 class="text-2xl font-bold phosphor-glow">dashboard</h1>
+        <div>
+          <h1 class="text-2xl font-heading font-semibold text-navy">Dashboard</h1>
+          <p class="text-sm text-slate-500 mt-1">Select a period to explore</p>
         </div>
 
         {/* Period selector */}
-        <div class="flex flex-wrap gap-2" id="periodButtons">
+        <div class="flex flex-wrap gap-1.5" id="periodButtons" role="radiogroup" aria-label="Time period">
           {Object.entries(periodData).map(([key, data]) => (
             <button
               data-period={key}
               class:list={[
-                'px-3 py-1.5 text-xs border transition-all duration-200',
-                key === 'last7days'
-                  ? 'border-phosphor text-phosphor bg-phosphor/10'
-                  : 'border-terminal-border text-text-dim hover:border-phosphor-dim hover:text-phosphor',
+                'period-btn',
+                key === 'last7days' ? 'active' : ''
               ]}
+              role="radio"
+              aria-checked={key === 'last7days' ? 'true' : 'false'}
             >
               {data.label}
             </button>
@@ -78,80 +75,95 @@ const periodData = {
       <DashboardCharts />
     </section>
 
-    {/* Top Lists Tables */}
+    {/* Top Lists */}
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <div class="border border-terminal-border bg-terminal-panel">
-        <div class="px-4 py-3 border-b border-terminal-border">
-          <h3 class="text-xs font-bold uppercase tracking-widest text-amber amber-glow">Top Artists</h3>
+      <div class="card overflow-hidden">
+        <div class="px-5 py-3 border-b border-slate-200 bg-cream-dark/50">
+          <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-widest">Top Artists</h3>
         </div>
-        <div id="artistList" class="divide-y divide-terminal-border">
-          {/* Populated by JS */}
+        <div id="artistList" class="divide-y divide-slate-100">
         </div>
       </div>
-
-      <div class="border border-terminal-border bg-terminal-panel">
-        <div class="px-4 py-3 border-b border-terminal-border">
-          <h3 class="text-xs font-bold uppercase tracking-widest text-phosphor phosphor-glow">Top Tracks</h3>
+      <div class="card overflow-hidden">
+        <div class="px-5 py-3 border-b border-slate-200 bg-cream-dark/50">
+          <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-widest">Top Tracks</h3>
         </div>
-        <div id="trackList" class="divide-y divide-terminal-border">
-          {/* Populated by JS */}
+        <div id="trackList" class="divide-y divide-slate-100">
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="mt-16 pt-8 border-t border-terminal-border text-xs text-text-dim">
+  <footer class="mt-16 pt-8 border-t border-slate-200 text-xs text-slate-400">
     <span>Data refreshed daily via GitHub Actions</span>
   </footer>
 
   <script define:vars={{ periodData }}>
-    let currentPeriod = 'last7days';
+    window.__periodData = periodData;
+    window.__initialPeriod = 'last7days';
 
     function renderLists(data) {
       const artistList = document.getElementById('artistList');
       const trackList = document.getElementById('trackList');
+      if (!artistList || !trackList) return;
 
-      artistList.innerHTML = data.topArtists.slice(0, 20).map((a, i) => `
-        <div class="px-4 py-3 flex items-center gap-3 hover:bg-white/[0.02] transition-colors">
-          <span class="text-text-dim w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
+      artistList.innerHTML = data.topArtists.slice(0, 15).map((a, i) => `
+        <div class="px-5 py-3 flex items-center gap-3 hover:bg-cream-dark/30 transition-colors duration-150">
+          <span class="text-slate-400 font-mono text-sm w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
           <div class="flex-1 min-w-0">
-            <div class="text-phosphor truncate">${a.name}</div>
-            <div class="text-xs text-text-dim">${Number(a.playcount).toLocaleString()} plays</div>
+            <div class="text-navy font-medium truncate">${a.name}</div>
+            <div class="text-xs text-slate-400">${Number(a.playcount).toLocaleString()} plays</div>
           </div>
+          ${i < 3 ? `<span class="text-xs font-bold text-amber-500">★</span>` : ''}
         </div>
       `).join('');
 
-      trackList.innerHTML = data.topTracks.slice(0, 20).map((t, i) => `
-        <div class="px-4 py-3 flex items-center gap-3 hover:bg-white/[0.02] transition-colors">
-          <span class="text-text-dim w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
+      trackList.innerHTML = data.topTracks.slice(0, 15).map((t, i) => `
+        <div class="px-5 py-3 flex items-center gap-3 hover:bg-cream-dark/30 transition-colors duration-150">
+          <span class="text-slate-400 font-mono text-sm w-6 text-right">${(i + 1).toString().padStart(2, '0')}</span>
           <div class="flex-1 min-w-0">
-            <div class="text-amber truncate">${t.name}</div>
-            <div class="text-xs text-text-dim truncate">${t.artist?.name || t.artist?.['#text'] || 'Unknown'}</div>
+            <div class="text-navy font-medium truncate">${t.name}</div>
+            <div class="text-xs text-slate-400 truncate">${t.artist?.name || t.artist?.['#text'] || 'Unknown'}</div>
           </div>
+          ${i < 3 ? `<span class="text-xs font-bold text-amber-500">★</span>` : ''}
         </div>
       `).join('');
     }
 
-    function switchPeriod(key) {
-      currentPeriod = key;
-      const data = periodData[key];
+    function updateChartData() {
+      const c = window.renderDashboardCharts;
+      const d = window.__currentData;
+      if (c && d) c(d);
+    }
 
-      // Update buttons
+    function switchPeriod(key) {
+      window.__currentData = window.__periodData[key];
+
+      // Update button states
       document.querySelectorAll('#periodButtons button').forEach(btn => {
         if (btn.dataset.period === key) {
-          btn.className = 'px-3 py-1.5 text-xs border transition-all duration-200 border-phosphor text-phosphor bg-phosphor/10';
+          btn.classList.add('active');
+          btn.setAttribute('aria-checked', 'true');
         } else {
-          btn.className = 'px-3 py-1.5 text-xs border transition-all duration-200 border-terminal-border text-text-dim hover:border-phosphor-dim hover:text-phosphor';
+          btn.classList.remove('active');
+          btn.setAttribute('aria-checked', 'false');
         }
       });
 
-      // Update charts
-      if (window.renderDashboardCharts) {
-        window.renderDashboardCharts(data);
-      }
+      renderLists(window.__currentData);
+      updateChartData();
+    }
 
-      // Update lists
-      renderLists(data);
+    // Initialize — key fix: wait for Chart.js to register
+    function initCharts() {
+      if (window.renderDashboardCharts) {
+        window.__currentData = window.__periodData[window.__initialPeriod];
+        window.renderDashboardCharts(window.__currentData);
+        renderLists(window.__currentData);
+      } else {
+        // Chart.js script hasn't loaded yet — retry
+        setTimeout(initCharts, 100);
+      }
     }
 
     // Bind buttons
@@ -159,7 +171,11 @@ const periodData = {
       btn.addEventListener('click', () => switchPeriod(btn.dataset.period));
     });
 
-    // Initial render
-    switchPeriod('last7days');
+    // Start rendering — with race condition fix via retry
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCharts);
+    } else {
+      initCharts();
+    }
   </script>
 </Layout>

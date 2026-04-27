@@ -2,37 +2,37 @@
 const currentPath = Astro.url.pathname;
 
 const links = [
-  { href: '/', label: '~/home' },
-  { href: '/dashboard', label: '~/dashboard' },
-  { href: '/recommendations', label: '~/recommendations' },
+  { href: '/', label: 'Home' },
+  { href: '/dashboard', label: 'Dashboard' },
+  { href: '/recommendations', label: 'Discover' },
 ];
 ---
 
-<nav class="mb-12 border-b border-terminal-border pb-4">
-  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-    <div class="flex items-center gap-3">
-      <span class="text-phosphor text-xl font-bold phosphor-glow-strong">$</span>
-      <h1 class="text-lg font-bold tracking-tight phosphor-glow">
-        <span class="text-amber">emomert</span><span class="text-text-dim">@</span><span class="text-phosphor">music</span>
-      </h1>
-    </div>
-    <div class="flex gap-6 text-sm">
-      {links.map((link) => (
+<nav class="mb-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4" aria-label="Main navigation">
+  <a href="/" class="flex items-center gap-2 no-underline group">
+    <span class="w-8 h-8 bg-navy rounded-lg flex items-center justify-center">
+      <span class="text-white text-sm font-bold font-mono">♪</span>
+    </span>
+    <span class="font-heading text-lg font-semibold text-navy">emomert/<span class="text-amber-500">music</span></span>
+  </a>
+  <div class="flex gap-1" role="tablist">
+    {links.map((link) => {
+      const isActive = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
+      return (
         <a
           href={link.href}
+          role="tab"
+          aria-current={isActive ? 'page' : undefined}
           class:list={[
-            'transition-all duration-200 hover:text-phosphor-bright relative',
-            currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))
-              ? 'text-phosphor phosphor-glow'
-              : 'text-text-dim',
+            'px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150',
+            isActive
+              ? 'bg-navy text-white'
+              : 'text-slate-500 hover:text-navy hover:bg-slate-100',
           ]}
         >
           {link.label}
-          {(currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))) && (
-            <span class="absolute -bottom-4 left-0 w-full h-[2px] bg-phosphor shadow-[0_0_8px_rgba(51,255,0,0.5)]" />
-          )}
         </a>
-      ))}
-    </div>
+      );
+    })}
   </div>
 </nav>

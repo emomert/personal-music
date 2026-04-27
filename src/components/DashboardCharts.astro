@@ -4,175 +4,184 @@
 
 <div class="space-y-8">
   {/* Chart: Top Artists */}
-  <div class="border border-terminal-border bg-terminal-panel p-4">
+  <div class="card p-5">
     <div class="flex items-center gap-2 mb-4">
-      <span class="text-amber">$</span>
-      <h3 class="text-sm font-bold uppercase tracking-widest text-amber amber-glow">top_artists</h3>
+      <h3 class="text-sm font-semibold text-slate-500 uppercase tracking-widest">Top Artists</h3>
     </div>
-    <div class="h-64 md:h-80">
-      <canvas id="artistChart"></canvas>
+    <div class="h-72 md:h-80">
+      <canvas id="artistChart" role="img" aria-label="Bar chart of top artists by play count"></canvas>
     </div>
   </div>
 
   {/* Chart: Top Tracks */}
-  <div class="border border-terminal-border bg-terminal-panel p-4">
+  <div class="card p-5">
     <div class="flex items-center gap-2 mb-4">
-      <span class="text-phosphor">$</span>
-      <h3 class="text-sm font-bold uppercase tracking-widest text-phosphor phosphor-glow">top_tracks</h3>
+      <h3 class="text-sm font-semibold text-slate-500 uppercase tracking-widest">Top Tracks</h3>
     </div>
-    <div class="h-64 md:h-80">
-      <canvas id="trackChart"></canvas>
+    <div class="h-72 md:h-80">
+      <canvas id="trackChart" role="img" aria-label="Horizontal bar chart of top tracks by play count"></canvas>
     </div>
   </div>
 
   {/* Chart: Top Albums */}
-  <div class="border border-terminal-border bg-terminal-panel p-4">
+  <div class="card p-5">
     <div class="flex items-center gap-2 mb-4">
-      <span class="text-phosphor">$</span>
-      <h3 class="text-sm font-bold uppercase tracking-widest text-phosphor phosphor-glow">top_albums</h3>
+      <h3 class="text-sm font-semibold text-slate-500 uppercase tracking-widest">Top Albums</h3>
     </div>
-    <div class="h-64 md:h-80">
-      <canvas id="albumChart"></canvas>
+    <div class="h-72 md:h-80">
+      <canvas id="albumChart" role="img" aria-label="Bar chart of top albums by play count"></canvas>
     </div>
   </div>
 </div>
 
 <script>
-  import Chart from 'chart.js/auto';
+  import {
+    Chart,
+    BarController,
+    CategoryScale,
+    LinearScale,
+    BarElement,
+    Tooltip,
+    Legend,
+  } from 'chart.js';
 
-  // Global chart config for retro terminal look
-  Chart.defaults.color = '#555555';
-  Chart.defaults.borderColor = '#1a1a1a';
-  Chart.defaults.font.family = "'JetBrains Mono', 'Fira Code', monospace";
-  Chart.defaults.font.size = 11;
+  Chart.register(BarController, CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
-  // Expose render function globally so dashboard page can call it
-  window.renderDashboardCharts = function(data) {
+  Chart.defaults.font.family = "'Inter', system-ui, sans-serif";
+  Chart.defaults.font.size = 12;
+  Chart.defaults.color = '#94A3B8';
+  Chart.defaults.borderColor = '#E2E8F0';
+  Chart.defaults.plugins.tooltip.backgroundColor = '#1E293B';
+  Chart.defaults.plugins.tooltip.titleColor = '#FFFFFF';
+  Chart.defaults.plugins.tooltip.bodyColor = '#CBD5E1';
+  Chart.defaults.plugins.tooltip.padding = 12;
+  Chart.defaults.plugins.tooltip.cornerRadius = 8;
+
+  function renderDashboardCharts(data) {
     const artists = data.topArtists || [];
     const tracks = data.topTracks || [];
     const albums = data.topAlbums || [];
 
-    // Destroy existing charts
-    if (window._artistChart) window._artistChart.destroy();
-    if (window._trackChart) window._trackChart.destroy();
-    if (window._albumChart) window._albumChart.destroy();
+    // Destroy existing
+    window._artistChart?.destroy();
+    window._trackChart?.destroy();
+    window._albumChart?.destroy();
 
-    window._artistChart = new Chart(document.getElementById('artistChart'), {
+    const ac = document.getElementById('artistChart');
+    const tc = document.getElementById('trackChart');
+    const alc = document.getElementById('albumChart');
+
+    if (!ac || !tc || !alc) return;
+
+    window._artistChart = new Chart(ac, {
       type: 'bar',
       data: {
-        labels: artists.slice(0, 10).map(a => a.name),
+        labels: artists.slice(0, 12).map(a => a.name),
         datasets: [{
           label: 'Plays',
-          data: artists.slice(0, 10).map(a => parseInt(a.playcount)),
-          backgroundColor: 'rgba(51, 255, 0, 0.15)',
-          borderColor: '#33ff00',
-          borderWidth: 1,
-          hoverBackgroundColor: 'rgba(51, 255, 0, 0.3)',
+          data: artists.slice(0, 12).map(a => Number(a.playcount) || 0),
+          backgroundColor: '#C4A35A',
+          borderColor: '#C4A35A',
+          borderWidth: 0,
+          borderRadius: 4,
+          borderSkipped: false,
+          hoverBackgroundColor: '#B8944A',
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        animation: { duration: 600, easing: 'easeOutQuart' },
         plugins: {
           legend: { display: false },
-          tooltip: {
-            backgroundColor: '#111111',
-            titleColor: '#33ff00',
-            bodyColor: '#ffb000',
-            borderColor: '#1a8000',
-            borderWidth: 1,
-          }
         },
         scales: {
           x: {
-            ticks: { color: '#555555', maxRotation: 45, minRotation: 45 },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', maxRotation: 45, minRotation: 45, font: { size: 10 } },
+            grid: { color: '#F1F5F9' }
           },
           y: {
-            ticks: { color: '#555555' },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', font: { family: "'JetBrains Mono', monospace" } },
+            grid: { color: '#F1F5F9' },
+            beginAtZero: true,
           }
         }
       }
     });
 
-    window._trackChart = new Chart(document.getElementById('trackChart'), {
+    window._trackChart = new Chart(tc, {
       type: 'bar',
       data: {
         labels: tracks.slice(0, 10).map(t => t.name),
         datasets: [{
           label: 'Plays',
-          data: tracks.slice(0, 10).map(t => parseInt(t.playcount)),
-          backgroundColor: 'rgba(255, 176, 0, 0.15)',
-          borderColor: '#ffb000',
-          borderWidth: 1,
-          hoverBackgroundColor: 'rgba(255, 176, 0, 0.3)',
+          data: tracks.slice(0, 10).map(t => Number(t.playcount) || 0),
+          backgroundColor: '#1E293B',
+          borderColor: '#1E293B',
+          borderWidth: 0,
+          borderRadius: 4,
+          borderSkipped: false,
+          hoverBackgroundColor: '#334155',
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         indexAxis: 'y',
+        animation: { duration: 600, easing: 'easeOutQuart' },
         plugins: {
           legend: { display: false },
-          tooltip: {
-            backgroundColor: '#111111',
-            titleColor: '#33ff00',
-            bodyColor: '#ffb000',
-            borderColor: '#1a8000',
-            borderWidth: 1,
-          }
         },
         scales: {
           x: {
-            ticks: { color: '#555555' },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', font: { family: "'JetBrains Mono', monospace" } },
+            grid: { color: '#F1F5F9' },
+            beginAtZero: true,
           },
           y: {
-            ticks: { color: '#555555' },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', font: { size: 10 } },
+            grid: { color: '#F1F5F9' }
           }
         }
       }
     });
 
-    window._albumChart = new Chart(document.getElementById('albumChart'), {
+    window._albumChart = new Chart(alc, {
       type: 'bar',
       data: {
         labels: albums.slice(0, 10).map(a => a.name),
         datasets: [{
           label: 'Plays',
-          data: albums.slice(0, 10).map(a => parseInt(a.playcount)),
-          backgroundColor: 'rgba(51, 255, 0, 0.1)',
-          borderColor: '#1a8000',
-          borderWidth: 1,
-          hoverBackgroundColor: 'rgba(51, 255, 0, 0.25)',
+          data: albums.slice(0, 10).map(a => Number(a.playcount) || 0),
+          backgroundColor: '#94A3B8',
+          borderColor: '#94A3B8',
+          borderWidth: 0,
+          borderRadius: 4,
+          borderSkipped: false,
+          hoverBackgroundColor: '#64748B',
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        animation: { duration: 600, easing: 'easeOutQuart' },
         plugins: {
           legend: { display: false },
-          tooltip: {
-            backgroundColor: '#111111',
-            titleColor: '#33ff00',
-            bodyColor: '#ffb000',
-            borderColor: '#1a8000',
-            borderWidth: 1,
-          }
         },
         scales: {
           x: {
-            ticks: { color: '#555555', maxRotation: 45, minRotation: 45 },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', maxRotation: 45, minRotation: 45, font: { size: 10 } },
+            grid: { color: '#F1F5F9' }
           },
           y: {
-            ticks: { color: '#555555' },
-            grid: { color: '#111111' }
+            ticks: { color: '#94A3B8', font: { family: "'JetBrains Mono', monospace" } },
+            grid: { color: '#F1F5F9' },
+            beginAtZero: true,
           }
         }
       }
     });
-  };
+  }
+
+  window.renderDashboardCharts = renderDashboardCharts;
 </script>

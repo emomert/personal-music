@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 
 const LASTFM_API_KEY = process.env.LASTFM_API_KEY;
-const LASTFM_USER = 'emomert';
-const BASE_URL = 'http://ws.audioscrobbler.com/2.0/';
+const LASTFM_USER = process.env.LASTFM_USER || 'emomert';
+const BASE_URL = 'https://ws.audioscrobbler.com/2.0/';
 
 async function fetchLastFm(method, extraParams = {}) {
   const params = new URLSearchParams({

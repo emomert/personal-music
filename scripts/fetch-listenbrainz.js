@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 
 const LISTENBRAINZ_TOKEN = process.env.LISTENBRAINZ_TOKEN;
-const USER = 'emomert';
+const USER = process.env.LISTENBRAINZ_USER || 'emomert';
 const BASE_URL = 'https://api.listenbrainz.org/1';
 
 async function fetchLb(endpoint) {
