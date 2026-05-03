@@ -1,6 +1,41 @@
 {
   "listens": [
     {
+      "inserted_at": 1777757474,
+      "listened_at": 1777737975,
+      "recording_msid": "5412358b-afcf-424e-9f65-8a2bdf4a4deb",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "lastfm_release_mbid": "158f94bf-d77f-4055-afa4-8fc7e0b2a004",
+          "lastfm_track_mbid": "05aa202f-ba1c-4629-950e-61fa9ce6eab6",
+          "recording_msid": "5412358b-afcf-424e-9f65-8a2bdf4a4deb",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Daft Punk",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Daft Punk",
+              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 32554171842,
+          "caa_release_mbid": "5000a285-b67e-4cfc-b54b-2b98f1810d2e",
+          "recording_mbid": "cdd97fed-db4a-41f1-ad78-7f11948684f0",
+          "recording_name": "Giorgio by Moroder",
+          "release_mbid": "7d1b2d38-97e8-4fc7-b0fa-f275dcbea77a"
+        },
+        "release_name": "Random Access Memories",
+        "track_name": "Giorgio by Moroder"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1777666788,
       "listened_at": 1777664376,
       "recording_msid": "b80b67f4-23ff-4cec-a6db-827adecc33ac",
@@ -3147,41 +3182,6 @@
         },
         "release_name": "Ptakh",
         "track_name": "9 nedilechok"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1776963220,
-      "listened_at": 1776945621,
-      "recording_msid": "d0494ad4-6a3f-4dc6-a780-1ae24175a5f1",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
-          "lastfm_release_mbid": "9bd15932-3231-4df6-bd8c-5f731ad76088",
-          "lastfm_track_mbid": "4de95bc0-6ae9-4b27-bd0e-ea222c14da91",
-          "recording_msid": "d0494ad4-6a3f-4dc6-a780-1ae24175a5f1",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Pomme",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Pomme",
-              "artist_mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34043538714,
-          "caa_release_mbid": "f1d03d55-9d47-47aa-b337-a1899609bd8d",
-          "recording_mbid": "ffff7448-06e6-4015-9b0d-4582429ffd57",
-          "recording_name": "soleil soleil",
-          "release_mbid": "0bf4bb1f-e497-4627-803a-e0649fd0b2b1"
-        },
-        "release_name": "Les Failles",
-        "track_name": "soleil soleil"
       },
       "user_name": "emomert"
     }
