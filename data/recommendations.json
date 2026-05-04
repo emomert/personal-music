@@ -1,193 +1,157 @@
 {
-  "generatedAt": "2026-04-27T06:22:41.824Z",
+  "generatedAt": "2026-05-04T06:33:27.655Z",
   "source": "lastfm_fallback",
   "seedArtists": [
-    "DakhaBrakha",
     "Grup Yorum",
-    "Kanye West"
+    "DakhaBrakha",
+    "The Dø"
   ],
   "seedTracks": [
     "Im tanzen liebe",
-    "soleil soleil",
-    "9 nedilechok",
-    "Shchedryi metal",
-    "Gartenzwerghasslied Country"
+    "Dibine Kadar",
+    "Vurulup Düşmüşsün",
+    "Felluce",
+    "Şişli meydanı'nda üç kız"
   ],
   "tracks": [
     {
-      "name": "Grandiose",
-      "artist": "Pomme",
+      "name": "Seni Kendime Sakladım",
+      "artist": "Duman",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Ceux qui rêvent",
-      "artist": "Pomme",
+      "name": "Aman Aman",
+      "artist": "Duman",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Petit Corps",
-      "artist": "Solann",
+      "name": "Daha Mutlu Olamam",
+      "artist": "Mor ve Ötesi",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Les ogres",
-      "artist": "Solann",
+      "name": "Oyunbozan",
+      "artist": "Mor ve Ötesi",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "La symphonie des éclairs",
-      "artist": "Zaho de Sagazan",
+      "name": "Kupa Kizi Ve Sinek Valesi",
+      "artist": "Teoman",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Des mythos",
-      "artist": "Theodora",
+      "name": "Bak",
+      "artist": "Pilli Bebek",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Je t'accuse",
-      "artist": "Suzane",
+      "name": "Cevapsiz Sorular",
+      "artist": "Manga",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "ILS ME RIENT TOUS AU NEZ",
-      "artist": "Theodora",
+      "name": "Haydi Gel İçelim",
+      "artist": "Yüksek Sadakat",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "Je rêve",
-      "artist": "Zaho de Sagazan",
+      "name": "Kendime Yalan Söyledim",
+      "artist": "Seksendört",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Dibine Kadar"
     },
     {
-      "name": "La vie en rose",
-      "artist": "Édith Piaf",
+      "name": "Zafer Türküsü",
+      "artist": "Grup Ekin",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "soleil soleil"
+      "sourceTrack": "Vurulup Düşmüşsün"
     },
     {
-      "name": "Ansage Zum Gartenzwerghasslied",
-      "artist": "Revolte Springen",
+      "name": "İbrahim'e Ağıt - Kinimizi Dökeceğiz",
+      "artist": "Grup Munzur",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
+      "sourceTrack": "Vurulup Düşmüşsün"
     },
     {
-      "name": "Gartenzwerghasslied Acapella",
-      "artist": "Revolte Springen",
+      "name": "Tutuşturun Geceleri",
+      "artist": "Grup Munzur",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
+      "sourceTrack": "Vurulup Düşmüşsün"
     },
     {
-      "name": "Revolution",
-      "artist": "Konny",
+      "name": "Aze",
+      "artist": "Kızılırmak",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
+      "sourceTrack": "Vurulup Düşmüşsün"
     },
     {
-      "name": "Extremistensong",
-      "artist": "Konny",
+      "name": "Militan Mavisi",
+      "artist": "Sevinç Eratalay",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
-    },
-    {
-      "name": "In meinem Kopf ist eine Bombe",
-      "artist": "Früchte des Zorns",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
-    },
-    {
-      "name": "Scheiben splittern",
-      "artist": "Früchte des Zorns",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
-    },
-    {
-      "name": "Komm' zu den Autonomen",
-      "artist": "Quetschenpaua",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
-    },
-    {
-      "name": "Das Einheitsfrontlied",
-      "artist": "Hannes Wader",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
-    },
-    {
-      "name": "Die Internationale",
-      "artist": "Hannes Wader",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "Gartenzwerghasslied Country"
+      "sourceTrack": "Vurulup Düşmüşsün"
     },
     {
       "name": null,
       "artist": "Onuka",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Пиріг і Батіг",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
@@ -206,15 +170,6 @@
     {
       "name": null,
       "artist": "BLOOMS CORDA",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "DakhaBrakha"
-    },
-    {
-      "name": null,
-      "artist": "Пиріг і Батіг",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
@@ -250,15 +205,6 @@
     },
     {
       "name": null,
-      "artist": "Latexfauna",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "DakhaBrakha"
-    },
-    {
-      "name": null,
       "artist": "Ницо Потворно",
       "album": null,
       "spotifyUrl": null,
@@ -268,7 +214,7 @@
     },
     {
       "name": null,
-      "artist": "Jerry Heil",
+      "artist": "renie cares",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
@@ -277,12 +223,66 @@
     },
     {
       "name": null,
-      "artist": "¥$",
+      "artist": "ПИРЯТИН",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": null,
+      "artist": "Lilly Wood & The Prick",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
+    },
+    {
+      "name": null,
+      "artist": "Jeanne Added",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
+    },
+    {
+      "name": null,
+      "artist": "Agar Agar",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
+    },
+    {
+      "name": null,
+      "artist": "Girls in Hawaii",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
+    },
+    {
+      "name": null,
+      "artist": "Cocoon",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
+    },
+    {
+      "name": null,
+      "artist": "Cascadeur",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "The Dø"
     }
   ]
 }
