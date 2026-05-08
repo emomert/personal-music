@@ -1,6 +1,146 @@
 {
   "listens": [
     {
+      "inserted_at": 1778164593,
+      "listened_at": 1778163021,
+      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
+          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
+          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44107770856,
+          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
+          "recording_name": "Im tanzen liebe",
+          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
+        },
+        "release_name": "Alambari",
+        "track_name": "Im tanzen liebe"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1778164593,
+      "listened_at": 1778161741,
+      "recording_msid": "f73186ac-6f57-480b-af6e-afb475faecb5",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
+          "lastfm_track_mbid": "2b03fc86-e740-475d-b351-b685e73582c5",
+          "recording_msid": "f73186ac-6f57-480b-af6e-afb475faecb5",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 43915631863,
+          "caa_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
+          "recording_mbid": "2b03fc86-e740-475d-b351-b685e73582c5",
+          "recording_name": "Shchedryi Metal",
+          "release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede"
+        },
+        "release_name": "Ptakh",
+        "track_name": "Shchedryi metal"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1778164593,
+      "listened_at": 1778161391,
+      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
+          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
+          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44107770856,
+          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
+          "recording_name": "Im tanzen liebe",
+          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
+        },
+        "release_name": "Alambari",
+        "track_name": "Im tanzen liebe"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1778164593,
+      "listened_at": 1778160932,
+      "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
+          "lastfm_track_mbid": "4ef5f053-8bb4-4865-a813-fa70de704d1f",
+          "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 43915631863,
+          "caa_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
+          "recording_mbid": "55503d06-2115-4cab-80c3-403c5d4f56bf",
+          "recording_name": "9 nedilechok",
+          "release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede"
+        },
+        "release_name": "Ptakh",
+        "track_name": "9 nedilechok"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1778090609,
       "listened_at": 1778088906,
       "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
@@ -2959,110 +3099,6 @@
         "track_name": "胡思亂想"
       },
       "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1777902680,
-      "listened_at": 1777901593,
-      "recording_msid": "0093ca55-5cb5-4df6-875f-dca1bfb5885d",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "9605047a-828d-4860-97c4-3c3e99b74625",
-          "recording_msid": "0093ca55-5cb5-4df6-875f-dca1bfb5885d",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Nujabes",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "1595addf-f76b-450a-a097-af852ff35f27",
-            "14fa3fe0-daac-4b8b-965c-e9419ca6065b"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Nujabes",
-              "artist_mbid": "1595addf-f76b-450a-a097-af852ff35f27",
-              "join_phrase": " featuring "
-            },
-            {
-              "artist_credit_name": "Apani B",
-              "artist_mbid": "14fa3fe0-daac-4b8b-965c-e9419ca6065b",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 22229285708,
-          "caa_release_mbid": "9f3a4a9b-5741-4a3b-9350-10940ce8bbf3",
-          "recording_mbid": "d4a06e90-f65b-4d96-8654-2aa5509068f8",
-          "recording_name": "Thank You",
-          "release_mbid": "9f3a4a9b-5741-4a3b-9350-10940ce8bbf3"
-        },
-        "release_name": "Modal Soul",
-        "track_name": "Thank You (feat. Apani B)"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1777902680,
-      "listened_at": 1777901343,
-      "recording_msid": "a2a8a2db-b889-41de-b561-9be065ad91fd",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "a2a8a2db-b889-41de-b561-9be065ad91fd",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "release_name": "KEY TO THE KUFFS",
-        "track_name": "STILL KAPS"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1777902680,
-      "listened_at": 1777901255,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1777902680,
-      "listened_at": 1777900946,
-      "recording_msid": "c6f2b29f-87f4-41fe-aa2f-0c379736a3fc",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "c6f2b29f-87f4-41fe-aa2f-0c379736a3fc",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "release_name": "KEY TO THE KUFFS",
-        "track_name": "Borin' Convo"
-      },
-      "user_name": "emomert"
     }
   ],
   "artistStats": {
@@ -3070,12 +3106,12 @@
       {
         "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
         "artist_name": "Ye",
-        "listen_count": 653
+        "listen_count": 657
       },
       {
         "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "artist_name": "Grup Yorum",
-        "listen_count": 435
+        "listen_count": 446
       },
       {
         "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
@@ -3085,17 +3121,22 @@
       {
         "artist_mbid": null,
         "artist_name": "TurkodiRoma",
-        "listen_count": 141
+        "listen_count": 143
       },
       {
         "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
         "artist_name": "Radiohead",
-        "listen_count": 127
+        "listen_count": 128
       },
       {
         "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
         "artist_name": "Revolte Springen",
         "listen_count": 108
+      },
+      {
+        "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+        "artist_name": "DakhaBrakha",
+        "listen_count": 100
       },
       {
         "artist_mbid": "692e367d-2846-442d-b13d-1177c3681c65",
@@ -3118,14 +3159,14 @@
         "listen_count": 93
       },
       {
-        "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-        "artist_name": "DakhaBrakha",
-        "listen_count": 92
-      },
-      {
         "artist_mbid": "8be564c3-dfba-440b-af8c-4ffbceeef45e",
         "artist_name": "RAYE",
         "listen_count": 90
+      },
+      {
+        "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+        "artist_name": "Grup Ekin",
+        "listen_count": 88
       },
       {
         "artist_mbid": null,
@@ -3133,14 +3174,14 @@
         "listen_count": 83
       },
       {
-        "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-        "artist_name": "Grup Ekin",
-        "listen_count": 77
-      },
-      {
         "artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
         "artist_name": "Gorillaz",
         "listen_count": 77
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "MF DOOM",
+        "listen_count": 75
       },
       {
         "artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
@@ -3148,18 +3189,13 @@
         "listen_count": 72
       },
       {
-        "artist_mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
-        "artist_name": "Madvillain",
-        "listen_count": 71
-      },
-      {
-        "artist_mbid": null,
-        "artist_name": "MF DOOM",
-        "listen_count": 71
-      },
-      {
         "artist_mbid": null,
         "artist_name": "Lofi Girl",
+        "listen_count": 72
+      },
+      {
+        "artist_mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
+        "artist_name": "Madvillain",
         "listen_count": 71
       },
       {
@@ -3195,11 +3231,11 @@
     ],
     "count": 25,
     "from_ts": 1009843200,
-    "last_updated": 1778067387,
+    "last_updated": 1778162999,
     "offset": 0,
     "range": "all_time",
-    "to_ts": 1778025870,
-    "total_artist_count": 1024,
+    "to_ts": 1778112444,
+    "total_artist_count": 1026,
     "user_id": "emomert"
   }
 }
