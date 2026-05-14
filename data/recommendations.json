@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-05-14T17:18:50.128Z",
-  "source": "lastfm_fallback",
+  "generatedAt": "2026-05-14T17:22:43.959Z",
+  "source": "hybrid_spotify_lastfm",
   "seedArtists": [
     "Grup Yorum",
     "Kanye West",
-    "DakhaBrakha"
+    "DakhaBrakha",
+    "Grup Ekin",
+    "Revolte Springen"
   ],
   "seedTracks": [
     "Haydi Tenruh",
@@ -13,231 +15,232 @@
     "Shchedryi metal",
     "Varsa Cesaretiniz Gelin"
   ],
+  "seedGenres": [],
   "tracks": [
     {
       "name": "Seninle Biz",
       "artist": "Grup Ekin",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Kavgayı Seçtim",
+      "spotifyUrl": "https://open.spotify.com/track/3iByXxPXdGsuvlYGCHJ0ED",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c83f861faa6f1e00dc276e8a",
       "sourceTrack": "Varsa Cesaretiniz Gelin"
+    },
+    {
+      "name": "CARNIVAL",
+      "artist": "¥$",
+      "album": "VULTURES 1",
+      "spotifyUrl": "https://open.spotify.com/track/2McT2fkH0VDqPsbiB9HWPq",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739c654f315df05ae7c6ec8980",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "ZENIT",
+      "artist": "Onuka",
+      "album": "KOLIR",
+      "spotifyUrl": "https://open.spotify.com/track/4Zx0sAKSVmX9Sr5bX0W6hv",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737832f1f856331fa7e96341db",
+      "sourceArtist": "DakhaBrakha"
     },
     {
       "name": "Davransana",
       "artist": "Grup Ekin",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Gün Bizim",
+      "spotifyUrl": "https://open.spotify.com/track/1gkrdhgAYeYCdARXkNGiKt",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d3e76a3e96c7160f0144d85e",
       "sourceTrack": "Varsa Cesaretiniz Gelin"
+    },
+    {
+      "name": "Reborn",
+      "artist": "KIDS SEE GHOSTS",
+      "album": "KIDS SEE GHOSTS",
+      "spotifyUrl": "https://open.spotify.com/track/4RVbK6cV0VqWdpCDcx3hiT",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b273013c00ee367dd85396f79c82",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "Ni**as In Paris",
+      "artist": "JAY-Z & Kanye West",
+      "album": "Watch The Throne",
+      "spotifyUrl": "https://open.spotify.com/track/1auxYwYrFRqZP7t3s7w4um",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b27352e61456aa4995ba48d94e30",
+      "sourceArtist": "Kanye West"
     },
     {
       "name": "İbrahim'e Ağıt - Kinimizi Dökeceğiz",
       "artist": "Grup Munzur",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Beklenen Uzak Değil",
+      "spotifyUrl": "https://open.spotify.com/track/69qHpDOP83A3wzH08P1xLT",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273321c2bd1b692ffc8543a9ca1",
       "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
       "name": "Tutuşturun Geceleri",
       "artist": "Grup Munzur",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Tutuşturun Geceleri",
+      "spotifyUrl": "https://open.spotify.com/track/0vF7TWlm71sZkSlNdTo93h",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c22be56ed2039256abd7990a",
       "sourceTrack": "Varsa Cesaretiniz Gelin"
+    },
+    {
+      "name": "Човен",
+      "artist": "Один В Каное",
+      "album": "Один в каное",
+      "spotifyUrl": "https://open.spotify.com/track/12L3PRi1KaDiCPhFngI6Al",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737901a160813c13911a974184",
+      "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": "Pop Style",
+      "artist": "The Throne",
+      "album": "Pop Style",
+      "spotifyUrl": "https://open.spotify.com/track/23NWj2izXAJ4yL6Nah73wf",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b273dcb7f77fa3d2dd9c121e760e",
+      "sourceArtist": "Kanye West"
     },
     {
       "name": "Militan Mavisi",
       "artist": "Sevinç Eratalay",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Gülüm",
+      "spotifyUrl": "https://open.spotify.com/track/4ciBVHfAD28OPSu12VhYsc",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3628e970a37f0db6710e189",
       "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
-      "name": null,
-      "artist": "¥$",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "KIDS SEE GHOSTS",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "JAY-Z & Kanye West",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "The Throne",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Ty Dolla $ign",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "DONDA",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Travi$ Scott",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Kendrick Lamar",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "A$AP Rocky",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Pusha T",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Kanye West"
-    },
-    {
-      "name": null,
-      "artist": "Onuka",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "DakhaBrakha"
-    },
-    {
-      "name": null,
-      "artist": "Один В Каное",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "DakhaBrakha"
-    },
-    {
-      "name": null,
+      "name": "Гаї шумлять (1913)",
       "artist": "Пиріг і Батіг",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Поетичний",
+      "spotifyUrl": "https://open.spotify.com/track/4bZDub9rMMoJqyLHSlZUgu",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c04e631ea0c4fc58b2e3d4be",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "Mozhe",
       "artist": "BLOOMS CORDA",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Fog Lavender",
+      "spotifyUrl": "https://open.spotify.com/track/655W6tYzFMbDLWyj9611Kb",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273372b8558d4f76fb12ff2acc5",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "Покоління 300",
       "artist": "Ницо Потворно",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Нормальне Літо 25",
+      "spotifyUrl": "https://open.spotify.com/track/45PuTTtZTRgAm92FL0zZdQ",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b27348874987be81310a3ea4a491",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "Cinderella (feat. Ty Dolla $ign)",
+      "artist": "Ty Dolla $ign",
+      "album": "The Divine Feminine",
+      "spotifyUrl": "https://open.spotify.com/track/2lpygKqzPFtItQ4ss3cgfb",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "Час",
       "artist": "Vivienne Mort",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Досвід",
+      "spotifyUrl": "https://open.spotify.com/track/4mVDYu5SYxeKK9BhEnlstT",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b27398fe67020ff3d1c89a8d450a",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "530",
+      "artist": "DONDA",
+      "album": "DONDA 2",
+      "spotifyUrl": "https://open.spotify.com/track/79mEFisvTUZcVGUxPM0dYc",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737cd12a9cfd038d6f23c84a86",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "якби",
       "artist": "renie cares",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "якби",
+      "spotifyUrl": "https://open.spotify.com/track/5OSxfYupvorP0hlNz27BKQ",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738b14b44facc085093bf3b304",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "Криптошансон",
       "artist": "ПИРЯТИН",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Атентат",
+      "spotifyUrl": "https://open.spotify.com/track/7M4sRIjsdD5NHCLbjQOzC4",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ca16f0fab13f29f21f0cea28",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
+      "name": "Obiymy (Remix)",
       "artist": "Океан Ельзи",
-      "album": null,
-      "spotifyUrl": null,
+      "album": "Obiymy (Remix)",
+      "spotifyUrl": "https://open.spotify.com/track/68F34tHqa6VZuddoUhX4aO",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739f341bc1f05c29b847eb6011",
       "sourceArtist": "DakhaBrakha"
     },
     {
-      "name": null,
-      "artist": "Zwyntar",
-      "album": null,
-      "spotifyUrl": null,
+      "name": "FATHER (feat. Travis Scott)",
+      "artist": "Travi$ Scott",
+      "album": "BULLY",
+      "spotifyUrl": "https://open.spotify.com/track/5pfn68duSmBKo4FhYknOms",
       "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d0000b27395184f6a953569b683ca9a0d",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "Мексиканець",
+      "artist": "Zwyntar",
+      "album": "Мертві голоси",
+      "spotifyUrl": "https://open.spotify.com/track/3wCSp8twVjqjvVUU8rT0zv",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731da0e03b1d78840727339420",
       "sourceArtist": "DakhaBrakha"
+    },
+    {
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+      "artist": "Kendrick Lamar",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "spotifyUrl": "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c027ad28821777b00dcaa888",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "Fashion Killa",
+      "artist": "A$AP Rocky",
+      "album": "LONG.LIVE.A$AP (Deluxe Version)",
+      "spotifyUrl": "https://open.spotify.com/track/0O3TAouZE4vL9dM5SyxgvH",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ae92030b51fb8135d694af9",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": "Runaway",
+      "artist": "Pusha T",
+      "album": "My Beautiful Dark Twisted Fantasy",
+      "spotifyUrl": "https://open.spotify.com/track/3DK6m7It6Pw857FcQftMds",
+      "previewUrl": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f",
+      "sourceArtist": "Kanye West"
     }
   ]
 }
