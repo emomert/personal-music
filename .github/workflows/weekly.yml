@@ -26,9 +26,10 @@ jobs:
       #   0 = success, 1 = data/runtime error, 2 = creds missing, 3 = Spotify auth failed.
       # We only fall back to pure Last.fm on missing creds (2) or auth failure (3),
       # not on transient errors (1) where overwriting good data would be worse.
-      - name: Fetch recommendations (hybrid Spotify + Last.fm)
+      - name: Fetch recommendations (multi-source: Last.fm + ListenBrainz + tag-walk, Spotify-enriched)
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LISTENBRAINZ_TOKEN: ${{ secrets.LISTENBRAINZ_TOKEN }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |

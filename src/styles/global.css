@@ -197,6 +197,33 @@ audio::-webkit-media-controls-panel {
   border: 1px solid #D0E0F5;
 }
 
+/* Engine source badges (Discover page) */
+.badge-engine {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 1px 6px;
+}
+
+.badge-engine-lfm {
+  background: #FFF1E5;
+  color: #B8552B;
+  border: 1px solid #F4D5BA;
+}
+
+.badge-engine-lb {
+  background: #EAF5EE;
+  color: #2F7A4D;
+  border: 1px solid #C5E3D0;
+}
+
+.badge-engine-tag {
+  background: #F0EBFA;
+  color: #6A4AB8;
+  border: 1px solid #D7CBF0;
+}
+
 /* View transition support */
 @view-transition {
   navigation: auto;

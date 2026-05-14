@@ -9,9 +9,10 @@ try {
 } catch {}
 
 const hasData = recs && recs.tracks && recs.tracks.length > 0;
+const isMultiSource = hasData && recs.source === 'multi_source_v1';
 const isHybrid = hasData && recs.source === 'hybrid_spotify_lastfm';
-const isLegacySpotify = hasData && !recs.source; // old /recommendations output, kept for compatibility
-const isSpotifyGrade = isHybrid || isLegacySpotify;
+const isLegacySpotify = hasData && !recs.source; // pre-deprecation /recommendations output
+const isSpotifyGrade = isMultiSource || isHybrid || isLegacySpotify;
 const isFallback = hasData && recs.source === 'lastfm_fallback';
 
 const generatedDate = recs?.generatedAt
@@ -25,6 +26,13 @@ const trackRecs = isLegacySpotify
 const artistRecs = isSpotifyGrade
   ? []
   : (recs?.tracks?.filter(t => !t.name && t.sourceArtist) || []);
+
+// Engine badge metadata
+const ENGINE_META = {
+  'lastfm-similar': { label: 'LFM', title: 'Last.fm collaborative similarity', cls: 'badge-engine-lfm' },
+  'listenbrainz':   { label: 'LB',  title: 'ListenBrainz CF model',            cls: 'badge-engine-lb' },
+  'lastfm-tag':     { label: 'TAG', title: 'Last.fm tag-walk discovery',        cls: 'badge-engine-tag' },
+};
 
 function isPlaceholder(url) {
   return !url || url.includes('2a96cbd8b46e442fc41c2b86b821562f');
@@ -58,29 +66,33 @@ function initials(name) {
     {(isSpotifyGrade || isFallback) && (
       <div class="card p-4 flex items-start gap-3">
         <span class="text-xl shrink-0" aria-hidden="true">{isSpotifyGrade ? '🎯' : '♫'}</span>
-        <div>
+        <div class="flex-1">
           <p class="font-semibold text-navy">
-            {isHybrid
-              ? 'Spotify Recommendations (Hybrid Engine)'
-              : isLegacySpotify
-                ? 'Spotify Algorithmic Recommendations'
-                : 'Last.fm Similarity Engine'}
+            {isMultiSource
+              ? 'Multi-Source Discovery Engine'
+              : isHybrid
+                ? 'Spotify Recommendations (Hybrid Engine)'
+                : isLegacySpotify
+                  ? 'Spotify Algorithmic Recommendations'
+                  : 'Last.fm Similarity Engine'}
           </p>
           <p class="text-sm text-slate-500 mt-1">
-            {isHybrid
-              ? 'Last.fm collaborative similarity finds candidates from your taste; Spotify supplies real metadata and a genre-overlap boost ranks them.'
-              : isLegacySpotify
-                ? 'Generated from Spotify\'s audio analysis: danceability, energy, tempo, and collaborative filtering.'
-                : 'Generated from Last.fm\'s listener network: people who love your top tracks also listen to these.'}
+            {isMultiSource
+              ? 'Three independent discovery algorithms blended: Last.fm collaborative similarity, ListenBrainz CF model, and Last.fm tag-walk. Items surfaced by multiple engines get a confidence boost. Spotify enriches each pick with album art and an Open link.'
+              : isHybrid
+                ? 'Last.fm collaborative similarity finds candidates from your taste; Spotify supplies real metadata and a genre-overlap boost ranks them.'
+                : isLegacySpotify
+                  ? 'Generated from Spotify\'s audio analysis: danceability, energy, tempo, and collaborative filtering.'
+                  : 'Generated from Last.fm\'s listener network: people who love your top tracks also listen to these.'}
           </p>
           {isFallback && (
             <p class="text-xs text-slate-400 mt-2">
               Want richer recommendations with real album art? Add Spotify credentials to your GitHub repo secrets and the engine switches automatically.
             </p>
           )}
-          {isHybrid && recs.seedGenres?.length > 0 && (
-            <p class="text-xs text-slate-400 mt-2">
-              Genres in the mix: {recs.seedGenres.slice(0, 6).join(', ')}
+          {isMultiSource && recs.counts && (
+            <p class="text-xs text-slate-400 mt-2 font-mono">
+              candidates: {recs.counts['lastfm-similar']} LFM · {recs.counts['listenbrainz']} LB · {recs.counts['lastfm-tag']} TAG → {recs.counts.final} blended
             </p>
           )}
         </div>
@@ -120,6 +132,15 @@ function initials(name) {
                   <h3 class="text-navy font-semibold truncate mt-1">{track.name}</h3>
                   <p class="text-slate-500 text-sm truncate">{track.artist}</p>
                   {track.album && <p class="text-slate-400 text-xs truncate">{track.album}</p>}
+                  {track.engines?.length > 0 && (
+                    <div class="flex flex-wrap gap-1 mt-2" aria-label="Discovery sources">
+                      {track.engines.map(e => ENGINE_META[e] && (
+                        <span class={`badge badge-engine ${ENGINE_META[e].cls}`} title={ENGINE_META[e].title}>
+                          {ENGINE_META[e].label}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                   {track.sourceTrack && (
                     <p class="text-xs text-slate-400 mt-1">
                       Because you like: <span class="text-slate-500 font-medium">{track.sourceTrack}</span>
@@ -128,6 +149,11 @@ function initials(name) {
                   {!track.sourceTrack && track.sourceArtist && (
                     <p class="text-xs text-slate-400 mt-1">
                       Fans of: <span class="text-slate-500 font-medium">{track.sourceArtist}</span>
+                    </p>
+                  )}
+                  {!track.sourceTrack && !track.sourceArtist && track.sourceTag && (
+                    <p class="text-xs text-slate-400 mt-1">
+                      Tagged: <span class="text-slate-500 font-medium">#{track.sourceTag}</span>
                     </p>
                   )}
                   {track.previewUrl && (
@@ -183,6 +209,6 @@ function initials(name) {
   </main>
 
   <footer class="mt-16 pt-8 border-t border-slate-200 text-xs text-slate-400">
-    <span>Powered by {isHybrid ? 'Spotify + Last.fm Hybrid Engine' : isLegacySpotify ? 'Spotify Recommendations API' : isFallback ? 'Last.fm Similarity Engine' : 'GitHub Actions'}</span>
+    <span>Powered by {isMultiSource ? 'Multi-Source Discovery (Last.fm + ListenBrainz + tags), Spotify-enriched' : isHybrid ? 'Spotify + Last.fm Hybrid Engine' : isLegacySpotify ? 'Spotify Recommendations API' : isFallback ? 'Last.fm Similarity Engine' : 'GitHub Actions'}</span>
   </footer>
 </Layout>
