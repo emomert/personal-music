@@ -9,18 +9,20 @@ try {
 } catch {}
 
 const hasData = recs && recs.tracks && recs.tracks.length > 0;
-const isSpotify = hasData && !recs.source;
+const isHybrid = hasData && recs.source === 'hybrid_spotify_lastfm';
+const isLegacySpotify = hasData && !recs.source; // old /recommendations output, kept for compatibility
+const isSpotifyGrade = isHybrid || isLegacySpotify;
 const isFallback = hasData && recs.source === 'lastfm_fallback';
 
 const generatedDate = recs?.generatedAt
   ? new Date(recs.generatedAt).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
   : null;
 
-const trackRecs = isSpotify
+const trackRecs = isLegacySpotify
   ? (recs.tracks || [])
-  : (recs?.tracks?.filter(t => t.name && t.sourceTrack) || []);
+  : (recs?.tracks?.filter(t => t.name) || []);
 
-const artistRecs = isSpotify
+const artistRecs = isSpotifyGrade
   ? []
   : (recs?.tracks?.filter(t => !t.name && t.sourceArtist) || []);
 
@@ -53,21 +55,32 @@ function initials(name) {
     </section>
 
     {/* Engine banner */}
-    {(isSpotify || isFallback) && (
+    {(isSpotifyGrade || isFallback) && (
       <div class="card p-4 flex items-start gap-3">
-        <span class="text-xl shrink-0" aria-hidden="true">{isSpotify ? '🎯' : '♫'}</span>
+        <span class="text-xl shrink-0" aria-hidden="true">{isSpotifyGrade ? '🎯' : '♫'}</span>
         <div>
           <p class="font-semibold text-navy">
-            {isSpotify ? 'Spotify Algorithmic Recommendations' : 'Last.fm Similarity Engine'}
+            {isHybrid
+              ? 'Spotify Recommendations (Hybrid Engine)'
+              : isLegacySpotify
+                ? 'Spotify Algorithmic Recommendations'
+                : 'Last.fm Similarity Engine'}
           </p>
           <p class="text-sm text-slate-500 mt-1">
-            {isSpotify
-              ? 'Generated from Spotify\'s audio analysis: danceability, energy, tempo, and collaborative filtering.'
-              : 'Generated from Last.fm\'s listener network: people who love your top tracks also listen to these.'}
+            {isHybrid
+              ? 'Last.fm collaborative similarity finds candidates from your taste; Spotify supplies real metadata and a genre-overlap boost ranks them.'
+              : isLegacySpotify
+                ? 'Generated from Spotify\'s audio analysis: danceability, energy, tempo, and collaborative filtering.'
+                : 'Generated from Last.fm\'s listener network: people who love your top tracks also listen to these.'}
           </p>
           {isFallback && (
             <p class="text-xs text-slate-400 mt-2">
-              Want richer recommendations with real album art? Connect a Spotify Premium app and the engine switches automatically.
+              Want richer recommendations with real album art? Add Spotify credentials to your GitHub repo secrets and the engine switches automatically.
+            </p>
+          )}
+          {isHybrid && recs.seedGenres?.length > 0 && (
+            <p class="text-xs text-slate-400 mt-2">
+              Genres in the mix: {recs.seedGenres.slice(0, 6).join(', ')}
             </p>
           )}
         </div>
@@ -78,7 +91,7 @@ function initials(name) {
     {trackRecs.length > 0 && (
       <section>
         <h2 class="text-lg font-heading font-semibold text-navy mb-4">
-          {isSpotify ? 'Recommended Tracks' : 'Similar Tracks'}
+          {isSpotifyGrade ? 'Recommended Tracks' : 'Similar Tracks'}
           <span class="text-sm font-normal text-slate-400 ml-2">{trackRecs.length}</span>
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -110,6 +123,11 @@ function initials(name) {
                   {track.sourceTrack && (
                     <p class="text-xs text-slate-400 mt-1">
                       Because you like: <span class="text-slate-500 font-medium">{track.sourceTrack}</span>
+                    </p>
+                  )}
+                  {!track.sourceTrack && track.sourceArtist && (
+                    <p class="text-xs text-slate-400 mt-1">
+                      Fans of: <span class="text-slate-500 font-medium">{track.sourceArtist}</span>
                     </p>
                   )}
                   {track.previewUrl && (
@@ -165,6 +183,6 @@ function initials(name) {
   </main>
 
   <footer class="mt-16 pt-8 border-t border-slate-200 text-xs text-slate-400">
-    <span>Powered by {isSpotify ? 'Spotify Recommendations API' : isFallback ? 'Last.fm Similarity Engine' : 'GitHub Actions'}</span>
+    <span>Powered by {isHybrid ? 'Spotify + Last.fm Hybrid Engine' : isLegacySpotify ? 'Spotify Recommendations API' : isFallback ? 'Last.fm Similarity Engine' : 'GitHub Actions'}</span>
   </footer>
 </Layout>

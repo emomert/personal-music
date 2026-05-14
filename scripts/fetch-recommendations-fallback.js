@@ -32,7 +32,7 @@ async function main() {
     process.exit(1);
   }
 
-  const topTracks = lastfmData.topTracks_last7days.slice(0, 5);
+  const topTracks = (lastfmData.topTracks_last7days || []).slice(0, 5);
   const recommendations = [];
   const seen = new Set();
 
@@ -65,7 +65,7 @@ async function main() {
   }
 
   // Also get similar artists
-  const topArtists = lastfmData.topArtists_last7days.slice(0, 3);
+  const topArtists = (lastfmData.topArtists_last7days || []).slice(0, 3);
   for (const artist of topArtists) {
     try {
       const similar = await fetchLastFm('artist.getsimilar', {

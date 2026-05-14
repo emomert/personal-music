@@ -22,19 +22,31 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: node scripts/fetch-lastfm.js
 
-      # Try Spotify first. If the app owner doesn't have Premium (403), 
-      # automatically fall back to Last.fm similar tracks/artists.
-      - name: Fetch recommendations (Spotify → Last.fm fallback)
+      # Hybrid Spotify+Last.fm engine. Exit codes from fetch-spotify.js:
+      #   0 = success, 1 = data/runtime error, 2 = creds missing, 3 = Spotify auth failed.
+      # We only fall back to pure Last.fm on missing creds (2) or auth failure (3),
+      # not on transient errors (1) where overwriting good data would be worse.
+      - name: Fetch recommendations (hybrid Spotify + Last.fm)
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: |
-          echo "Attempting Spotify recommendations..."
-          node scripts/fetch-spotify.js || (
-            echo "Spotify failed (likely Premium required). Falling back to Last.fm..." &&
+          set +e
+          node scripts/fetch-spotify.js
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            echo "Hybrid engine succeeded."
+            exit 0
+          fi
+          if [ "$status" -eq 2 ] || [ "$status" -eq 3 ]; then
+            echo "Spotify unavailable (exit=$status) — falling back to Last.fm-only similarity."
             node scripts/fetch-recommendations-fallback.js
-          )
+          else
+            echo "Hybrid engine failed with exit=$status (not an auth/config issue) — leaving recommendations.json untouched."
+            exit "$status"
+          fi
 
       - name: Commit and push if changed
         run: |
