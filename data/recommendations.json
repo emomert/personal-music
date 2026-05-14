@@ -1,108 +1,153 @@
 {
-  "generatedAt": "2026-05-11T06:58:59.371Z",
+  "generatedAt": "2026-05-14T17:18:50.128Z",
   "source": "lastfm_fallback",
   "seedArtists": [
     "Grup Yorum",
-    "DakhaBrakha",
-    "Grup Ekin"
+    "Kanye West",
+    "DakhaBrakha"
   ],
   "seedTracks": [
-    "Im tanzen liebe",
-    "Shchedryi metal",
     "Haydi Tenruh",
     "9 nedilechok",
-    "I Love Kanye"
+    "Im tanzen liebe",
+    "Shchedryi metal",
+    "Varsa Cesaretiniz Gelin"
   ],
   "tracks": [
     {
-      "name": "Siiiiiiiiilver Surffffeeeeer Intermission",
-      "artist": "Kanye West",
+      "name": "Seninle Biz",
+      "artist": "Grup Ekin",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
-      "name": "Who Will Survive in America",
-      "artist": "Kanye West",
+      "name": "Davransana",
+      "artist": "Grup Ekin",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
-      "name": "Fire",
-      "artist": "KIDS SEE GHOSTS",
+      "name": "İbrahim'e Ağıt - Kinimizi Dökeceğiz",
+      "artist": "Grup Munzur",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
-      "name": "Cudi Montage",
-      "artist": "KIDS SEE GHOSTS",
+      "name": "Tutuşturun Geceleri",
+      "artist": "Grup Munzur",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceTrack": "Varsa Cesaretiniz Gelin"
     },
     {
-      "name": "BURN",
+      "name": "Militan Mavisi",
+      "artist": "Sevinç Eratalay",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceTrack": "Varsa Cesaretiniz Gelin"
+    },
+    {
+      "name": null,
       "artist": "¥$",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "Kanye West"
     },
     {
-      "name": "VULTURES",
-      "artist": "¥$",
+      "name": null,
+      "artist": "KIDS SEE GHOSTS",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "Kanye West"
     },
     {
-      "name": "Alright",
+      "name": null,
+      "artist": "JAY-Z & Kanye West",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "The Throne",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Ty Dolla $ign",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "DONDA",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
+      "artist": "Travi$ Scott",
+      "album": null,
+      "spotifyUrl": null,
+      "previewUrl": null,
+      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "sourceArtist": "Kanye West"
+    },
+    {
+      "name": null,
       "artist": "Kendrick Lamar",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "Kanye West"
     },
     {
-      "name": "Back To Me",
-      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "name": null,
+      "artist": "A$AP Rocky",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "Kanye West"
     },
     {
-      "name": "Carnival",
-      "artist": "¥$, Kanye West & Ty Dolla $ign",
+      "name": null,
+      "artist": "Pusha T",
       "album": null,
       "spotifyUrl": null,
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
-    },
-    {
-      "name": "Slow Jamz",
-      "artist": "Twista",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceTrack": "I Love Kanye"
+      "sourceArtist": "Kanye West"
     },
     {
       "name": null,
@@ -193,78 +238,6 @@
       "previewUrl": null,
       "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
       "sourceArtist": "DakhaBrakha"
-    },
-    {
-      "name": null,
-      "artist": "Mehmet Celal",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Kızılırmak",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "GRUP VARDIYA",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Dinmeyen",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Sevinç Eratalay",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Arif Kemal",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Bandista",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
-    },
-    {
-      "name": null,
-      "artist": "Ruhi Su",
-      "album": null,
-      "spotifyUrl": null,
-      "previewUrl": null,
-      "image": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "sourceArtist": "Grup Ekin"
     }
   ]
 }
