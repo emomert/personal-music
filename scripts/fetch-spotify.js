@@ -38,8 +38,12 @@ async function spotifyFetch(token, endpoint) {
   const res = await fetch(`${SPOTIFY_BASE}${endpoint}`, {
     headers: { Authorization: `Bearer ${token}` },
   });
-  if (res.status === 401 || res.status === 403) {
-    throw new SpotifyAuthError(`Spotify ${endpoint} auth error: ${res.status}`);
+  // Only 401 means the token itself is bad — that's the only condition
+  // we can't recover from. 403 typically means "this endpoint is gated for
+  // your app" (Spotify has been progressively restricting endpoints for
+  // newly-created apps); skip the call and let the caller continue.
+  if (res.status === 401) {
+    throw new SpotifyAuthError(`Spotify ${endpoint} token invalid: 401`);
   }
   if (!res.ok) {
     const body = await res.text().catch(() => '');
@@ -66,9 +70,13 @@ async function searchSpotifyTrack(token, name, artist) {
   return data.tracks?.items?.[0] || null;
 }
 
-async function getArtistTopTrack(token, artistId) {
-  const data = await spotifyFetch(token, `/artists/${artistId}/top-tracks?market=US`);
-  return data.tracks?.[0] || null;
+// /artists/{id}/top-tracks returns 403 for newly-created apps in 2025.
+// /search?type=track still works and gives us the same data we need
+// (album art, Spotify URL, preview when available).
+async function findRepresentativeTrack(token, artistName) {
+  const q = `artist:"${artistName}"`;
+  const data = await spotifyFetch(token, `/search?q=${encodeURIComponent(q)}&type=track&limit=1`);
+  return data.tracks?.items?.[0] || null;
 }
 
 function getLastfmArtistName(track) {
@@ -197,10 +205,15 @@ async function main() {
       let spTopTrack = null;
       try {
         spArtist = await searchSpotifyArtist(token, sim.name);
-        if (spArtist?.id) spTopTrack = await getArtistTopTrack(token, spArtist.id);
       } catch (e) {
         if (e instanceof SpotifyAuthError) throw e;
-        console.warn(`spotify enrich failed for artist ${sim.name}: ${e.message}`);
+        console.warn(`spotify artist search failed for ${sim.name}: ${e.message}`);
+      }
+      try {
+        if (spArtist) spTopTrack = await findRepresentativeTrack(token, sim.name);
+      } catch (e) {
+        if (e instanceof SpotifyAuthError) throw e;
+        // top-track lookup is non-fatal; we still have the artist data
       }
 
       const trackName = spTopTrack?.name || null;
