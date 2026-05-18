@@ -209,16 +209,16 @@
           "release_mbid": "5b78aa6b-67be-43b5-8f56-a89116e48087",
           "url_rels": [
             {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
+              "type": "streaming",
+              "url": "https://tidal.com/track/20753860"
             },
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1440873233"
             },
             {
-              "type": "streaming",
-              "url": "https://tidal.com/track/20753860"
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
             },
             {
               "type": "free streaming",
