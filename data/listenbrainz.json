@@ -136,16 +136,16 @@
           "release_mbid": "9c02dc5c-6725-314b-a5d1-b6097ff0c6ce",
           "url_rels": [
             {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/693751193"
+            },
+            {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/60HSQkYSlJVtdRdHgzRsXz"
             },
             {
               "type": "free streaming",
               "url": "https://www.youtube.com/watch?v=0sa2R-PM0Uk"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/693751193"
             }
           ]
         },
@@ -978,15 +978,15 @@
           "url_rels": [
             {
               "type": "free streaming",
+              "url": "https://open.spotify.com/track/2OBofMJx94NryV2SK8p8Zf"
+            },
+            {
+              "type": "free streaming",
               "url": "https://open.spotify.com/track/6AWe04n4zsYkGKb3Pf7LMk"
             },
             {
               "type": "free streaming",
               "url": "https://music.youtube.com/watch?v=bSnlKl_PoQU"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/2OBofMJx94NryV2SK8p8Zf"
             }
           ]
         },
@@ -3209,12 +3209,12 @@
       {
         "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
         "artist_name": "Ye",
-        "listen_count": 671
+        "listen_count": 673
       },
       {
         "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "artist_name": "Grup Yorum",
-        "listen_count": 485
+        "listen_count": 489
       },
       {
         "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
@@ -3234,7 +3234,7 @@
       {
         "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
         "artist_name": "DakhaBrakha",
-        "listen_count": 121
+        "listen_count": 123
       },
       {
         "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
@@ -3254,7 +3254,7 @@
       {
         "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
         "artist_name": "Grup Ekin",
-        "listen_count": 96
+        "listen_count": 98
       },
       {
         "artist_mbid": null,
@@ -3334,10 +3334,10 @@
     ],
     "count": 25,
     "from_ts": 1009843200,
-    "last_updated": 1779287123,
+    "last_updated": 1779455391,
     "offset": 0,
     "range": "all_time",
-    "to_ts": 1779236983,
+    "to_ts": 1779409929,
     "total_artist_count": 1033,
     "user_id": "emomert"
   }
