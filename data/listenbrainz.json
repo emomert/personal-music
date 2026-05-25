@@ -136,16 +136,16 @@
           "release_mbid": "9c02dc5c-6725-314b-a5d1-b6097ff0c6ce",
           "url_rels": [
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/693751193"
+              "type": "free streaming",
+              "url": "https://www.youtube.com/watch?v=0sa2R-PM0Uk"
             },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/60HSQkYSlJVtdRdHgzRsXz"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.youtube.com/watch?v=0sa2R-PM0Uk"
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/693751193"
             }
           ]
         },
@@ -890,19 +890,19 @@
           "url_rels": [
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/20753860"
-            },
-            {
-              "type": "streaming",
               "url": "https://music.apple.com/us/song/1440873233"
             },
             {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
+              "type": "streaming",
+              "url": "https://tidal.com/track/20753860"
             },
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/68350106"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
             }
           ]
         },
