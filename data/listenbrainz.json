@@ -1,6 +1,617 @@
 {
   "listens": [
     {
+      "inserted_at": 1780042515,
+      "listened_at": 1780038959,
+      "recording_msid": "0a32c34e-e837-4cc1-aa0c-039daf32b610",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "4d8ecee2-5715-392d-836d-82b5598cbab4",
+          "recording_msid": "0a32c34e-e837-4cc1-aa0c-039daf32b610",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "0cddef41-8afc-4ea4-87bc-97d96a6a2cad",
+          "recording_name": "Gidene",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Gidene"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780038668,
+      "recording_msid": "016d4273-5a78-4c4d-adc6-184a449868e3",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+          "lastfm_release_mbid": "042e3733-608b-44f8-8976-a5a7fd537d2b",
+          "lastfm_track_mbid": "0d2ee7a9-b167-4baa-8be8-23c8bfddc49a",
+          "recording_msid": "016d4273-5a78-4c4d-adc6-184a449868e3",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Eminem",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Eminem",
+              "artist_mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 33907879386,
+          "caa_release_mbid": "042e3733-608b-44f8-8976-a5a7fd537d2b",
+          "recording_mbid": "2d0e1136-a36e-432f-a618-7f75a110bca8",
+          "recording_name": "Without Me",
+          "release_mbid": "40a7080b-40e4-3b24-847a-d21aaee5f414",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/7lQ8MOhq6IN2w8EYcFNSUk"
+            }
+          ]
+        },
+        "release_name": "The Eminem Show",
+        "track_name": "Without Me"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780038328,
+      "recording_msid": "d40446af-0ecc-46b7-bcc4-c836fc65f5a9",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e9ec911d-0cae-42eb-8a5a-57325ea2dd01",
+          "lastfm_release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7",
+          "recording_msid": "d40446af-0ecc-46b7-bcc4-c836fc65f5a9",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "IFA Wartburg",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e9ec911d-0cae-42eb-8a5a-57325ea2dd01"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "IFA Wartburg",
+              "artist_mbid": "e9ec911d-0cae-42eb-8a5a-57325ea2dd01",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 14229008997,
+          "caa_release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7",
+          "recording_mbid": "97364442-24af-434b-ba38-a650f3b2a3cb",
+          "recording_name": "Agrarwissenschaft im Dienste des Sozialismus",
+          "release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7"
+        },
+        "release_name": "Im Dienste des Sozialismus",
+        "track_name": "Agrarwissenschaft Im Dienste Des Sozialismus"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780038274,
+      "recording_msid": "2abf9c4c-a34d-485e-a01d-2bb6019cee97",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "3bac7b93-08f1-49ca-b983-b1252f9047e3",
+          "lastfm_track_mbid": "9a7abb48-0c73-32a3-984f-12dc4e621d4a",
+          "recording_msid": "2abf9c4c-a34d-485e-a01d-2bb6019cee97",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 14947073976,
+          "caa_release_mbid": "80799848-709e-3a3c-921c-bdd0d559b0d2",
+          "recording_mbid": "e12d51f1-f15f-488f-b38e-2cd0c2cd3fdb",
+          "recording_name": "Seni Men Yaman Sevirem",
+          "release_mbid": "80799848-709e-3a3c-921c-bdd0d559b0d2"
+        },
+        "release_name": "Kucaklaşma",
+        "track_name": "Seni Men Yaman Sevirem"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780037862,
+      "recording_msid": "00d52c31-00c2-4d17-9b43-2c2f6230a1b4",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "f97c4058-cc2b-43da-97e5-96bef7e55f40",
+          "lastfm_release_mbid": "6f99309a-3b36-43b5-bbfc-d095f1f3beee",
+          "lastfm_track_mbid": "da19f3a9-d023-3159-8e26-2d31666187bd",
+          "recording_msid": "00d52c31-00c2-4d17-9b43-2c2f6230a1b4",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Keny Arkana",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "f97c4058-cc2b-43da-97e5-96bef7e55f40"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Keny Arkana",
+              "artist_mbid": "f97c4058-cc2b-43da-97e5-96bef7e55f40",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 8139335027,
+          "caa_release_mbid": "6f99309a-3b36-43b5-bbfc-d095f1f3beee",
+          "recording_mbid": "19b8f7d0-9729-4f88-b823-1a3b591aff5e",
+          "recording_name": "Cinquième Soleil",
+          "release_mbid": "6f99309a-3b36-43b5-bbfc-d095f1f3beee"
+        },
+        "release_name": "Désobéissance",
+        "track_name": "Cinquième Soleil"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780037486,
+      "recording_msid": "b74f3de7-48f7-4db0-ae21-5b7222a2ac5f",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "28f8d227-10f0-4d8f-b087-54910fad1f36",
+          "lastfm_track_mbid": "5c532db2-3ed3-4401-b8d0-cdbb6a2d375d",
+          "recording_msid": "b74f3de7-48f7-4db0-ae21-5b7222a2ac5f",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "2eb7bb35-1f0c-48df-b3f5-2970dcd3d57d",
+          "recording_name": "Çocuklarımıza",
+          "release_mbid": "28f8d227-10f0-4d8f-b087-54910fad1f36"
+        },
+        "release_name": "Başeğmeden",
+        "track_name": "Çocuklarımıza"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780037099,
+      "recording_msid": "184bde08-5015-48b2-a4cb-55283876b133",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "9c14317c-87b9-4f7c-a5a5-80add17a1709",
+          "lastfm_release_mbid": "27664e83-9c65-47c1-8a2f-8a490d72db5f",
+          "lastfm_track_mbid": "f0709622-e50f-4fdc-b1e9-ea7e0305edb1",
+          "recording_msid": "184bde08-5015-48b2-a4cb-55283876b133",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Alice Phoebe Lou",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "9c14317c-87b9-4f7c-a5a5-80add17a1709"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Alice Phoebe Lou",
+              "artist_mbid": "9c14317c-87b9-4f7c-a5a5-80add17a1709",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 43371461273,
+          "caa_release_mbid": "cd06b789-cac9-47c4-9149-8cba359f44f0",
+          "recording_mbid": "690f4c43-8e4a-49ce-a1e6-d12b08abcc8d",
+          "recording_name": "Orbit",
+          "release_mbid": "27664e83-9c65-47c1-8a2f-8a490d72db5f"
+        },
+        "release_name": "Orbit",
+        "track_name": "Orbit"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780036909,
+      "recording_msid": "8c39cc65-c475-4ce4-84e0-0a87f5bdd44e",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
+          "lastfm_track_mbid": "fb1bc33c-24b6-4858-a192-ffc287dad1c0",
+          "recording_msid": "8c39cc65-c475-4ce4-84e0-0a87f5bdd44e",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "The Dø",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c3477250-bc5f-44e9-aa0a-144dd2d7a935"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "The Dø",
+              "artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 38156093407,
+          "caa_release_mbid": "a5b49481-c8fb-42fd-b335-588ddb76f12c",
+          "recording_mbid": "21e51d8f-5886-4825-8454-795e0bd26975",
+          "recording_name": "Trustful Hands (London Future remix)",
+          "release_mbid": "a5b49481-c8fb-42fd-b335-588ddb76f12c"
+        },
+        "release_name": "Trustful Hands Remixes - EP",
+        "track_name": "Trustful Hands (London Future Remix)"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780036622,
+      "recording_msid": "89643979-2e62-4ad6-8ace-c82ba31289a1",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e4b06dc9-c196-49e1-a20a-554e72d95268",
+          "lastfm_release_mbid": "6f2dd9be-828c-4d20-b4bd-4f46b55cb5b0",
+          "lastfm_track_mbid": "320a14a7-07c6-4a53-ac59-2d9014aab78c",
+          "recording_msid": "89643979-2e62-4ad6-8ace-c82ba31289a1",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Агата Кристи",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e4b06dc9-c196-49e1-a20a-554e72d95268"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Агата Кристи",
+              "artist_mbid": "e4b06dc9-c196-49e1-a20a-554e72d95268",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44967730196,
+          "caa_release_mbid": "eb9d1416-dc74-4567-88a8-a4d1986bf16c",
+          "recording_mbid": "a12ed1e2-bf83-4639-85fa-cdc4d01f49d4",
+          "recording_name": "Как на войне",
+          "release_mbid": "eb9d1416-dc74-4567-88a8-a4d1986bf16c"
+        },
+        "release_name": "Избранное",
+        "track_name": "Как на войне"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780036369,
+      "recording_msid": "18516dfc-7530-41ba-9f56-441ffb0bf9d2",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
+          "lastfm_release_mbid": "265d9246-6d2e-40cc-b971-d8c28b17c22b",
+          "lastfm_track_mbid": "6bfd902f-95b6-4b80-81be-69a14993412b",
+          "recording_msid": "18516dfc-7530-41ba-9f56-441ffb0bf9d2",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "The Dø",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c3477250-bc5f-44e9-aa0a-144dd2d7a935"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "The Dø",
+              "artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 38156374238,
+          "caa_release_mbid": "9c3b4d00-5891-4b69-8a99-d87a687b6292",
+          "recording_mbid": "646932b3-d460-41c3-9f89-d883f574952c",
+          "recording_name": "Opposite Ways",
+          "release_mbid": "265d9246-6d2e-40cc-b971-d8c28b17c22b"
+        },
+        "release_name": "Shake Shook Shaken",
+        "track_name": "Opposite Ways"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780036139,
+      "recording_msid": "911a04d3-34ef-49ab-827e-cc1047bcb5f6",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "recording_msid": "911a04d3-34ef-49ab-827e-cc1047bcb5f6",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "b7c54232-5055-4c57-a293-48cb625ec160",
+          "recording_name": "Baladız Ağıdı",
+          "release_mbid": "8d66acdb-5263-4345-b578-504870e11890"
+        },
+        "release_name": "Dünden Yarına Ustalarımız/Ruhi Su",
+        "track_name": "Baladız Ağıdı"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780035997,
+      "recording_msid": "1a338919-df08-4047-8b90-611a98e48d10",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "80e8e55c-6e9b-470f-844b-48e618fb6e56",
+          "lastfm_release_mbid": "503d0490-671f-4b5e-9ac7-54239762eeb7",
+          "lastfm_track_mbid": "3da47b69-51f4-4d00-b0c1-3911fc0b947b",
+          "recording_msid": "1a338919-df08-4047-8b90-611a98e48d10",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Ufo361",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "80e8e55c-6e9b-470f-844b-48e618fb6e56"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Ufo361",
+              "artist_mbid": "80e8e55c-6e9b-470f-844b-48e618fb6e56",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 26023226954,
+          "caa_release_mbid": "bd1c7d3e-e78c-45da-8a2d-4ddc83b4227e",
+          "recording_mbid": "08eeb715-ac43-4040-bab9-af1b1205268b",
+          "recording_name": "Nur zur Info",
+          "release_mbid": "bd1c7d3e-e78c-45da-8a2d-4ddc83b4227e"
+        },
+        "release_name": "Rich Rich",
+        "track_name": "Nur zur Info"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780035868,
+      "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+          "lastfm_track_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
+          "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Revolte Springen",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Revolte Springen",
+              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 13041934237,
+          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
+          "recording_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
+          "recording_name": "Gartenzwerghasslied Country",
+          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
+        },
+        "release_name": "Revolte Inside",
+        "track_name": "Gartenzwerghasslied Country"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780035719,
+      "recording_msid": "e64f7460-6710-4107-889b-d9618ea7779b",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "df707969-7279-49fc-ac29-224ceb7a46e1",
+          "recording_msid": "e64f7460-6710-4107-889b-d9618ea7779b",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Şam",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "df707969-7279-49fc-ac29-224ceb7a46e1"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Şam",
+              "artist_mbid": "df707969-7279-49fc-ac29-224ceb7a46e1",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 43244073683,
+          "caa_release_mbid": "d19c71c6-f135-45a3-8c27-26cea06cffbf",
+          "recording_mbid": "a021ac2b-c2bb-46f4-8ec9-ecff0aaad2e6",
+          "recording_name": "DOĞ VE KÖLE OL",
+          "release_mbid": "d19c71c6-f135-45a3-8c27-26cea06cffbf"
+        },
+        "release_name": "P.İ.Ç",
+        "track_name": "DOĞ VE KÖLE OL"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780035502,
+      "recording_msid": "5db881a3-36b4-405c-b7ae-90b45de0b514",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "b067106d-6433-43d2-abf8-8d2e80c5df3b",
+          "recording_msid": "5db881a3-36b4-405c-b7ae-90b45de0b514",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Da Poet",
+        "release_name": "Bi Milyon",
+        "track_name": "Bi Milyon"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780035141,
+      "recording_msid": "47c44896-3cc8-4d82-902a-fdfa47bc00be",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "lastfm_track_mbid": "10ab1896-7bb9-4f7f-a891-3a52d5587060",
+          "recording_msid": "47c44896-3cc8-4d82-902a-fdfa47bc00be",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Daft Punk",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Daft Punk",
+              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 1149053145,
+          "caa_release_mbid": "1ac0121b-df73-4620-bc3b-5db47529fc34",
+          "recording_mbid": "78b2320c-0a08-468f-8341-7ed86ce2d2fb",
+          "recording_name": "Technologic (Digitalism’s Highway to Paris remix)",
+          "release_mbid": "1ac0121b-df73-4620-bc3b-5db47529fc34"
+        },
+        "release_name": "Human After All: Remixes",
+        "track_name": "Technologic (Digitalism's Highway To Paris Remix)"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780034936,
+      "recording_msid": "a892f7a5-a010-47c6-ba60-b22edc74cb2d",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
+          "lastfm_release_mbid": "1a6d2582-2213-4cc2-816d-f74dbd66bcab",
+          "lastfm_track_mbid": "7fd6c60a-6331-4189-8d84-b897434b4406",
+          "recording_msid": "a892f7a5-a010-47c6-ba60-b22edc74cb2d",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Pomplamoose",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "63d61461-ecfe-4057-896b-3ba3ff3111eb"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Pomplamoose",
+              "artist_mbid": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11555338112,
+          "caa_release_mbid": "1a6d2582-2213-4cc2-816d-f74dbd66bcab",
+          "recording_mbid": "f15327cf-fb88-4130-8c14-e0b74456ebf7",
+          "recording_name": "Uptown Funk",
+          "release_mbid": "1a6d2582-2213-4cc2-816d-f74dbd66bcab",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://www.youtube.com/watch?v=-p0wFDmiJsE"
+            }
+          ]
+        },
+        "release_name": "Besides",
+        "track_name": "Uptown Funk"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780042515,
+      "listened_at": 1780034766,
+      "recording_msid": "03c3e6ec-5328-49cf-afc4-85f53d71f23b",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "a8b0dac5-9f4b-4b28-99fc-7e04980cc7d9",
+          "lastfm_release_mbid": "acfc027d-bd6f-4aa6-9229-90d40db0996c",
+          "lastfm_track_mbid": "4dc7b95d-8726-4655-a893-e698d39afcbc",
+          "recording_msid": "03c3e6ec-5328-49cf-afc4-85f53d71f23b",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Ezhel",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "a8b0dac5-9f4b-4b28-99fc-7e04980cc7d9"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Ezhel",
+              "artist_mbid": "a8b0dac5-9f4b-4b28-99fc-7e04980cc7d9",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 23821275117,
+          "caa_release_mbid": "acfc027d-bd6f-4aa6-9229-90d40db0996c",
+          "recording_mbid": "96b1af03-0e25-4067-a6c2-1dee824be9e6",
+          "recording_name": "LOLO",
+          "release_mbid": "acfc027d-bd6f-4aa6-9229-90d40db0996c"
+        },
+        "release_name": "Lolo",
+        "track_name": "LOLO"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1780034842,
       "listened_at": 1780034501,
       "recording_msid": "9b1ec519-7371-422c-85c0-54595c0ea871",
@@ -1867,19 +2478,19 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
-            },
-            {
-              "type": "free streaming",
               "url": "https://www.deezer.com/track/68350106"
             },
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/20753860"
+              "url": "https://music.apple.com/us/song/1440873233"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1440873233"
+              "url": "https://tidal.com/track/20753860"
             }
           ]
         },
@@ -2688,625 +3299,6 @@
         },
         "release_name": "Donda 2",
         "track_name": "530"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778699929,
-      "recording_msid": "4b63c7c7-c560-47f9-a8df-ba55337842a1",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
-          "lastfm_track_mbid": "eada9487-38c9-336e-aeae-3dc84cad46c9",
-          "recording_msid": "4b63c7c7-c560-47f9-a8df-ba55337842a1",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 14947113648,
-          "caa_release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
-          "recording_mbid": "2f0447bd-11e2-4391-b26e-34d46dd51ea9",
-          "recording_name": "Felluce",
-          "release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648"
-        },
-        "release_name": "Yıldızlar Kuşandık",
-        "track_name": "Felluce"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778699531,
-      "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
-          "lastfm_track_mbid": "de29fb8a-5546-3c3c-b9d5-50d2af050895",
-          "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Ekin",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Ekin",
-              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "2f46a02c-d5ea-4651-af62-1aea143c7b10",
-          "recording_name": "Vurulup Düşmüşsün",
-          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
-        },
-        "release_name": "Gün Bizim",
-        "track_name": "Vurulup Düşmüşsün"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778699224,
-      "recording_msid": "651e274a-91bc-44d4-b57b-059dcc9e4380",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
-          "lastfm_track_mbid": "1e1300b7-edd3-4b93-ba6c-d01b052afa6f",
-          "recording_msid": "651e274a-91bc-44d4-b57b-059dcc9e4380",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 12790816703,
-          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
-          "recording_mbid": "48aa3d63-d8bf-439c-9daf-805f4409fe77",
-          "recording_name": "Highlights",
-          "release_mbid": "f84ac70c-0956-4752-950c-0a1cdc4ee5a0"
-        },
-        "release_name": "The Life of Pablo",
-        "track_name": "Highlights"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778699020,
-      "recording_msid": "b80b67f4-23ff-4cec-a6db-827adecc33ac",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
-          "lastfm_track_mbid": "cb4008e6-3b0e-31bd-8ee7-fa5d77732287",
-          "recording_msid": "b80b67f4-23ff-4cec-a6db-827adecc33ac",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Ekin",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Ekin",
-              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "f3590ceb-74b5-45da-92a9-6b076fadd6d8",
-          "recording_name": "Varsa Cesaretiniz Gelin",
-          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
-        },
-        "release_name": "Gün Bizim",
-        "track_name": "Varsa Cesaretiniz Gelin"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778698892,
-      "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-          "lastfm_track_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
-          "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Revolte Springen",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Revolte Springen",
-              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 13041934237,
-          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
-          "recording_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
-          "recording_name": "Gartenzwerghasslied Country",
-          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
-        },
-        "release_name": "Revolte Inside",
-        "track_name": "Gartenzwerghasslied Country"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778698618,
-      "recording_msid": "7f5c7405-4c3e-446e-a65e-5a343a07d403",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "4b5dbbcb-5e62-4438-9094-3812b7a34748",
-          "lastfm_track_mbid": "3473fdef-fb55-45b0-b100-942d8a3bc461",
-          "recording_msid": "7f5c7405-4c3e-446e-a65e-5a343a07d403",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 21818845439,
-          "caa_release_mbid": "ad2270f0-cf64-37e0-808e-a7d62b79dfb8",
-          "recording_mbid": "c0514a75-a7e2-4164-ab9b-1acf420a9d7f",
-          "recording_name": "Sıyrılıp Gelen",
-          "release_mbid": "ad2270f0-cf64-37e0-808e-a7d62b79dfb8"
-        },
-        "release_name": "Sıyrılıp Gelen",
-        "track_name": "Sıyrılıp Gelen"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778698354,
-      "recording_msid": "2dde2c3c-4e45-439a-8c19-746b92f6b9b2",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_track_mbid": "7067bb2e-244f-45f1-a5f3-78d0fe203a10",
-          "recording_msid": "2dde2c3c-4e45-439a-8c19-746b92f6b9b2",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "35b9b5bb-7274-4152-b9f9-be74c76aa87e",
-          "recording_name": "İnsan Pazarı",
-          "release_mbid": "d923bb3d-76a1-39a3-8c99-ac129c976040"
-        },
-        "release_name": "15. Yıl Seçmeler",
-        "track_name": "İnsan pazarı"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778703216,
-      "listened_at": 1778698044,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778694595,
-      "listened_at": 1778693371,
-      "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "lastfm_track_mbid": "4ef5f053-8bb4-4865-a813-fa70de704d1f",
-          "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 43915631863,
-          "caa_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "recording_mbid": "55503d06-2115-4cab-80c3-403c5d4f56bf",
-          "recording_name": "9 nedilechok",
-          "release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede"
-        },
-        "release_name": "Ptakh",
-        "track_name": "9 nedilechok"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778694595,
-      "listened_at": 1778693021,
-      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
-          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
-          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
-          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
-          "recording_name": "Im tanzen liebe",
-          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
-        },
-        "release_name": "Alambari",
-        "track_name": "Im tanzen liebe"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778694595,
-      "listened_at": 1778692711,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778694595,
-      "listened_at": 1778692380,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778694595,
-      "listened_at": 1778680845,
-      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
-          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
-          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
-          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
-          "recording_name": "Im tanzen liebe",
-          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
-        },
-        "release_name": "Alambari",
-        "track_name": "Im tanzen liebe"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778682848,
-      "listened_at": 1778680396,
-      "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "lastfm_track_mbid": "4ef5f053-8bb4-4865-a813-fa70de704d1f",
-          "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 43915631863,
-          "caa_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "recording_mbid": "55503d06-2115-4cab-80c3-403c5d4f56bf",
-          "recording_name": "9 nedilechok",
-          "release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede"
-        },
-        "release_name": "Ptakh",
-        "track_name": "9 nedilechok"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778682848,
-      "listened_at": 1778679912,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778672014,
-      "listened_at": 1778670827,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778672014,
-      "listened_at": 1778670517,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778672014,
-      "listened_at": 1778670065,
-      "recording_msid": "6461fe57-0cac-4ad0-ba6e-31e161e95f9a",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "954d6c86-b762-4b22-80c8-442d01da015d",
-          "lastfm_track_mbid": "31647182-6e02-3acc-8da8-f6f86002fb4b",
-          "recording_msid": "6461fe57-0cac-4ad0-ba6e-31e161e95f9a",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "7f1fd7b4-386e-420b-bda4-bff4b3f7bd3d",
-          "recording_name": "Sürmenelim",
-          "release_mbid": "954d6c86-b762-4b22-80c8-442d01da015d"
-        },
-        "release_name": "Feda",
-        "track_name": "sürmenelim"
       },
       "user_name": "emomert"
     }
