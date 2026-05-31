@@ -1,6 +1,157 @@
 {
   "listens": [
     {
+      "inserted_at": 1780144067,
+      "listened_at": 1780138307,
+      "recording_msid": "0a2bae15-8ec2-4edb-bccd-df5b2a4ea32f",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "lastfm_track_mbid": "625c0604-c50c-40c6-b2ac-d477f925a95f",
+          "recording_msid": "0a2bae15-8ec2-4edb-bccd-df5b2a4ea32f",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 24202595971,
+          "caa_release_mbid": "08e0cab1-e95c-4b33-8ed3-1337d934fb7f",
+          "recording_mbid": "8009d470-912b-42fa-8261-b88c488eb935",
+          "recording_name": "Stronger",
+          "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1451902446"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0j2T0R9dR9qdJYsB7ciXhf"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/103805726"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/630827242"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1451902446"
+            }
+          ]
+        },
+        "release_name": "Graduation",
+        "track_name": "Stronger"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780144067,
+      "listened_at": 1780138069,
+      "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West • Chris Martin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "98d1ec5a-dd97-4c0b-9c83-7928aac89bca"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": " feat. "
+            },
+            {
+              "artist_credit_name": "Chris Martin",
+              "artist_mbid": "98d1ec5a-dd97-4c0b-9c83-7928aac89bca",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 24202595971,
+          "caa_release_mbid": "08e0cab1-e95c-4b33-8ed3-1337d934fb7f",
+          "recording_mbid": "0d20345f-345c-459b-9d05-34b2906e5da9",
+          "recording_name": "Homecoming",
+          "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/630827332"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/103805735"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
+            }
+          ]
+        },
+        "release_name": "Graduation",
+        "track_name": "Homecoming"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780144067,
+      "listened_at": 1780137933,
+      "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
+          "lastfm_track_mbid": "994262c2-5d1a-4a37-9188-12cb040af0ad",
+          "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 12790816703,
+          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
+          "recording_mbid": "361a2281-ce41-4486-933e-8957f9024068",
+          "recording_name": "Father Stretch My Hands, Pt. 1",
+          "release_mbid": "f84ac70c-0956-4752-950c-0a1cdc4ee5a0"
+        },
+        "release_name": "The Life of Pablo",
+        "track_name": "Father Stretch My Hands Pt. 1"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1780042515,
       "listened_at": 1780038959,
       "recording_msid": "0a32c34e-e837-4cc1-aa0c-039daf32b610",
@@ -3217,90 +3368,6 @@
         "track_name": "Suzy"
       },
       "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778749804,
-      "recording_msid": "f5c88a08-b434-4cbb-8f17-5dfae338dcda",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "recording_msid": "f5c88a08-b434-4cbb-8f17-5dfae338dcda",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "6ac6e644-b6ff-4504-a595-417806ef61f5",
-          "recording_name": "Sci Fi",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "SciFi"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778749733,
-      "listened_at": 1778749564,
-      "recording_msid": "d7f1720b-5219-4cce-a670-717731a01f43",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "c5f25cea-209b-46bc-8af0-125a73bcb6a9",
-          "recording_msid": "d7f1720b-5219-4cce-a670-717731a01f43",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "release_name": "Donda 2",
-        "track_name": "City of Chi"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778749733,
-      "listened_at": 1778749401,
-      "recording_msid": "9787256e-2e65-4238-b901-f64b68fe6691",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "52e1b440-2819-448f-90da-7fba05f696b4",
-          "recording_msid": "9787256e-2e65-4238-b901-f64b68fe6691",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "23aae31e-4a39-424e-b324-49891f33736a",
-          "recording_name": "5:30",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "530"
-      },
-      "user_name": "emomert"
     }
   ],
   "artistStats": {
@@ -3308,12 +3375,12 @@
       {
         "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
         "artist_name": "Ye",
-        "listen_count": 675
+        "listen_count": 676
       },
       {
         "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "artist_name": "Grup Yorum",
-        "listen_count": 489
+        "listen_count": 492
       },
       {
         "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
@@ -3433,10 +3500,10 @@
     ],
     "count": 25,
     "from_ts": 1009843200,
-    "last_updated": 1779799671,
+    "last_updated": 1780191654,
     "offset": 0,
     "range": "all_time",
-    "to_ts": 1779753651,
+    "to_ts": 1779840896,
     "total_artist_count": 1033,
     "user_id": "emomert"
   }
