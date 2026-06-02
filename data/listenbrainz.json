@@ -1,6 +1,271 @@
 {
   "listens": [
     {
+      "inserted_at": 1780381412,
+      "listened_at": 1780380267,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780379811,
+      "recording_msid": "9b1ec519-7371-422c-85c0-54595c0ea871",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "692e367d-2846-442d-b13d-1177c3681c65",
+          "lastfm_track_mbid": "b86753a9-e633-47b9-a50f-e12e4e8fae37",
+          "recording_msid": "9b1ec519-7371-422c-85c0-54595c0ea871",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "王菲",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "692e367d-2846-442d-b13d-1177c3681c65"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "王菲",
+              "artist_mbid": "692e367d-2846-442d-b13d-1177c3681c65",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 5542387114,
+          "caa_release_mbid": "80abd267-8fc4-3c4b-a79d-168003884086",
+          "recording_mbid": "4af9c8b3-6e5c-42f6-a56f-abb91ba3b056",
+          "recording_name": "夢遊",
+          "release_mbid": "c4aa65d8-e828-460c-8f21-7645a8816f81"
+        },
+        "release_name": "15週年王菲最精彩的演唱會",
+        "track_name": "夢遊"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780379683,
+      "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+          "lastfm_track_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
+          "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Revolte Springen",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Revolte Springen",
+              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 13041934237,
+          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
+          "recording_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
+          "recording_name": "Gartenzwerghasslied Country",
+          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
+        },
+        "release_name": "Revolte Inside",
+        "track_name": "Gartenzwerghasslied Country"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780379436,
+      "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
+          "lastfm_track_mbid": "de29fb8a-5546-3c3c-b9d5-50d2af050895",
+          "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Ekin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Ekin",
+              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "2f46a02c-d5ea-4651-af62-1aea143c7b10",
+          "recording_name": "Vurulup Düşmüşsün",
+          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
+        },
+        "release_name": "Gün Bizim",
+        "track_name": "Vurulup Düşmüşsün"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780379300,
+      "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
+          "lastfm_track_mbid": "994262c2-5d1a-4a37-9188-12cb040af0ad",
+          "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 12790816703,
+          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
+          "recording_mbid": "361a2281-ce41-4486-933e-8957f9024068",
+          "recording_name": "Father Stretch My Hands, Pt. 1",
+          "release_mbid": "f84ac70c-0956-4752-950c-0a1cdc4ee5a0"
+        },
+        "release_name": "The Life of Pablo",
+        "track_name": "Father Stretch My Hands Pt. 1"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780379097,
+      "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West • Chris Martin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "98d1ec5a-dd97-4c0b-9c83-7928aac89bca"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": " feat. "
+            },
+            {
+              "artist_credit_name": "Chris Martin",
+              "artist_mbid": "98d1ec5a-dd97-4c0b-9c83-7928aac89bca",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 24202595971,
+          "caa_release_mbid": "08e0cab1-e95c-4b33-8ed3-1337d934fb7f",
+          "recording_mbid": "0d20345f-345c-459b-9d05-34b2906e5da9",
+          "recording_name": "Homecoming",
+          "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/630827332"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/103805735"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
+            }
+          ]
+        },
+        "release_name": "Graduation",
+        "track_name": "Homecoming"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780381412,
+      "listened_at": 1780378860,
+      "recording_msid": "0c08b0b7-6a59-45ee-bf5b-390eeb2e74d0",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
+          "lastfm_track_mbid": "d4e8a2de-3bca-4333-be81-8812822c1349",
+          "recording_msid": "0c08b0b7-6a59-45ee-bf5b-390eeb2e74d0",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44233885567,
+          "caa_release_mbid": "dc398f6e-3791-4b41-bbce-dd5124ed86f4",
+          "recording_mbid": "f44e8ad0-02bb-4852-a72b-ffe41eb752a3",
+          "recording_name": "Flashing Lights",
+          "release_mbid": "dc398f6e-3791-4b41-bbce-dd5124ed86f4"
+        },
+        "release_name": "Graduation",
+        "track_name": "Flashing Lights"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1780144067,
       "listened_at": 1780138307,
       "recording_msid": "0a2bae15-8ec2-4edb-bccd-df5b2a4ea32f",
@@ -3180,192 +3445,6 @@
         },
         "release_name": "Geliyoruz",
         "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750939,
-      "recording_msid": "52c135bc-4d3a-4d90-8be5-5d9238bb14b2",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "af4dc8ee-60de-4463-9dbb-9ba9e9297001",
-          "recording_msid": "52c135bc-4d3a-4d90-8be5-5d9238bb14b2",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "ae50dfb5-1eda-411d-a5f0-686772f13656",
-          "recording_name": "First Time in a Long Time",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "First Time in a Long Time"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750754,
-      "recording_msid": "25af6714-348f-44b4-ad1c-18e1cafa379a",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "435e48ac-90fc-4cec-a94e-d6034c8d7133",
-          "recording_msid": "25af6714-348f-44b4-ad1c-18e1cafa379a",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "06e1f63f-cb31-4987-9df8-fef204ecb507",
-          "recording_name": "Lord Lift Me Up",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "Lord Lift Me Up"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750624,
-      "recording_msid": "b01fa505-2794-4524-8ace-5cd500ea978d",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "3378890f-5bd0-46f1-88f3-2f7688f197eb",
-          "recording_msid": "b01fa505-2794-4524-8ace-5cd500ea978d",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "678c8512-f504-49cd-8ade-aa6d1af4264b",
-          "recording_name": "Maintenance",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "Maintenance"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750549,
-      "recording_msid": "4bcee9ef-8f38-41d2-a558-a52dbdd86d49",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "recording_msid": "4bcee9ef-8f38-41d2-a558-a52dbdd86d49",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "release_name": "Donda 2",
-        "track_name": "We Did It"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750315,
-      "recording_msid": "22a1c403-337e-48c7-86ba-e9957fc22f40",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "cf922575-713e-4a29-a5e4-c1deb4dfeebb",
-          "recording_msid": "22a1c403-337e-48c7-86ba-e9957fc22f40",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 41141358711,
-          "caa_release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba",
-          "recording_mbid": "7b66ecca-7f8d-48b9-87f4-ec92a6cb423f",
-          "recording_name": "Louie Bags",
-          "release_mbid": "d7824f8a-f026-4787-b9d9-54518fdc68ba"
-        },
-        "release_name": "Donda 2",
-        "track_name": "louie bags"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778750010,
-      "recording_msid": "6f11b5b5-413d-4534-835d-4189bb0b3904",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "0942435d-f8ae-470f-b1c6-15a79e20e191",
-          "recording_msid": "6f11b5b5-413d-4534-835d-4189bb0b3904",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "release_name": "Donda 2",
-        "track_name": "Burn Everything"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1778752206,
-      "listened_at": 1778749889,
-      "recording_msid": "afa40392-cfa2-4dbd-95a7-3f9ef2db0ecd",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
-          "lastfm_track_mbid": "1ff6a522-9a7f-411e-8650-9b8235f201af",
-          "recording_msid": "afa40392-cfa2-4dbd-95a7-3f9ef2db0ecd",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "release_name": "Donda 2",
-        "track_name": "Suzy"
       },
       "user_name": "emomert"
     }
