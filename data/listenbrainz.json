@@ -1,6 +1,227 @@
 {
   "listens": [
     {
+      "inserted_at": 1780670945,
+      "listened_at": 1780670237,
+      "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
+          "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Cakal",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "8a777e2f-8291-4ead-973e-2ece226b4706"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "cakal",
+              "artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39801588430,
+          "caa_release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374",
+          "recording_mbid": "de68ca36-f17f-496f-afea-f0eb08b2a1ae",
+          "recording_name": "Damlarsın",
+          "release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374"
+        },
+        "release_name": "Damlarsın",
+        "track_name": "Damlarsın"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780670050,
+      "recording_msid": "d6850872-4ff9-4d2f-b4dc-056e171de85c",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "d6850872-4ff9-4d2f-b4dc-056e171de85c",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Cakal",
+        "release_name": "DOYAMADIM",
+        "track_name": "Doyamadım"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780669908,
+      "recording_msid": "41ca65f0-8b1a-4938-8723-dd63d6ebe738",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
+          "recording_msid": "41ca65f0-8b1a-4938-8723-dd63d6ebe738",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Cakal",
+        "release_name": "Aşk Olsun",
+        "track_name": "AŞK OLSUN"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780669724,
+      "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
+          "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Cakal",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "8a777e2f-8291-4ead-973e-2ece226b4706"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "cakal",
+              "artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39801588430,
+          "caa_release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374",
+          "recording_mbid": "de68ca36-f17f-496f-afea-f0eb08b2a1ae",
+          "recording_name": "Damlarsın",
+          "release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374"
+        },
+        "release_name": "Damlarsın",
+        "track_name": "Damlarsın"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780667563,
+      "recording_msid": "395c4fba-daa1-4be7-87d0-48d96a451e57",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
+          "recording_msid": "395c4fba-daa1-4be7-87d0-48d96a451e57",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "MF DOOM",
+        "release_name": "Vaudeville Villain",
+        "track_name": "Overture"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780667528,
+      "recording_msid": "e1011ace-5623-4404-9704-e4a71290cd04",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0211be88-dc0f-4002-a1de-4001bb359d51",
+          "lastfm_release_mbid": "7f8b58e8-c1e4-4df1-bd3d-45dc0c20c14d",
+          "lastfm_track_mbid": "7ca0e5a4-aa40-42cf-a072-562776359dac",
+          "recording_msid": "e1011ace-5623-4404-9704-e4a71290cd04",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Artemas",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0211be88-dc0f-4002-a1de-4001bb359d51"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Artemas",
+              "artist_mbid": "0211be88-dc0f-4002-a1de-4001bb359d51",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39324666873,
+          "caa_release_mbid": "0fadde41-aab1-42de-88c2-e7ca6ee32f2e",
+          "recording_mbid": "63935ae3-fa46-4663-b83e-2a502318e691",
+          "recording_name": "i like the way you kiss me",
+          "release_mbid": "0fadde41-aab1-42de-88c2-e7ca6ee32f2e"
+        },
+        "release_name": "i like the way you kiss me",
+        "track_name": "i like the way you kiss me"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780667360,
+      "recording_msid": "c8789f76-5ee1-4519-bbd1-03209b204eac",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
+          "recording_msid": "c8789f76-5ee1-4519-bbd1-03209b204eac",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "MF DOOM",
+        "release_name": "Special Herbs, Vol. 3-4",
+        "track_name": "Star Anis"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780667198,
+      "recording_msid": "777f8011-5bd8-41ef-8942-095b636f10cd",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "0380808d-2211-4869-a287-cc94e0d18162",
+          "recording_msid": "777f8011-5bd8-41ef-8942-095b636f10cd",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Gorillaz; Shaun Ryder; Roses Gabor",
+        "release_name": "Demon Days",
+        "track_name": "DARE (feat. Shaun Ryder & Roses Gabor)"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1780670945,
+      "listened_at": 1780666953,
+      "recording_msid": "007c0361-a429-44e4-8c0b-3eecd4cb9db5",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+          "lastfm_release_mbid": "28ddf022-0a8a-4ecd-bf18-d80af26c3aff",
+          "lastfm_track_mbid": "358eaa6a-6ded-4ec1-b677-0e200be91a79",
+          "recording_msid": "007c0361-a429-44e4-8c0b-3eecd4cb9db5",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Gorillaz",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e21857d5-3256-4547-afb3-4b6ded592596"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Gorillaz",
+              "artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 37457723631,
+          "caa_release_mbid": "574166b1-78c0-4061-8781-b699f1e5b575",
+          "recording_mbid": "a44db450-2b09-4eca-936f-a939ad56ae16",
+          "recording_name": "Rhinestone Eyes",
+          "release_mbid": "a00fbef0-2a8f-4f68-b787-e8fe10517155",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1foMv2HQwfQ2vntFf9HFeG"
+            }
+          ]
+        },
+        "release_name": "Plastic Beach",
+        "track_name": "Rhinestone Eyes"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1780585572,
       "listened_at": 1780583579,
       "recording_msid": "2bcd3f30-54fa-4f1a-964d-d0a1f84f5aea",
@@ -3310,278 +3531,6 @@
         },
         "release_name": "Gel Ki Şafaklar Tutuşsun",
         "track_name": "Halay"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780393577,
-      "recording_msid": "21e00ba4-2ccc-4384-bef6-f74bb6f00330",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "21e00ba4-2ccc-4384-bef6-f74bb6f00330",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "release_name": "Special Herbs + Spices Vol. 1",
-        "track_name": "10 Years Later"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780393396,
-      "recording_msid": "0386a77c-392e-4f89-a6da-798a9149166b",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
-          "lastfm_track_mbid": "32072238-6636-4bcc-81c3-a2eb9b0f22e0",
-          "recording_msid": "0386a77c-392e-4f89-a6da-798a9149166b",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
-          "recording_mbid": "f08d57e0-1fb0-46d4-b6af-6de65377a6d0",
-          "recording_name": "Family Business",
-          "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
-          "url_rels": [
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1412873615"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5DBmXF7QO43Cuy9yqva116"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869621"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873615"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/92099377"
-            }
-          ]
-        },
-        "release_name": "The College Dropout",
-        "track_name": "Family Business"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780393117,
-      "recording_msid": "9551785e-ecab-4778-8897-2997fb0c50b2",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "85ceb606-9731-4b48-86cd-67465bbf79ec",
-          "lastfm_release_mbid": "48377ee9-026c-4cbd-a5e3-e12276664219",
-          "lastfm_track_mbid": "a55fac53-48de-4049-a21f-eaf7bd1b1c2a",
-          "recording_msid": "9551785e-ecab-4778-8897-2997fb0c50b2",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Evren Besta",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "85ceb606-9731-4b48-86cd-67465bbf79ec"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Evren Besta",
-              "artist_mbid": "85ceb606-9731-4b48-86cd-67465bbf79ec",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 19387745907,
-          "caa_release_mbid": "48377ee9-026c-4cbd-a5e3-e12276664219",
-          "recording_mbid": "cf225898-737b-41e6-9528-621f78e7698d",
-          "recording_name": "Kovalamaca",
-          "release_mbid": "48377ee9-026c-4cbd-a5e3-e12276664219"
-        },
-        "release_name": "Babafingo",
-        "track_name": "Kovalamaca"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780392929,
-      "recording_msid": "54001795-ebed-4d0f-86d4-63b05e18dd18",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
-          "lastfm_track_mbid": "886d471c-c5a9-4a03-a018-b69e7c919c07",
-          "recording_msid": "54001795-ebed-4d0f-86d4-63b05e18dd18",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "188711ed-c99b-439c-844a-ca831f63a727"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "MF DOOM",
-              "artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "33496f8b-50d1-485d-8b50-51e1ea0dead5",
-          "recording_name": "Figaro",
-          "release_mbid": "1cb093a2-8a50-4379-9887-2f01af24b22c"
-        },
-        "release_name": "Madvillainy",
-        "track_name": "Figaro"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780392787,
-      "recording_msid": "54001795-ebed-4d0f-86d4-63b05e18dd18",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
-          "lastfm_track_mbid": "886d471c-c5a9-4a03-a018-b69e7c919c07",
-          "recording_msid": "54001795-ebed-4d0f-86d4-63b05e18dd18",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "188711ed-c99b-439c-844a-ca831f63a727"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "MF DOOM",
-              "artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "33496f8b-50d1-485d-8b50-51e1ea0dead5",
-          "recording_name": "Figaro",
-          "release_mbid": "1cb093a2-8a50-4379-9887-2f01af24b22c"
-        },
-        "release_name": "Madvillainy",
-        "track_name": "Figaro"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780391047,
-      "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
-          "recording_msid": "fb2f5185-19c5-4bf8-9902-fc9981d14781",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Cakal",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "8a777e2f-8291-4ead-973e-2ece226b4706"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "cakal",
-              "artist_mbid": "8a777e2f-8291-4ead-973e-2ece226b4706",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 39801588430,
-          "caa_release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374",
-          "recording_mbid": "de68ca36-f17f-496f-afea-f0eb08b2a1ae",
-          "recording_name": "Damlarsın",
-          "release_mbid": "c93f231f-b886-48c2-9bf8-2dec77f12374"
-        },
-        "release_name": "Damlarsın",
-        "track_name": "Damlarsın"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780390901,
-      "recording_msid": "c6f2b29f-87f4-41fe-aa2f-0c379736a3fc",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "c6f2b29f-87f4-41fe-aa2f-0c379736a3fc",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "MF DOOM",
-        "release_name": "KEY TO THE KUFFS",
-        "track_name": "Borin' Convo"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780390762,
-      "recording_msid": "d9455f6e-1ba0-4314-8059-f468edf8f4fd",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "812364ca-d44d-4c39-9d7a-fe94404950df",
-          "recording_msid": "d9455f6e-1ba0-4314-8059-f468edf8f4fd",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "UFO361; Ezhel",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "80e8e55c-6e9b-470f-844b-48e618fb6e56",
-            "a8b0dac5-9f4b-4b28-99fc-7e04980cc7d9"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Ufo361",
-              "artist_mbid": "80e8e55c-6e9b-470f-844b-48e618fb6e56",
-              "join_phrase": " & "
-            },
-            {
-              "artist_credit_name": "Ezhel",
-              "artist_mbid": "a8b0dac5-9f4b-4b28-99fc-7e04980cc7d9",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 25510961500,
-          "caa_release_mbid": "812364ca-d44d-4c39-9d7a-fe94404950df",
-          "recording_mbid": "760d18bc-a552-49df-93ff-db9c4e4f4eaa",
-          "recording_name": "Bir Daha",
-          "release_mbid": "812364ca-d44d-4c39-9d7a-fe94404950df"
-        },
-        "release_name": "Lights Out",
-        "track_name": "Bir Daha"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1780412779,
-      "listened_at": 1780390591,
-      "recording_msid": "a26c62af-ced3-4490-9534-177662d5a0b7",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "a26c62af-ced3-4490-9534-177662d5a0b7",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "TurkodiRoma",
-        "release_name": "Mariposa",
-        "track_name": "Mariposa"
       },
       "user_name": "emomert"
     }
