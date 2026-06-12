@@ -1254,12 +1254,12 @@
           "release_mbid": "fe79d012-9df1-3409-b5a0-5bbf291e9cb5",
           "url_rels": [
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/559728"
-            },
-            {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/187472710"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/41pOIT2t1rvr2Trg1HQChZ"
             },
             {
               "type": "purchase for download",
@@ -1267,7 +1267,7 @@
             },
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/41pOIT2t1rvr2Trg1HQChZ"
+              "url": "https://www.deezer.com/track/559728"
             }
           ]
         },
