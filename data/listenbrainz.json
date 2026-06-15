@@ -1,6 +1,249 @@
 {
   "listens": [
     {
+      "inserted_at": 1781511731,
+      "listened_at": 1781507748,
+      "recording_msid": "412f3052-5966-43be-90a9-a2422494c53f",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e9ec911d-0cae-42eb-8a5a-57325ea2dd01",
+          "lastfm_release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7",
+          "lastfm_track_mbid": "37c573bc-8649-3a67-bf0c-bddac00f1c15",
+          "recording_msid": "412f3052-5966-43be-90a9-a2422494c53f",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "IFA Wartburg",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e9ec911d-0cae-42eb-8a5a-57325ea2dd01"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "IFA Wartburg",
+              "artist_mbid": "e9ec911d-0cae-42eb-8a5a-57325ea2dd01",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 14229008997,
+          "caa_release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7",
+          "recording_mbid": "517752f5-5bb3-438f-bb6f-9ac517bfa5bd",
+          "recording_name": "Der alte böse Kapitalismus",
+          "release_mbid": "be1d8ed2-838d-44b5-85e5-e95ab73601e7"
+        },
+        "release_name": "Im Dienste des Sozialismus",
+        "track_name": "Der Alte Böse Kapitalismus"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781511731,
+      "listened_at": 1781507476,
+      "recording_msid": "8480f595-8b16-4b24-9b4b-04643c1b36f6",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "8480f595-8b16-4b24-9b4b-04643c1b36f6",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Eypio; Burak King",
+        "release_name": "Sen",
+        "track_name": "Sen"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781511731,
+      "listened_at": 1781507245,
+      "recording_msid": "6bdcf6d6-f3d6-40ee-ab33-e8cdb7d5a382",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "df707969-7279-49fc-ac29-224ceb7a46e1",
+          "recording_msid": "6bdcf6d6-f3d6-40ee-ab33-e8cdb7d5a382",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Şam",
+        "release_name": "S2m Up",
+        "track_name": "S2M UP"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781511731,
+      "listened_at": 1781460563,
+      "recording_msid": "6fe1767a-1449-45a9-943a-fa5353376a4f",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "c0ec9222-211b-481e-b4c6-b90bdd56a869",
+          "lastfm_release_mbid": "b8aeae33-eabe-4c55-b46e-bcd0b1d7be16",
+          "lastfm_track_mbid": "b5f54459-446b-453f-a044-c7baefe7be8f",
+          "recording_msid": "6fe1767a-1449-45a9-943a-fa5353376a4f",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Mathieu Saïkaly",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c0ec9222-211b-481e-b4c6-b90bdd56a869"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Mathieu Saïkaly",
+              "artist_mbid": "c0ec9222-211b-481e-b4c6-b90bdd56a869",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 24423395066,
+          "caa_release_mbid": "b8aeae33-eabe-4c55-b46e-bcd0b1d7be16",
+          "recording_mbid": "b18894fa-153c-4d2b-837d-d135abc1ec67",
+          "recording_name": "Mama Oh I Swear",
+          "release_mbid": "b8aeae33-eabe-4c55-b46e-bcd0b1d7be16"
+        },
+        "release_name": "Quatre murs blancs",
+        "track_name": "Mama Oh I Swear"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781455512,
+      "listened_at": 1781452681,
+      "recording_msid": "8dff2989-2e06-4969-8769-c65a1ab01fd0",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
+          "recording_msid": "8dff2989-2e06-4969-8769-c65a1ab01fd0",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "MF DOOM",
+        "release_name": "Madvillainy",
+        "track_name": "Strange Ways"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781455512,
+      "listened_at": 1781452573,
+      "recording_msid": "d3904908-41c3-49a2-963f-6a6d1c9af36c",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+          "lastfm_track_mbid": "905715c3-9a9e-4b9f-aaff-94eb9f647b8c",
+          "recording_msid": "d3904908-41c3-49a2-963f-6a6d1c9af36c",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Revolte Springen",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Revolte Springen",
+              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 13041934237,
+          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
+          "recording_mbid": "905715c3-9a9e-4b9f-aaff-94eb9f647b8c",
+          "recording_name": "Mein schönstes Kleid",
+          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
+        },
+        "release_name": "Revolte Inside",
+        "track_name": "Mein schönstes Kleid"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781455512,
+      "listened_at": 1781452196,
+      "recording_msid": "a7e53dcf-5565-48fa-b730-3dfbc42efd1a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
+          "lastfm_release_mbid": "64b5ae38-11d1-4c90-9e43-eb47b332c4a0",
+          "lastfm_track_mbid": "386f043f-8765-438c-bb5b-4c9636f7b2e2",
+          "recording_msid": "a7e53dcf-5565-48fa-b730-3dfbc42efd1a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Pomplamoose",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "63d61461-ecfe-4057-896b-3ba3ff3111eb"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Pomplamoose",
+              "artist_mbid": "63d61461-ecfe-4057-896b-3ba3ff3111eb",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 30012496480,
+          "caa_release_mbid": "64b5ae38-11d1-4c90-9e43-eb47b332c4a0",
+          "recording_mbid": "48728c70-fb57-4acb-a237-4a8334292600",
+          "recording_name": "All the Things She Said",
+          "release_mbid": "64b5ae38-11d1-4c90-9e43-eb47b332c4a0"
+        },
+        "release_name": "All The Things She Said",
+        "track_name": "All the Things She Said"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781455512,
+      "listened_at": 1781451986,
+      "recording_msid": "8fc4115f-d047-4f44-ac35-de863228c4eb",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+          "lastfm_release_mbid": "0835769f-8995-4720-9937-6ed89eff8b42",
+          "lastfm_track_mbid": "ce8e25c3-e0fa-4b47-8e1e-33dffe514bfa",
+          "recording_msid": "8fc4115f-d047-4f44-ac35-de863228c4eb",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Bruno Mars",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Bruno Mars",
+              "artist_mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11539415446,
+          "caa_release_mbid": "94238177-512d-48b8-b8d2-572d3f228863",
+          "recording_mbid": "9dbd4c26-c4ad-4abe-ba3e-88bfe6750518",
+          "recording_name": "Locked Out of Heaven",
+          "release_mbid": "5f897bb2-80fd-4bbe-8da4-4228966852a2",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1SHvXh0EAb7zgxMmasI31d"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/3484326261"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/451198943"
+            }
+          ]
+        },
+        "release_name": "Unorthodox Jukebox",
+        "track_name": "Locked Out of Heaven"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1781386291,
       "listened_at": 1781385204,
       "recording_msid": "1a03c3a8-ed2c-4374-b1ab-84723d99075b",
@@ -93,23 +336,19 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
+              "url": "https://tidal.com/track/92099362"
             },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
             },
             {
               "type": "free streaming",
@@ -117,6 +356,10 @@
             },
             {
               "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1412873324"
+            },
+            {
+              "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873324"
             }
           ]
@@ -183,8 +426,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -217,8 +460,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -332,7 +575,15 @@
           "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
+            },
+            {
               "type": "streaming",
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451904360"
             },
             {
@@ -342,14 +593,6 @@
             {
               "type": "streaming",
               "url": "https://tidal.com/track/103805735"
-            },
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1451904360"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
             }
           ]
         },
@@ -822,8 +1065,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -856,8 +1099,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -1445,8 +1688,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44865388140,
-          "caa_release_mbid": "38216348-ba43-42c5-aa76-1550b959ff2a",
+          "caa_id": 41847755628,
+          "caa_release_mbid": "b6a2d201-7f59-4a20-9c01-daf6d4d40e42",
           "recording_mbid": "0b462193-e57a-441a-b9c3-f1e8a25b694e",
           "recording_name": "Get Lost",
           "release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1"
@@ -1479,8 +1722,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44865388140,
-          "caa_release_mbid": "38216348-ba43-42c5-aa76-1550b959ff2a",
+          "caa_id": 41847755628,
+          "caa_release_mbid": "b6a2d201-7f59-4a20-9c01-daf6d4d40e42",
           "recording_mbid": "42d8b05e-d459-438b-b460-067433c44e78",
           "recording_name": "Broken Road",
           "release_mbid": "d0cccf78-6ae5-49b2-985e-2293b4d59acb"
@@ -1975,23 +2218,23 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
+              "url": "https://www.deezer.com/track/630827232"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451902183"
+              "url": "https://tidal.com/track/103805725"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
             },
             {
               "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451902183"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827232"
-            },
-            {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805725"
+              "url": "https://music.apple.com/us/song/1451902183"
             }
           ]
         },
@@ -2023,8 +2266,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2229,8 +2472,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2271,23 +2514,23 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
+              "url": "https://www.deezer.com/track/630827232"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451902183"
+              "url": "https://tidal.com/track/103805725"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
             },
             {
               "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451902183"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827232"
-            },
-            {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805725"
+              "url": "https://music.apple.com/us/song/1451902183"
             }
           ]
         },
@@ -2402,8 +2645,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2436,20 +2679,12 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "8fa6b714-3d43-4988-a36c-f210159b356b",
           "recording_name": "Jesus Walks",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869491"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/92099364"
-            },
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873446"
@@ -2460,7 +2695,15 @@
             },
             {
               "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869491"
+            },
+            {
+              "type": "free streaming",
               "url": "https://open.spotify.com/track/5g1vtHqi9uV7xtYeCcFOBx"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/92099364"
             }
           ]
         },
@@ -2492,8 +2735,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2526,8 +2769,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2617,23 +2860,23 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
+              "url": "https://www.deezer.com/track/630827232"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451902183"
+              "url": "https://tidal.com/track/103805725"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
             },
             {
               "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451902183"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827232"
-            },
-            {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805725"
+              "url": "https://music.apple.com/us/song/1451902183"
             }
           ]
         },
@@ -2665,8 +2908,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2699,8 +2942,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -2939,8 +3182,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -3083,280 +3326,28 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
+              "url": "https://www.deezer.com/track/630827232"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451902183"
+              "url": "https://tidal.com/track/103805725"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
             },
             {
               "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451902183"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827232"
-            },
-            {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805725"
+              "url": "https://music.apple.com/us/song/1451902183"
             }
           ]
         },
         "release_name": "Graduation",
         "track_name": "Champion"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781096938,
-      "listened_at": 1781095733,
-      "recording_msid": "d6850872-4ff9-4d2f-b4dc-056e171de85c",
-      "track_metadata": {
-        "additional_info": {
-          "recording_msid": "d6850872-4ff9-4d2f-b4dc-056e171de85c",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Cakal",
-        "release_name": "DOYAMADIM",
-        "track_name": "Doyamadım"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781096938,
-      "listened_at": 1781095533,
-      "recording_msid": "651e274a-91bc-44d4-b57b-059dcc9e4380",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
-          "lastfm_track_mbid": "1e1300b7-edd3-4b93-ba6c-d01b052afa6f",
-          "recording_msid": "651e274a-91bc-44d4-b57b-059dcc9e4380",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 12790816703,
-          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
-          "recording_mbid": "48aa3d63-d8bf-439c-9daf-805f4409fe77",
-          "recording_name": "Highlights",
-          "release_mbid": "f84ac70c-0956-4752-950c-0a1cdc4ee5a0"
-        },
-        "release_name": "The Life of Pablo",
-        "track_name": "Highlights"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781096938,
-      "listened_at": 1781095261,
-      "recording_msid": "6816cb8c-9094-482b-8eed-f44ac7116c73",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_track_mbid": "277a984e-86c0-49c0-a439-7973ca4e376c",
-          "recording_msid": "6816cb8c-9094-482b-8eed-f44ac7116c73",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "35426c02-dc12-469a-9b61-08cf077bf6e3",
-          "recording_name": "Ölümsüz",
-          "release_mbid": "afb2fbf9-924b-44e4-9f7a-bfd9bcd9c3a3"
-        },
-        "release_name": "15. Yıl Seçmeler",
-        "track_name": "Ölümsüz"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781096938,
-      "listened_at": 1781094904,
-      "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
-          "lastfm_track_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
-          "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_name": "Spaceship",
-          "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
-        },
-        "release_name": "The College Dropout",
-        "track_name": "Spaceship"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781096938,
-      "listened_at": 1781094315,
-      "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
-          "lastfm_track_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
-          "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_name": "Spaceship",
-          "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
-        },
-        "release_name": "The College Dropout",
-        "track_name": "Spaceship"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781073348,
-      "listened_at": 1781071648,
-      "recording_msid": "f73186ac-6f57-480b-af6e-afb475faecb5",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "lastfm_track_mbid": "2b03fc86-e740-475d-b351-b685e73582c5",
-          "recording_msid": "f73186ac-6f57-480b-af6e-afb475faecb5",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 43915631863,
-          "caa_release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede",
-          "recording_mbid": "2b03fc86-e740-475d-b351-b685e73582c5",
-          "recording_name": "Shchedryi Metal",
-          "release_mbid": "e51afe2d-85a2-49d9-8bf1-c198c0d0dede"
-        },
-        "release_name": "Ptakh",
-        "track_name": "Shchedryi metal"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781073348,
-      "listened_at": 1781071395,
-      "recording_msid": "45d7c206-3cb4-4185-b146-62f8721e2bb6",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "2aa28fd0-2358-4278-b908-ea9ba2a0a77a",
-          "recording_msid": "45d7c206-3cb4-4185-b146-62f8721e2bb6",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 43723966619,
-          "caa_release_mbid": "2aa28fd0-2358-4278-b908-ea9ba2a0a77a",
-          "recording_mbid": "9f01ae48-b801-4424-a28d-e5d4e59a1430",
-          "recording_name": "Şişli Meydanında Üç Kız",
-          "release_mbid": "2aa28fd0-2358-4278-b908-ea9ba2a0a77a"
-        },
-        "release_name": "Marşlarımız",
-        "track_name": "Şişli meydanı'nda üç kız"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781073348,
-      "listened_at": 1781071252,
-      "recording_msid": "d0494ad4-6a3f-4dc6-a780-1ae24175a5f1",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
-          "lastfm_release_mbid": "9bd15932-3231-4df6-bd8c-5f731ad76088",
-          "lastfm_track_mbid": "4de95bc0-6ae9-4b27-bd0e-ea222c14da91",
-          "recording_msid": "d0494ad4-6a3f-4dc6-a780-1ae24175a5f1",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Pomme",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Pomme",
-              "artist_mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34043538714,
-          "caa_release_mbid": "f1d03d55-9d47-47aa-b337-a1899609bd8d",
-          "recording_mbid": "ffff7448-06e6-4015-9b0d-4582429ffd57",
-          "recording_name": "soleil soleil",
-          "release_mbid": "0bf4bb1f-e497-4627-803a-e0649fd0b2b1"
-        },
-        "release_name": "Les Failles",
-        "track_name": "soleil soleil"
       },
       "user_name": "emomert"
     }
