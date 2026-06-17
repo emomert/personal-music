@@ -1,6 +1,143 @@
 {
   "listens": [
     {
+      "inserted_at": 1781677730,
+      "listened_at": 1781675466,
+      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
+          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
+          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44107770856,
+          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
+          "recording_name": "Im tanzen liebe",
+          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
+        },
+        "release_name": "Alambari",
+        "track_name": "Im tanzen liebe"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781677730,
+      "listened_at": 1781675141,
+      "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
+          "lastfm_track_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
+          "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
+          "recording_name": "Spaceship",
+          "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
+        },
+        "release_name": "The College Dropout",
+        "track_name": "Spaceship"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781677730,
+      "listened_at": 1781674963,
+      "recording_msid": "217e2d1f-3846-4819-b76b-88f6cdbcc35a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
+          "lastfm_track_mbid": "fffb81cd-a18f-3afe-8e74-5d5e7078295f",
+          "recording_msid": "217e2d1f-3846-4819-b76b-88f6cdbcc35a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+            "2f39cc02-3dbb-4529-ab02-51aadbe7e4e1"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": " featuring "
+            },
+            {
+              "artist_credit_name": "Jay‐Z",
+              "artist_mbid": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+              "join_phrase": " & "
+            },
+            {
+              "artist_credit_name": "J. Ivy",
+              "artist_mbid": "2f39cc02-3dbb-4529-ab02-51aadbe7e4e1",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "recording_mbid": "3d27a299-03df-4e04-90c1-559d3e7bc3c2",
+          "recording_name": "Never Let Me Down",
+          "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/92099365"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412873485"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1412873485"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869501"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/34j4OxJxKznBs88cjSL2j9"
+            }
+          ]
+        },
+        "release_name": "The College Dropout",
+        "track_name": "Never Let Me Down"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1781546105,
       "listened_at": 1781542705,
       "recording_msid": "008db418-2101-4620-a183-e845132d0d68",
@@ -682,23 +819,23 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://www.deezer.com/track/3484326261"
+              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
             },
             {
               "type": "free streaming",
-              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
+              "url": "https://www.deezer.com/track/3484326261"
             },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/1SHvXh0EAb7zgxMmasI31d"
             },
             {
-              "type": "streaming",
-              "url": "https://tidal.com/track/451198943"
-            },
-            {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/451198943"
             }
           ]
         },
@@ -3348,108 +3485,6 @@
         "track_name": "Champion"
       },
       "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781105355,
-      "listened_at": 1781103017,
-      "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
-          "lastfm_track_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
-          "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_name": "Spaceship",
-          "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
-        },
-        "release_name": "The College Dropout",
-        "track_name": "Spaceship"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781105355,
-      "listened_at": 1781102697,
-      "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "1065bda8-c38f-4824-8ce1-248014836d3f",
-          "lastfm_track_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_msid": "085a66cf-cdb5-4ea6-9a64-714daae526b3",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
-          "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
-          "recording_name": "Spaceship",
-          "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
-        },
-        "release_name": "The College Dropout",
-        "track_name": "Spaceship"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781105355,
-      "listened_at": 1781102428,
-      "recording_msid": "efdecb15-1355-4018-8a0c-167960161357",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-          "lastfm_track_mbid": "2872d019-9cb2-4deb-b858-a414a285c788",
-          "recording_msid": "efdecb15-1355-4018-8a0c-167960161357",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Revolte Springen",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Revolte Springen",
-              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 13041934237,
-          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
-          "recording_mbid": "2872d019-9cb2-4deb-b858-a414a285c788",
-          "recording_name": "Alle Städte",
-          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
-        },
-        "release_name": "Revolte Inside",
-        "track_name": "Alle Städte"
-      },
-      "user_name": "emomert"
     }
   ],
   "artistStats": {
@@ -3457,52 +3492,52 @@
       {
         "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
         "artist_name": "Ye",
-        "listen_count": 676
+        "listen_count": 747
       },
       {
         "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "artist_name": "Grup Yorum",
-        "listen_count": 492
+        "listen_count": 529
       },
       {
         "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
         "artist_name": "Tame Impala",
-        "listen_count": 263
-      },
-      {
-        "artist_mbid": null,
-        "artist_name": "TurkodiRoma",
-        "listen_count": 143
-      },
-      {
-        "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
-        "artist_name": "Radiohead",
-        "listen_count": 128
+        "listen_count": 264
       },
       {
         "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
         "artist_name": "DakhaBrakha",
-        "listen_count": 123
+        "listen_count": 150
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "TurkodiRoma",
+        "listen_count": 144
       },
       {
         "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
         "artist_name": "Revolte Springen",
-        "listen_count": 113
+        "listen_count": 137
+      },
+      {
+        "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+        "artist_name": "Radiohead",
+        "listen_count": 129
       },
       {
         "artist_mbid": "692e367d-2846-442d-b13d-1177c3681c65",
         "artist_name": "王菲",
-        "listen_count": 99
+        "listen_count": 104
       },
       {
         "artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
         "artist_name": "MF DOOM",
-        "listen_count": 98
+        "listen_count": 101
       },
       {
         "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
         "artist_name": "Grup Ekin",
-        "listen_count": 98
+        "listen_count": 100
       },
       {
         "artist_mbid": null,
@@ -3521,28 +3556,28 @@
       },
       {
         "artist_mbid": null,
-        "artist_name": "The Beatles",
-        "listen_count": 83
-      },
-      {
-        "artist_mbid": null,
         "artist_name": "MF DOOM",
-        "listen_count": 80
-      },
-      {
-        "artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
-        "artist_name": "Gorillaz",
-        "listen_count": 77
+        "listen_count": 87
       },
       {
         "artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
         "artist_name": "The Dø",
-        "listen_count": 74
+        "listen_count": 83
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "The Beatles",
+        "listen_count": 83
+      },
+      {
+        "artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+        "artist_name": "Gorillaz",
+        "listen_count": 78
       },
       {
         "artist_mbid": null,
         "artist_name": "Lofi Girl",
-        "listen_count": 74
+        "listen_count": 76
       },
       {
         "artist_mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
@@ -3565,6 +3600,11 @@
         "listen_count": 62
       },
       {
+        "artist_mbid": null,
+        "artist_name": "Cakal",
+        "listen_count": 60
+      },
+      {
         "artist_mbid": "1595addf-f76b-450a-a097-af852ff35f27",
         "artist_name": "Nujabes",
         "listen_count": 59
@@ -3573,20 +3613,15 @@
         "artist_mbid": "e14075cd-abdc-4815-9a19-78263f8fc35a",
         "artist_name": "Iyeoka",
         "listen_count": 59
-      },
-      {
-        "artist_mbid": "ff294730-0315-440d-a543-54005779c15b",
-        "artist_name": "The Mamas & the Papas",
-        "listen_count": 57
       }
     ],
     "count": 25,
     "from_ts": 1009843200,
-    "last_updated": 1780191654,
+    "last_updated": 1781652229,
     "offset": 0,
     "range": "all_time",
-    "to_ts": 1779840896,
-    "total_artist_count": 1033,
+    "to_ts": 1781568044,
+    "total_artist_count": 1048,
     "user_id": "emomert"
   }
 }
