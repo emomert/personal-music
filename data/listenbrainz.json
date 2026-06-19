@@ -1,6 +1,239 @@
 {
   "listens": [
     {
+      "inserted_at": 1781857560,
+      "listened_at": 1781855956,
+      "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
+          "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Ekin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Ekin",
+              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "21ec5b10-eaa2-4d25-94e4-5b0e94550dda",
+          "recording_name": "Avanti Poppolo",
+          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
+        },
+        "release_name": "Gün Bizim",
+        "track_name": "Avanti Populo"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781778021,
+      "listened_at": 1781771967,
+      "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
+          "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Ekin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Ekin",
+              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "21ec5b10-eaa2-4d25-94e4-5b0e94550dda",
+          "recording_name": "Avanti Poppolo",
+          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
+        },
+        "release_name": "Gün Bizim",
+        "track_name": "Avanti Populo"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781771998,
+      "listened_at": 1781771623,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781771998,
+      "listened_at": 1781771392,
+      "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
+          "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Ekin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Ekin",
+              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "21ec5b10-eaa2-4d25-94e4-5b0e94550dda",
+          "recording_name": "Avanti Poppolo",
+          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
+        },
+        "release_name": "Gün Bizim",
+        "track_name": "Avanti Populo"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781771998,
+      "listened_at": 1781771168,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781771998,
+      "listened_at": 1781770893,
+      "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
+          "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Ekin",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Ekin",
+              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "21ec5b10-eaa2-4d25-94e4-5b0e94550dda",
+          "recording_name": "Avanti Poppolo",
+          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
+        },
+        "release_name": "Gün Bizim",
+        "track_name": "Avanti Populo"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1781771998,
+      "listened_at": 1781769475,
+      "recording_msid": "4b63c7c7-c560-47f9-a8df-ba55337842a1",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
+          "lastfm_track_mbid": "eada9487-38c9-336e-aeae-3dc84cad46c9",
+          "recording_msid": "4b63c7c7-c560-47f9-a8df-ba55337842a1",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 14947113648,
+          "caa_release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
+          "recording_mbid": "2f0447bd-11e2-4391-b26e-34d46dd51ea9",
+          "recording_name": "Felluce",
+          "release_mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648"
+        },
+        "release_name": "Yıldızlar Kuşandık",
+        "track_name": "Felluce"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1781769408,
       "listened_at": 1781769245,
       "recording_msid": "957bda63-97e8-4e29-89c7-a969235d7974",
@@ -3108,8 +3341,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 41847755628,
-          "caa_release_mbid": "b6a2d201-7f59-4a20-9c01-daf6d4d40e42",
+          "caa_id": 45424126172,
+          "caa_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
           "recording_mbid": "0b462193-e57a-441a-b9c3-f1e8a25b694e",
           "recording_name": "Get Lost",
           "release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1"
@@ -3142,8 +3375,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 41847755628,
-          "caa_release_mbid": "b6a2d201-7f59-4a20-9c01-daf6d4d40e42",
+          "caa_id": 45424126172,
+          "caa_release_mbid": "fdd45106-192c-4da8-ac07-ec21351439e1",
           "recording_mbid": "42d8b05e-d459-438b-b460-067433c44e78",
           "recording_name": "Broken Road",
           "release_mbid": "d0cccf78-6ae5-49b2-985e-2293b4d59acb"
@@ -3269,224 +3502,6 @@
         "artist_name": "The Dø",
         "release_name": "Both Ways Open Jaws (Extended) [Live At Studio Pigalle] [Bonus Version]",
         "track_name": "Slippery Slope (Extended) [Live At Studio Pigalle]"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781260952,
-      "recording_msid": "9b295e7f-fffa-4e11-ba03-eeb6af384fa5",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
-          "recording_msid": "9b295e7f-fffa-4e11-ba03-eeb6af384fa5",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "The Dø",
-        "release_name": "Both Ways Open Jaws (Extended) [Live At Studio Pigalle] [Bonus Version]",
-        "track_name": "Slippery Slope (Extended) [Live At Studio Pigalle]"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781260705,
-      "recording_msid": "1a23bc75-b7d9-435c-8fac-300aee101617",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "f4857fb9-e255-4dc6-bd01-e4ca7cc68544",
-          "lastfm_release_mbid": "20deed5e-8101-4d1e-826e-65552d31d398",
-          "lastfm_track_mbid": "1bf1c2d4-cde6-4ff9-a046-470b83851b72",
-          "recording_msid": "1a23bc75-b7d9-435c-8fac-300aee101617",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Jamiroquai",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "f4857fb9-e255-4dc6-bd01-e4ca7cc68544"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Jamiroquai",
-              "artist_mbid": "f4857fb9-e255-4dc6-bd01-e4ca7cc68544",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 16506198062,
-          "caa_release_mbid": "d7b8f8f3-26a4-466d-964b-952b0b040db3",
-          "recording_mbid": "bfd46a9c-e271-4d99-8523-3877648396fc",
-          "recording_name": "We Can Do It",
-          "release_mbid": "95303c48-4774-4dc0-a238-484254faf92e"
-        },
-        "release_name": "Automaton",
-        "track_name": "We Can Do It"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781260568,
-      "recording_msid": "688736ee-95b3-4b4e-a940-31372081feca",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "f325fc16-bc3e-4392-afa6-d8be79ca8cb7",
-          "lastfm_release_mbid": "4542e788-64f1-4f83-abcc-6674c46b1735",
-          "lastfm_track_mbid": "b4379d67-f95e-4a84-916e-60bbe81e5b7c",
-          "recording_msid": "688736ee-95b3-4b4e-a940-31372081feca",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Özgürlük Türküsü",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "f325fc16-bc3e-4392-afa6-d8be79ca8cb7"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Özgürlük Türküsü",
-              "artist_mbid": "f325fc16-bc3e-4392-afa6-d8be79ca8cb7",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "165e1a4b-20c4-4ae6-b7d4-cc0ba6673d2b",
-          "recording_name": "Gününü Umuda Ayarla",
-          "release_mbid": "4542e788-64f1-4f83-abcc-6674c46b1735"
-        },
-        "release_name": "Gününü Umuda Ayarla",
-        "track_name": "Gününü umuda ayarla"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781260317,
-      "recording_msid": "d81af6ee-1774-49ec-9ef6-1c51e0086df4",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "df707969-7279-49fc-ac29-224ceb7a46e1",
-          "recording_msid": "d81af6ee-1774-49ec-9ef6-1c51e0086df4",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Şam",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "df707969-7279-49fc-ac29-224ceb7a46e1"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Şam",
-              "artist_mbid": "df707969-7279-49fc-ac29-224ceb7a46e1",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "4ec8847a-03ad-42fc-849f-ad41b6c2f51b",
-          "recording_name": "Gözlerime Bak",
-          "release_mbid": "2969f926-840d-4d78-9e9d-cc6752b8ffcd"
-        },
-        "release_name": "Gözlerime Bak",
-        "track_name": "Gözlerime Bak"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781259948,
-      "recording_msid": "2c7d6a0a-42cc-4733-8665-fe65b5ad25ac",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
-          "lastfm_track_mbid": "6698a48a-cfb7-45fb-84a1-1dc127e133af",
-          "recording_msid": "2c7d6a0a-42cc-4733-8665-fe65b5ad25ac",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 12790816703,
-          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
-          "recording_mbid": "ad3e81c9-bd1a-459a-8d03-83c27925d2f8",
-          "recording_name": "Freestyle 4",
-          "release_mbid": "713a0ac1-b57e-48b9-baa4-ce71ad11e9d0"
-        },
-        "release_name": "The Life of Pablo",
-        "track_name": "Freestyle 4"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781263420,
-      "listened_at": 1781259730,
-      "recording_msid": "0afa65df-f244-4971-9863-219377b25f31",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "1f064e2d-aa55-4631-8f62-e2c14bbe1f4e",
-          "lastfm_release_mbid": "a81c7156-9f3e-416f-bf0c-d31a25281c5b",
-          "lastfm_track_mbid": "1da72b59-995e-3d55-93d1-44fd8f538ce1",
-          "recording_msid": "0afa65df-f244-4971-9863-219377b25f31",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Vitalic",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "1f064e2d-aa55-4631-8f62-e2c14bbe1f4e"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Vitalic",
-              "artist_mbid": "1f064e2d-aa55-4631-8f62-e2c14bbe1f4e",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 915338366,
-          "caa_release_mbid": "b391f87e-5649-33f6-bc4b-faae9af159f2",
-          "recording_mbid": "4a809bb2-4d6c-47b1-9649-e0204e9bf94e",
-          "recording_name": "My Friend Dario",
-          "release_mbid": "cd05b9e5-be7c-3082-a756-09f91fa43f13"
-        },
-        "release_name": "OK Cowboy",
-        "track_name": "My Friend Dario"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1781258495,
-      "listened_at": 1781258033,
-      "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-          "lastfm_track_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
-          "recording_msid": "6d169a75-6b15-4b2a-bb81-c0f919d891ac",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Revolte Springen",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Revolte Springen",
-              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 13041934237,
-          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
-          "recording_mbid": "8cdb2725-b355-4100-abf5-165901f34cbd",
-          "recording_name": "Gartenzwerghasslied Country",
-          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
-        },
-        "release_name": "Revolte Inside",
-        "track_name": "Gartenzwerghasslied Country"
       },
       "user_name": "emomert"
     }
