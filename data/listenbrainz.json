@@ -1664,7 +1664,11 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
+              "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/451198943"
             },
             {
               "type": "free streaming",
@@ -1676,11 +1680,7 @@
             },
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/451198943"
+              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
             }
           ]
         },
@@ -3061,7 +3061,11 @@
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
+              "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/451198943"
             },
             {
               "type": "free streaming",
@@ -3073,11 +3077,7 @@
             },
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/451198943"
+              "url": "https://www.youtube.com/watch?v=e-fA-gBCkj0"
             }
           ]
         },
