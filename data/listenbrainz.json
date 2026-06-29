@@ -354,12 +354,12 @@
               "url": "https://open.spotify.com/track/52ojopYMUzeNcudsoz7O9D"
             },
             {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/103052674"
-            },
-            {
               "type": "streaming",
               "url": "https://music.apple.com/gb/song/1440838708"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/103052674"
             },
             {
               "type": "purchase for download",
@@ -763,23 +763,19 @@
           "url_rels": [
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805726"
+              "url": "https://music.apple.com/de/song/1445288542"
             },
             {
               "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1451902446"
+              "url": "https://music.apple.com/de/song/1445288542"
             },
             {
               "type": "streaming",
               "url": "https://tidal.com/track/13041186"
             },
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451902446"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/de/song/1445288542"
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1eLJoRzqfc8oeSl9KsNmN8"
             },
             {
               "type": "free streaming",
@@ -787,19 +783,23 @@
             },
             {
               "type": "free streaming",
+              "url": "https://www.deezer.com/track/630827242"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/103805726"
+            },
+            {
+              "type": "free streaming",
               "url": "https://open.spotify.com/track/0j2T0R9dR9qdJYsB7ciXhf"
             },
             {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/1eLJoRzqfc8oeSl9KsNmN8"
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1451902446"
             },
             {
               "type": "purchase for download",
-              "url": "https://music.apple.com/de/song/1445288542"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827242"
+              "url": "https://music.apple.com/us/song/1451902446"
             }
           ]
         },
@@ -831,8 +831,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "8fa6b714-3d43-4988-a36c-f210159b356b",
           "recording_name": "Jesus Walks",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
@@ -843,15 +843,15 @@
             },
             {
               "type": "free streaming",
+              "url": "https://open.spotify.com/track/5g1vtHqi9uV7xtYeCcFOBx"
+            },
+            {
+              "type": "free streaming",
               "url": "https://www.deezer.com/track/528869491"
             },
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873446"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5g1vtHqi9uV7xtYeCcFOBx"
             },
             {
               "type": "streaming",
@@ -887,15 +887,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -903,15 +911,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -1357,8 +1357,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -1423,15 +1423,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -1439,15 +1447,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -1643,15 +1643,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -1659,15 +1667,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -1763,15 +1763,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -1779,15 +1787,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -1885,20 +1885,12 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "f86e9809-9e3f-4fd7-90aa-9d4a9c57e6db",
           "recording_name": "We Don’t Care",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1412872999"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412872999"
-            },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/0IW0qaeyxL5Et4UG2MrJKB"
@@ -1906,6 +1898,14 @@
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099359"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412872999"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1412872999"
             },
             {
               "type": "free streaming",
@@ -1957,8 +1957,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "8fa6b714-3d43-4988-a36c-f210159b356b",
           "recording_name": "Jesus Walks",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
@@ -1969,15 +1969,15 @@
             },
             {
               "type": "free streaming",
+              "url": "https://open.spotify.com/track/5g1vtHqi9uV7xtYeCcFOBx"
+            },
+            {
+              "type": "free streaming",
               "url": "https://www.deezer.com/track/528869491"
             },
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873446"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5g1vtHqi9uV7xtYeCcFOBx"
             },
             {
               "type": "streaming",
@@ -2024,20 +2024,12 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "24a3ae61-abcb-45bc-a72e-e6d35d8cf6a1",
           "recording_name": "Spaceship",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/92099363"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/1ko2NuvWlQdxtNRc8QQzmT"
-            },
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873326"
@@ -2049,6 +2041,14 @@
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869481"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1ko2NuvWlQdxtNRc8QQzmT"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/92099363"
             }
           ]
         },
@@ -2080,15 +2080,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -2096,15 +2104,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -2141,12 +2141,16 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "951bdee5-4718-4455-b435-d46de3833331",
           "recording_name": "All Falls Down",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/5SkRLpaGtvYPhw02vZhQQ9"
+            },
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869461"
@@ -2162,10 +2166,6 @@
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099361"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5SkRLpaGtvYPhw02vZhQQ9"
             }
           ]
         },
@@ -2197,12 +2197,20 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "6f531c8e-babb-44fa-b7d5-60a2dbea88f1",
           "recording_name": "Graduation Day",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412873017"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/7wL7Lb8Q3aYyq6gmRL0PZq"
+            },
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869451"
@@ -2213,15 +2221,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873017"
-            },
-            {
-              "type": "streaming",
               "url": "https://tidal.com/track/92099360"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/7wL7Lb8Q3aYyq6gmRL0PZq"
             }
           ]
         },
@@ -2253,20 +2253,12 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "f86e9809-9e3f-4fd7-90aa-9d4a9c57e6db",
           "recording_name": "We Don’t Care",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1412872999"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412872999"
-            },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/0IW0qaeyxL5Et4UG2MrJKB"
@@ -2274,6 +2266,14 @@
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099359"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412872999"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1412872999"
             },
             {
               "type": "free streaming",
@@ -2388,7 +2388,7 @@
           "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
           "url_rels": [
             {
-              "type": "purchase for download",
+              "type": "streaming",
               "url": "https://music.apple.com/de/song/1445288536"
             },
             {
@@ -2396,28 +2396,8 @@
               "url": "https://tidal.com/track/13041185"
             },
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/de/song/1445288536"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/2630875"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5yuU6bGyfeZspnqCNytnny"
-            },
-            {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/630827332"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/103805735"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
             },
             {
               "type": "streaming",
@@ -2426,6 +2406,26 @@
             {
               "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/5yuU6bGyfeZspnqCNytnny"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/de/song/1445288536"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/2630875"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/103805735"
             }
           ]
         },
@@ -2558,15 +2558,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "760ae8d6-218a-4a09-b71a-e2a3107ada23",
           "recording_name": "I’ll Fly Away",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/528869471"
+            },
+            {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099362"
+              "url": "https://music.apple.com/us/song/1412873324"
             },
             {
               "type": "purchase for download",
@@ -2574,15 +2582,7 @@
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873324"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869471"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/6MgGapP3EPFm9kYUvYBTZR"
+              "url": "https://tidal.com/track/92099362"
             }
           ]
         },
@@ -2633,7 +2633,7 @@
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
-              "type": "streaming",
+              "type": "purchase for download",
               "url": "https://music.apple.com/us/song/1412873485"
             },
             {
@@ -2645,12 +2645,12 @@
               "url": "https://open.spotify.com/track/34j4OxJxKznBs88cjSL2j9"
             },
             {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1412873485"
+              "type": "streaming",
+              "url": "https://tidal.com/track/92099365"
             },
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099365"
+              "url": "https://music.apple.com/us/song/1412873485"
             }
           ]
         },
@@ -2682,8 +2682,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "e1255b86-3a97-4c9a-974d-0225bf1f0b11",
           "recording_name": "Spaceship",
           "release_mbid": "795c2583-7c22-42de-b01f-c3d8d12c8477"
@@ -3118,19 +3118,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "c66429c7-7825-472d-b0c8-c1cfcf5afac4",
           "recording_name": "School Spirit (skit 1)",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873603"
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/25mwJPzWVmS2yronBNQJF1"
             },
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099371"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412873603"
             },
             {
               "type": "purchase for download",
@@ -3139,10 +3143,6 @@
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869561"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/25mwJPzWVmS2yronBNQJF1"
             }
           ]
         },
@@ -3427,19 +3427,23 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 37280144185,
-          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
+          "caa_id": 34245157344,
+          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
           "recording_mbid": "c66429c7-7825-472d-b0c8-c1cfcf5afac4",
           "recording_name": "School Spirit (skit 1)",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873603"
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/25mwJPzWVmS2yronBNQJF1"
             },
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099371"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1412873603"
             },
             {
               "type": "purchase for download",
@@ -3448,10 +3452,6 @@
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869561"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/25mwJPzWVmS2yronBNQJF1"
             }
           ]
         },
