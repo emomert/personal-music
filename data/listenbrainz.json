@@ -2024,19 +2024,19 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "24a3ae61-abcb-45bc-a72e-e6d35d8cf6a1",
           "recording_name": "Spaceship",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/92099363"
+              "url": "https://music.apple.com/us/song/1412873326"
             },
             {
               "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873326"
+              "url": "https://tidal.com/track/92099363"
             },
             {
               "type": "purchase for download",
@@ -2044,11 +2044,11 @@
             },
             {
               "type": "free streaming",
-              "url": "https://www.deezer.com/track/528869481"
+              "url": "https://open.spotify.com/track/1ko2NuvWlQdxtNRc8QQzmT"
             },
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/1ko2NuvWlQdxtNRc8QQzmT"
+              "url": "https://www.deezer.com/track/528869481"
             }
           ]
         },
@@ -2141,23 +2141,15 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "951bdee5-4718-4455-b435-d46de3833331",
           "recording_name": "All Falls Down",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
               "type": "free streaming",
-              "url": "https://open.spotify.com/track/5SkRLpaGtvYPhw02vZhQQ9"
-            },
-            {
-              "type": "free streaming",
               "url": "https://www.deezer.com/track/528869461"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/92099361"
             },
             {
               "type": "purchase for download",
@@ -2166,6 +2158,14 @@
             {
               "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873019"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/5SkRLpaGtvYPhw02vZhQQ9"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/92099361"
             }
           ]
         },
@@ -2389,35 +2389,31 @@
           "url_rels": [
             {
               "type": "streaming",
-              "url": "https://music.apple.com/de/song/1445288536"
+              "url": "https://music.apple.com/us/song/1451904360"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
             },
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/13041185"
+              "url": "https://tidal.com/track/103805735"
             },
             {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/630827332"
             },
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451904360"
-            },
-            {
               "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1451904360"
+              "url": "https://music.apple.com/de/song/1445288536"
             },
             {
               "type": "free streaming",
               "url": "https://open.spotify.com/track/5yuU6bGyfeZspnqCNytnny"
             },
             {
-              "type": "purchase for download",
+              "type": "streaming",
               "url": "https://music.apple.com/de/song/1445288536"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
             },
             {
               "type": "free streaming",
@@ -2425,7 +2421,11 @@
             },
             {
               "type": "streaming",
-              "url": "https://tidal.com/track/103805735"
+              "url": "https://tidal.com/track/13041185"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1451904360"
             }
           ]
         },
@@ -2626,30 +2626,30 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 34245157344,
-          "caa_release_mbid": "99a96bf6-8166-3b7c-97ed-ea525f13ec65",
+          "caa_id": 37280144185,
+          "caa_release_mbid": "da13b81f-7b09-3fb6-b5c9-8551f22c797e",
           "recording_mbid": "3d27a299-03df-4e04-90c1-559d3e7bc3c2",
           "recording_name": "Never Let Me Down",
           "release_mbid": "11b6532c-0de0-45bb-84fc-7e99514a4cd5",
           "url_rels": [
             {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/34j4OxJxKznBs88cjSL2j9"
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1412873485"
             },
             {
               "type": "streaming",
               "url": "https://tidal.com/track/92099365"
             },
             {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1412873485"
-            },
-            {
               "type": "free streaming",
               "url": "https://www.deezer.com/track/528869501"
             },
             {
-              "type": "purchase for download",
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/34j4OxJxKznBs88cjSL2j9"
+            },
+            {
+              "type": "streaming",
               "url": "https://music.apple.com/us/song/1412873485"
             }
           ]
