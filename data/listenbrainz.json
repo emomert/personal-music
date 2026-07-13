@@ -1,6 +1,149 @@
 {
   "listens": [
     {
+      "inserted_at": 1783882481,
+      "listened_at": 1783876609,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1783874542,
+      "listened_at": 1783871154,
+      "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "lastfm_track_mbid": "1a96f766-97e1-41c0-baf6-2eb244c86d55",
+          "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Daft Punk",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Daft Punk",
+              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 34368859458,
+          "caa_release_mbid": "0c976bd1-88db-48f9-ac71-e5309e0e54d5",
+          "recording_mbid": "fb751a1b-4fde-4cf3-bf4c-6cf7f8bcd599",
+          "recording_name": "Technologic (Vitalic remix)",
+          "release_mbid": "9e4cb666-a8c6-4606-bdfc-b9e176137900",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1QKWEOrj8Ee8PBu6mPVSw1"
+            }
+          ]
+        },
+        "release_name": "Human After All: Remixes",
+        "track_name": "Technologic (Vitalic Remix)"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1783874542,
+      "listened_at": 1783870885,
+      "recording_msid": "facace74-e839-48dd-bbea-a9880f81bff9",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+          "lastfm_release_mbid": "44adeed6-d482-43f0-bdee-7e71a3ad3bac",
+          "lastfm_track_mbid": "3dd336a0-f323-4467-af0c-3d38b048be8f",
+          "recording_msid": "facace74-e839-48dd-bbea-a9880f81bff9",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kiss",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e1f1e33e-2e4c-4d43-b91b-7064068d3283"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "KISS",
+              "artist_mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 10023792724,
+          "caa_release_mbid": "1cc73655-b8a2-48fc-816f-64c94b5b6f7a",
+          "recording_mbid": "e8be59c6-b1fd-4d79-b64b-3fdf1640a7b7",
+          "recording_name": "I Was Made for Lovin’ You",
+          "release_mbid": "71b8532a-9e92-4f69-80e9-a85cf623cdbd"
+        },
+        "release_name": "The Very Best of Kiss",
+        "track_name": "I Was Made for Lovin' You"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1783874542,
+      "listened_at": 1783870710,
+      "recording_msid": "c1822e7e-ffe4-49f7-ac58-62438e39f12c",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "49502cf2-27de-497a-a4a2-4925e86a0764",
+          "recording_msid": "c1822e7e-ffe4-49f7-ac58-62438e39f12c",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Carrera Blanca",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "49502cf2-27de-497a-a4a2-4925e86a0764"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Carrera Blanca",
+              "artist_mbid": "49502cf2-27de-497a-a4a2-4925e86a0764",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44410468851,
+          "caa_release_mbid": "02b3d8fc-a3c1-4868-92ba-4479c137a204",
+          "recording_mbid": "59d10882-6207-416e-8ccb-354cdb1a9c28",
+          "recording_name": "Adulto funcional",
+          "release_mbid": "02b3d8fc-a3c1-4868-92ba-4479c137a204"
+        },
+        "release_name": "Adulto funcional",
+        "track_name": "Adulto funcional"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1783580954,
       "listened_at": 1783544284,
       "recording_msid": "dcfc9944-764b-4e84-8f46-539a44127894",
@@ -2687,8 +2830,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 14455774291,
-          "caa_release_mbid": "0dfa1061-f8b2-4dab-bf1b-8ecdc3033628",
+          "caa_id": 34093301190,
+          "caa_release_mbid": "7323c394-f25e-4925-a58f-736b1e1205a7",
           "recording_mbid": "1361d3a6-eda6-48e1-9dde-4c4c66ddc4fd",
           "recording_name": "Truth",
           "release_mbid": "0dfa1061-f8b2-4dab-bf1b-8ecdc3033628",
@@ -3286,188 +3429,6 @@
         },
         "release_name": "Graduation",
         "track_name": "Flashing Lights"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782721464,
-      "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
-          "recording_msid": "89cf7ef5-a87a-45e1-ab12-7fd5238ab024",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West • Chris Martin",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051",
-            "98d1ec5a-dd97-4c0b-9c83-7928aac89bca"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": " feat. "
-            },
-            {
-              "artist_credit_name": "Chris Martin",
-              "artist_mbid": "98d1ec5a-dd97-4c0b-9c83-7928aac89bca",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 24202595971,
-          "caa_release_mbid": "08e0cab1-e95c-4b33-8ed3-1337d934fb7f",
-          "recording_mbid": "0d20345f-345c-459b-9d05-34b2906e5da9",
-          "recording_name": "Homecoming",
-          "release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
-          "url_rels": [
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/us/song/1451904360"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
-            },
-            {
-              "type": "streaming",
-              "url": "https://music.apple.com/de/song/1445288536"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/13041185"
-            },
-            {
-              "type": "streaming",
-              "url": "https://tidal.com/track/103805735"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/630827332"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/5yuU6bGyfeZspnqCNytnny"
-            },
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/de/song/1445288536"
-            },
-            {
-              "type": "purchase for download",
-              "url": "https://music.apple.com/us/song/1451904360"
-            },
-            {
-              "type": "free streaming",
-              "url": "https://www.deezer.com/track/2630875"
-            }
-          ]
-        },
-        "release_name": "Graduation",
-        "track_name": "Homecoming"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782721328,
-      "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "03f03619-385a-4ed9-9974-cdcdf6404cf5",
-          "lastfm_track_mbid": "994262c2-5d1a-4a37-9188-12cb040af0ad",
-          "recording_msid": "3cabd813-47be-4902-a11f-6c5d3cc7bc5e",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 12790816703,
-          "caa_release_mbid": "99e14f9e-5831-4b2c-b595-531be0f225ea",
-          "recording_mbid": "361a2281-ce41-4486-933e-8957f9024068",
-          "recording_name": "Father Stretch My Hands, Pt. 1",
-          "release_mbid": "f84ac70c-0956-4752-950c-0a1cdc4ee5a0"
-        },
-        "release_name": "The Life of Pablo",
-        "track_name": "Father Stretch My Hands Pt. 1"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782721082,
-      "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-          "lastfm_release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
-          "lastfm_track_mbid": "de29fb8a-5546-3c3c-b9d5-50d2af050895",
-          "recording_msid": "3fa4fcfe-59ba-4498-8f10-829bfe1206cb",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Ekin",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Ekin",
-              "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
-              "join_phrase": ""
-            }
-          ],
-          "recording_mbid": "2f46a02c-d5ea-4651-af62-1aea143c7b10",
-          "recording_name": "Vurulup Düşmüşsün",
-          "release_mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6"
-        },
-        "release_name": "Gün Bizim",
-        "track_name": "Vurulup Düşmüşsün"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782720884,
-      "recording_msid": "075f6a0b-b99f-4bf9-b49a-b9b6ce59bfe4",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-          "lastfm_track_mbid": "df3631c9-556c-4d2a-acf5-bbcdb35b6659",
-          "recording_msid": "075f6a0b-b99f-4bf9-b49a-b9b6ce59bfe4",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Revolte Springen",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "da06c57c-d53c-4cd6-b4d0-a3f49538271c"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Revolte Springen",
-              "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 13041934237,
-          "caa_release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b",
-          "recording_mbid": "df3631c9-556c-4d2a-acf5-bbcdb35b6659",
-          "recording_name": "Gartenzwerghasslied HipHop",
-          "release_mbid": "35cd4ec3-03a0-4015-b093-6dbdc0f2a20b"
-        },
-        "release_name": "Revolte Inside",
-        "track_name": "Gartenzwerghasslied Hiphop"
       },
       "user_name": "emomert"
     }
