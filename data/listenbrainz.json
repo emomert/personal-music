@@ -3443,7 +3443,7 @@
       {
         "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "artist_name": "Grup Yorum",
-        "listen_count": 549
+        "listen_count": 550
       },
       {
         "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
@@ -3563,10 +3563,10 @@
     ],
     "count": 25,
     "from_ts": 1009843200,
-    "last_updated": 1783683292,
+    "last_updated": 1783934238,
     "offset": 0,
     "range": "all_time",
-    "to_ts": 1783643096,
+    "to_ts": 1783903329,
     "total_artist_count": 1057,
     "user_id": "emomert"
   }
