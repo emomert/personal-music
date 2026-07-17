@@ -1,6 +1,76 @@
 {
   "listens": [
     {
+      "inserted_at": 1784229634,
+      "listened_at": 1784225140,
+      "recording_msid": "facace74-e839-48dd-bbea-a9880f81bff9",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+          "lastfm_release_mbid": "44adeed6-d482-43f0-bdee-7e71a3ad3bac",
+          "lastfm_track_mbid": "3b8c0ea9-63c6-4960-9c4c-23a51a395da0",
+          "recording_msid": "facace74-e839-48dd-bbea-a9880f81bff9",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kiss",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e1f1e33e-2e4c-4d43-b91b-7064068d3283"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "KISS",
+              "artist_mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 10023792724,
+          "caa_release_mbid": "1cc73655-b8a2-48fc-816f-64c94b5b6f7a",
+          "recording_mbid": "e8be59c6-b1fd-4d79-b64b-3fdf1640a7b7",
+          "recording_name": "I Was Made for Lovin’ You",
+          "release_mbid": "71b8532a-9e92-4f69-80e9-a85cf623cdbd"
+        },
+        "release_name": "The Very Best of Kiss",
+        "track_name": "I Was Made for Lovin' You"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1784229634,
+      "listened_at": 1784224831,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1783882481,
       "listened_at": 1783876609,
       "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
@@ -3360,75 +3430,6 @@
         },
         "release_name": "The College Dropout",
         "track_name": "Never Let Me Down"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782721905,
-      "recording_msid": "1a03c3a8-ed2c-4374-b1ab-84723d99075b",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "f8a9a911-47de-49fe-ba96-7e5b5f08b7d0",
-          "lastfm_release_mbid": "d8d0e9e1-dcd9-43aa-8f78-ad48b93ec2f1",
-          "lastfm_track_mbid": "200d4c50-4900-391a-a450-1cdfaf8b7d74",
-          "recording_msid": "1a03c3a8-ed2c-4374-b1ab-84723d99075b",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Duman",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "f8a9a911-47de-49fe-ba96-7e5b5f08b7d0"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Duman",
-              "artist_mbid": "f8a9a911-47de-49fe-ba96-7e5b5f08b7d0",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 16253910710,
-          "caa_release_mbid": "d8d0e9e1-dcd9-43aa-8f78-ad48b93ec2f1",
-          "recording_mbid": "09f4611a-0a65-4d35-98aa-7eb4d4508af3",
-          "recording_name": "Dibine Kadar",
-          "release_mbid": "d8d0e9e1-dcd9-43aa-8f78-ad48b93ec2f1"
-        },
-        "release_name": "Duman 1",
-        "track_name": "Dibine Kadar"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782721667,
-      "recording_msid": "0c08b0b7-6a59-45ee-bf5b-390eeb2e74d0",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_release_mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
-          "lastfm_track_mbid": "d4e8a2de-3bca-4333-be81-8812822c1349",
-          "recording_msid": "0c08b0b7-6a59-45ee-bf5b-390eeb2e74d0",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Kanye West",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "164f0d73-1234-4e2c-8743-d77bf2191051"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Kanye West",
-              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 44233885567,
-          "caa_release_mbid": "dc398f6e-3791-4b41-bbce-dd5124ed86f4",
-          "recording_mbid": "f44e8ad0-02bb-4852-a72b-ffe41eb752a3",
-          "recording_name": "Flashing Lights",
-          "release_mbid": "dc398f6e-3791-4b41-bbce-dd5124ed86f4"
-        },
-        "release_name": "Graduation",
-        "track_name": "Flashing Lights"
       },
       "user_name": "emomert"
     }
