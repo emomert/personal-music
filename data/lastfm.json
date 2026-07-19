@@ -3264,7 +3264,7 @@
           "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/ea25fe433acc4439be6753db97652ca4.jpg"
         }
       ],
-      "mbid": "1f168568-3f5f-4060-9b3d-8c7367de1acc",
+      "mbid": "",
       "album": {
         "mbid": "",
         "#text": "Conquest"
@@ -7910,7 +7910,7 @@
       ],
       "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
       "url": "https://www.last.fm/music/Grup+Ekin",
-      "playcount": "35",
+      "playcount": "31",
       "@attr": {
         "rank": "2"
       },
@@ -7974,7 +7974,7 @@
       ],
       "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
       "url": "https://www.last.fm/music/Grup+Yorum",
-      "playcount": "20",
+      "playcount": "17",
       "@attr": {
         "rank": "4"
       },
@@ -9288,7 +9288,7 @@
       ],
       "mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
       "url": "https://www.last.fm/music/Grup+Ekin/G%C3%BCn+Bizim",
-      "playcount": "34",
+      "playcount": "30",
       "@attr": {
         "rank": "1"
       },
@@ -9352,7 +9352,7 @@
       ],
       "mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
       "url": "https://www.last.fm/music/Grup+Yorum/Geliyoruz",
-      "playcount": "15",
+      "playcount": "13",
       "@attr": {
         "rank": "3"
       },
@@ -9904,38 +9904,6 @@
     },
     {
       "artist": {
-        "url": "https://www.last.fm/music/Grup+Yorum",
-        "name": "Grup Yorum",
-        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/932be03f156a44b5875d633f5db3f8d9.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/932be03f156a44b5875d633f5db3f8d9.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/932be03f156a44b5875d633f5db3f8d9.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/932be03f156a44b5875d633f5db3f8d9.jpg"
-        }
-      ],
-      "mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
-      "url": "https://www.last.fm/music/Grup+Yorum/Y%C4%B1ld%C4%B1zlar+Ku%C5%9Fand%C4%B1k",
-      "playcount": "2",
-      "@attr": {
-        "rank": "21"
-      },
-      "name": "Yıldızlar Kuşandık"
-    },
-    {
-      "artist": {
         "url": "https://www.last.fm/music/K.I.Z.",
         "name": "K.I.Z.",
         "mbid": ""
@@ -9962,7 +9930,7 @@
       "url": "https://www.last.fm/music/K.I.Z./Hurra+die+Welt+geht+unter",
       "playcount": "2",
       "@attr": {
-        "rank": "22"
+        "rank": "21"
       },
       "name": "Hurra die Welt geht unter"
     },
@@ -9994,7 +9962,7 @@
       "url": "https://www.last.fm/music/Kanye+West/Donda+2",
       "playcount": "2",
       "@attr": {
-        "rank": "23"
+        "rank": "22"
       },
       "name": "Donda 2"
     },
@@ -10026,7 +9994,7 @@
       "url": "https://www.last.fm/music/%C3%96zg%C3%BCrl%C3%BCk+T%C3%BCrk%C3%BCs%C3%BC/G%C3%BCn%C3%BCn%C3%BC+Umuda+Ayarla",
       "playcount": "2",
       "@attr": {
-        "rank": "24"
+        "rank": "23"
       },
       "name": "Gününü Umuda Ayarla"
     },
@@ -10058,7 +10026,7 @@
       "url": "https://www.last.fm/music/The+D%C3%B8/Shake+Shook+Shaken",
       "playcount": "2",
       "@attr": {
-        "rank": "25"
+        "rank": "24"
       },
       "name": "Shake Shook Shaken"
     },
@@ -10090,7 +10058,7 @@
       "url": "https://www.last.fm/music/ABBA/ABBA+Gold",
       "playcount": "1",
       "@attr": {
-        "rank": "26"
+        "rank": "25"
       },
       "name": "ABBA Gold"
     },
@@ -10122,7 +10090,7 @@
       "url": "https://www.last.fm/music/An%C4%B1l+Piyanc%C4%B1/Action",
       "playcount": "1",
       "@attr": {
-        "rank": "27"
+        "rank": "26"
       },
       "name": "Action"
     },
@@ -10154,7 +10122,7 @@
       "url": "https://www.last.fm/music/Coldplay/A+Head+Full+of+Dreams",
       "playcount": "1",
       "@attr": {
-        "rank": "28"
+        "rank": "27"
       },
       "name": "A Head Full of Dreams"
     },
@@ -10186,7 +10154,7 @@
       "url": "https://www.last.fm/music/Dirty+Projectors/Mount+Wittenberg+Orca",
       "playcount": "1",
       "@attr": {
-        "rank": "29"
+        "rank": "28"
       },
       "name": "Mount Wittenberg Orca"
     },
@@ -10218,7 +10186,7 @@
       "url": "https://www.last.fm/music/Dolu+Kadehi+Ters+Tut/Polonya%27n%C4%B1n+Ba%C5%9F%C4%B1+Belada",
       "playcount": "1",
       "@attr": {
-        "rank": "30"
+        "rank": "29"
       },
       "name": "Polonya'nın Başı Belada"
     },
@@ -10250,7 +10218,7 @@
       "url": "https://www.last.fm/music/Elias+Rahbani/Mosaic+of+the+Orient",
       "playcount": "1",
       "@attr": {
-        "rank": "31"
+        "rank": "30"
       },
       "name": "Mosaic of the Orient"
     },
@@ -10282,7 +10250,7 @@
       "url": "https://www.last.fm/music/Evren+Besta/Babafingo",
       "playcount": "1",
       "@attr": {
-        "rank": "32"
+        "rank": "31"
       },
       "name": "Babafingo"
     },
@@ -10314,7 +10282,7 @@
       "url": "https://www.last.fm/music/Ezhel/Lolo",
       "playcount": "1",
       "@attr": {
-        "rank": "33"
+        "rank": "32"
       },
       "name": "Lolo"
     },
@@ -10346,7 +10314,7 @@
       "url": "https://www.last.fm/music/Farazi/Anti-Kahraman:+90+Nesli",
       "playcount": "1",
       "@attr": {
-        "rank": "34"
+        "rank": "33"
       },
       "name": "Anti-Kahraman: 90 Nesli"
     },
@@ -10378,7 +10346,7 @@
       "url": "https://www.last.fm/music/Grup+Ekin/Bize+%C3%B6l%C3%BCm+yok",
       "playcount": "1",
       "@attr": {
-        "rank": "35"
+        "rank": "34"
       },
       "name": "Bize ölüm yok"
     },
@@ -10410,7 +10378,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/15.+Y%C4%B1l+Se%C3%A7meler",
       "playcount": "1",
       "@attr": {
-        "rank": "36"
+        "rank": "35"
       },
       "name": "15. Yıl Seçmeler"
     },
@@ -10442,7 +10410,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/Hi%C3%A7+Durmadan",
       "playcount": "1",
       "@attr": {
-        "rank": "37"
+        "rank": "36"
       },
       "name": "Hiç Durmadan"
     },
@@ -10474,9 +10442,41 @@
       "url": "https://www.last.fm/music/Grup+Yorum/Mar%C5%9Flar%C4%B1m%C4%B1z",
       "playcount": "1",
       "@attr": {
-        "rank": "38"
+        "rank": "37"
       },
       "name": "Marşlarımız"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/Grup+Yorum",
+        "name": "Grup Yorum",
+        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/932be03f156a44b5875d633f5db3f8d9.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/932be03f156a44b5875d633f5db3f8d9.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/932be03f156a44b5875d633f5db3f8d9.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/932be03f156a44b5875d633f5db3f8d9.jpg"
+        }
+      ],
+      "mbid": "bc405225-43f2-4a7a-bfa6-08373e1a8648",
+      "url": "https://www.last.fm/music/Grup+Yorum/Y%C4%B1ld%C4%B1zlar+Ku%C5%9Fand%C4%B1k",
+      "playcount": "1",
+      "@attr": {
+        "rank": "38"
+      },
+      "name": "Yıldızlar Kuşandık"
     },
     {
       "artist": {
@@ -10899,7 +10899,7 @@
       "@attr": {
         "rank": "1"
       },
-      "playcount": "32"
+      "playcount": "28"
     },
     {
       "streamable": {
@@ -10936,7 +10936,7 @@
       "@attr": {
         "rank": "2"
       },
-      "playcount": "15"
+      "playcount": "13"
     },
     {
       "streamable": {
@@ -11683,43 +11683,6 @@
         "fulltrack": "0",
         "#text": "0"
       },
-      "mbid": "eada9487-38c9-336e-aeae-3dc84cad46c9",
-      "name": "Felluce",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/Grup+Yorum",
-        "name": "Grup Yorum",
-        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
-      },
-      "url": "https://www.last.fm/music/Grup+Yorum/_/Felluce",
-      "duration": "325",
-      "@attr": {
-        "rank": "23"
-      },
-      "playcount": "2"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
       "mbid": "425b339c-8ead-4213-831a-2c13957134cb",
       "name": "Hurra Die Welt geht unter",
       "image": [
@@ -11748,7 +11711,7 @@
       "url": "https://www.last.fm/music/K.I.Z./_/Hurra+Die+Welt+geht+unter",
       "duration": "285",
       "@attr": {
-        "rank": "24"
+        "rank": "23"
       },
       "playcount": "2"
     },
@@ -11785,7 +11748,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/Flashing+Lights",
       "duration": "237",
       "@attr": {
-        "rank": "25"
+        "rank": "24"
       },
       "playcount": "2"
     },
@@ -11822,7 +11785,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/Jesus+Walks",
       "duration": "206",
       "@attr": {
-        "rank": "26"
+        "rank": "25"
       },
       "playcount": "2"
     },
@@ -11859,7 +11822,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/Never+Let+Me+Down",
       "duration": "324",
       "@attr": {
-        "rank": "27"
+        "rank": "26"
       },
       "playcount": "2"
     },
@@ -11896,7 +11859,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/We+Don%27t+Care",
       "duration": "172",
       "@attr": {
-        "rank": "28"
+        "rank": "27"
       },
       "playcount": "2"
     },
@@ -11933,7 +11896,7 @@
       "url": "https://www.last.fm/music/Kanye+West+%E2%80%A2+Chris+Martin/_/Homecoming",
       "duration": "0",
       "@attr": {
-        "rank": "29"
+        "rank": "28"
       },
       "playcount": "2"
     },
@@ -11970,7 +11933,7 @@
       "url": "https://www.last.fm/music/S.A.Y./_/Techno+Slavik",
       "duration": "165",
       "@attr": {
-        "rank": "30"
+        "rank": "29"
       },
       "playcount": "2"
     },
@@ -12007,7 +11970,7 @@
       "url": "https://www.last.fm/music/The+D%C3%B8/_/Miracles+(Back+in+Time)",
       "duration": "269",
       "@attr": {
-        "rank": "31"
+        "rank": "30"
       },
       "playcount": "2"
     },
@@ -12044,7 +12007,7 @@
       "url": "https://www.last.fm/music/ABBA/_/Lay+All+Your+Love+on+Me",
       "duration": "272",
       "@attr": {
-        "rank": "32"
+        "rank": "31"
       },
       "playcount": "1"
     },
@@ -12081,7 +12044,7 @@
       "url": "https://www.last.fm/music/An%C4%B1l+Piyanc%C4%B1;+Emrah+Karakuyu/_/Action",
       "duration": "0",
       "@attr": {
-        "rank": "33"
+        "rank": "32"
       },
       "playcount": "1"
     },
@@ -12118,7 +12081,7 @@
       "url": "https://www.last.fm/music/Coldplay/_/Hymn+for+the+Weekend",
       "duration": "254",
       "@attr": {
-        "rank": "34"
+        "rank": "33"
       },
       "playcount": "1"
     },
@@ -12155,7 +12118,7 @@
       "url": "https://www.last.fm/music/Daft+Punk/_/Human+After+All+(Sebastian+remix)",
       "duration": "180",
       "@attr": {
-        "rank": "35"
+        "rank": "34"
       },
       "playcount": "1"
     },
@@ -12192,7 +12155,7 @@
       "url": "https://www.last.fm/music/DakhaBrakha/_/Sonnet",
       "duration": "356",
       "@attr": {
-        "rank": "36"
+        "rank": "35"
       },
       "playcount": "1"
     },
@@ -12229,7 +12192,7 @@
       "url": "https://www.last.fm/music/DakhaBrakha/_/Specially+for+you",
       "duration": "365",
       "@attr": {
-        "rank": "37"
+        "rank": "36"
       },
       "playcount": "1"
     },
@@ -12266,7 +12229,7 @@
       "url": "https://www.last.fm/music/DakhaBrakha/_/Sukhyi+dub",
       "duration": "389",
       "@attr": {
-        "rank": "38"
+        "rank": "37"
       },
       "playcount": "1"
     },
@@ -12303,7 +12266,7 @@
       "url": "https://www.last.fm/music/DakhaBrakha/_/Vynnaya+Ya",
       "duration": "381",
       "@attr": {
-        "rank": "39"
+        "rank": "38"
       },
       "playcount": "1"
     },
@@ -12340,7 +12303,7 @@
       "url": "https://www.last.fm/music/Dirty+Projectors/_/On+and+Ever+Onward",
       "duration": "121",
       "@attr": {
-        "rank": "40"
+        "rank": "39"
       },
       "playcount": "1"
     },
@@ -12377,7 +12340,7 @@
       "url": "https://www.last.fm/music/Dolu+Kadehi+Ters+Tut/_/Yapma+N%27olursun",
       "duration": "183",
       "@attr": {
-        "rank": "41"
+        "rank": "40"
       },
       "playcount": "1"
     },
@@ -12414,7 +12377,7 @@
       "url": "https://www.last.fm/music/Elias+Rahbani/_/Dance+of+Maria",
       "duration": "165",
       "@attr": {
-        "rank": "42"
+        "rank": "41"
       },
       "playcount": "1"
     },
@@ -12451,7 +12414,7 @@
       "url": "https://www.last.fm/music/Evren+Besta/_/Manifesto",
       "duration": "166",
       "@attr": {
-        "rank": "43"
+        "rank": "42"
       },
       "playcount": "1"
     },
@@ -12488,7 +12451,7 @@
       "url": "https://www.last.fm/music/Ezhel/_/LOLO",
       "duration": "170",
       "@attr": {
-        "rank": "44"
+        "rank": "43"
       },
       "playcount": "1"
     },
@@ -12525,7 +12488,7 @@
       "url": "https://www.last.fm/music/Farazi/_/i.i.i.V+(feat.+Negatif+&+Savai)",
       "duration": "225",
       "@attr": {
-        "rank": "45"
+        "rank": "44"
       },
       "playcount": "1"
     },
@@ -12562,7 +12525,7 @@
       "url": "https://www.last.fm/music/Grup+Ekin/_/De+Be+Aslan+Karam",
       "duration": "299",
       "@attr": {
-        "rank": "46"
+        "rank": "45"
       },
       "playcount": "1"
     },
@@ -12598,6 +12561,43 @@
       },
       "url": "https://www.last.fm/music/Grup+Yorum/_/Dervi%C5%9F",
       "duration": "347",
+      "@attr": {
+        "rank": "46"
+      },
+      "playcount": "1"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "eada9487-38c9-336e-aeae-3dc84cad46c9",
+      "name": "Felluce",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/Grup+Yorum",
+        "name": "Grup Yorum",
+        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
+      },
+      "url": "https://www.last.fm/music/Grup+Yorum/_/Felluce",
+      "duration": "325",
       "@attr": {
         "rank": "47"
       },
@@ -12742,7 +12742,7 @@
       ],
       "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
       "url": "https://www.last.fm/music/Grup+Yorum",
-      "playcount": "166",
+      "playcount": "165",
       "@attr": {
         "rank": "1"
       },
@@ -12838,7 +12838,7 @@
       ],
       "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
       "url": "https://www.last.fm/music/Grup+Ekin",
-      "playcount": "79",
+      "playcount": "77",
       "@attr": {
         "rank": "4"
       },
@@ -12966,7 +12966,7 @@
       ],
       "mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
       "url": "https://www.last.fm/music/Pomme",
-      "playcount": "20",
+      "playcount": "19",
       "@attr": {
         "rank": "8"
       },
@@ -14344,7 +14344,7 @@
       ],
       "mbid": "32e92d56-cefb-437f-9c17-ef89b2d3e7f6",
       "url": "https://www.last.fm/music/Grup+Ekin/G%C3%BCn+Bizim",
-      "playcount": "69",
+      "playcount": "67",
       "@attr": {
         "rank": "1"
       },
@@ -14632,7 +14632,7 @@
       ],
       "mbid": "9bd15932-3231-4df6-bd8c-5f731ad76088",
       "url": "https://www.last.fm/music/Pomme/Les+Failles",
-      "playcount": "20",
+      "playcount": "19",
       "@attr": {
         "rank": "10"
       },
@@ -15410,38 +15410,6 @@
       "artist": {
         "url": "https://www.last.fm/music/Grup+Yorum",
         "name": "Grup Yorum",
-        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
-        }
-      ],
-      "mbid": "421004a2-f726-43f9-b94b-5a40c29eb252",
-      "url": "https://www.last.fm/music/Grup+Yorum/Cesaret",
-      "playcount": "5",
-      "@attr": {
-        "rank": "35"
-      },
-      "name": "Cesaret"
-    },
-    {
-      "artist": {
-        "url": "https://www.last.fm/music/Grup+Yorum",
-        "name": "Grup Yorum",
         "mbid": ""
       },
       "image": [
@@ -15466,7 +15434,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/%C4%B0leri",
       "playcount": "5",
       "@attr": {
-        "rank": "36"
+        "rank": "35"
       },
       "name": "İleri"
     },
@@ -15498,7 +15466,7 @@
       "url": "https://www.last.fm/music/Barcelona+Gipsy+Klezmer+Orchestra/Imbarca",
       "playcount": "4",
       "@attr": {
-        "rank": "37"
+        "rank": "36"
       },
       "name": "Imbarca"
     },
@@ -15530,7 +15498,7 @@
       "url": "https://www.last.fm/music/Cakal/Damlars%C4%B1n",
       "playcount": "4",
       "@attr": {
-        "rank": "38"
+        "rank": "37"
       },
       "name": "Damlarsın"
     },
@@ -15562,7 +15530,7 @@
       "url": "https://www.last.fm/music/Cl%C3%A9ment+Froissart/Peupleraie",
       "playcount": "4",
       "@attr": {
-        "rank": "39"
+        "rank": "38"
       },
       "name": "Peupleraie"
     },
@@ -15594,9 +15562,41 @@
       "url": "https://www.last.fm/music/Grup+Ekin/Bize+%C3%B6l%C3%BCm+yok",
       "playcount": "4",
       "@attr": {
-        "rank": "40"
+        "rank": "39"
       },
       "name": "Bize ölüm yok"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/Grup+Yorum",
+        "name": "Grup Yorum",
+        "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/a9d2cbbed0d4445dad80029aeb94aa62.jpg"
+        }
+      ],
+      "mbid": "421004a2-f726-43f9-b94b-5a40c29eb252",
+      "url": "https://www.last.fm/music/Grup+Yorum/Cesaret",
+      "playcount": "4",
+      "@attr": {
+        "rank": "40"
+      },
+      "name": "Cesaret"
     },
     {
       "artist": {
@@ -16177,44 +16177,7 @@
       "@attr": {
         "rank": "7"
       },
-      "playcount": "20"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
-      "mbid": "de29fb8a-5546-3c3c-b9d5-50d2af050895",
-      "name": "Vurulup Düşmüşsün",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/Grup+Ekin",
-        "name": "Grup Ekin",
-        "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
-      },
-      "url": "https://www.last.fm/music/Grup+Ekin/_/Vurulup+D%C3%BC%C5%9Fm%C3%BC%C5%9Fs%C3%BCn",
-      "duration": "246",
-      "@attr": {
-        "rank": "8"
-      },
-      "playcount": "13"
+      "playcount": "19"
     },
     {
       "streamable": {
@@ -16249,9 +16212,46 @@
       "url": "https://www.last.fm/music/Revolte+Springen/_/Gartenzwerghasslied+Country",
       "duration": "128",
       "@attr": {
-        "rank": "9"
+        "rank": "8"
       },
       "playcount": "13"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "de29fb8a-5546-3c3c-b9d5-50d2af050895",
+      "name": "Vurulup Düşmüşsün",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/Grup+Ekin",
+        "name": "Grup Ekin",
+        "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+      },
+      "url": "https://www.last.fm/music/Grup+Ekin/_/Vurulup+D%C3%BC%C5%9Fm%C3%BC%C5%9Fs%C3%BCn",
+      "duration": "246",
+      "@attr": {
+        "rank": "9"
+      },
+      "playcount": "12"
     },
     {
       "streamable": {
@@ -16443,43 +16443,6 @@
         "fulltrack": "0",
         "#text": "0"
       },
-      "mbid": "cb4008e6-3b0e-31bd-8ee7-fa5d77732287",
-      "name": "Varsa Cesaretiniz Gelin",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/Grup+Ekin",
-        "name": "Grup Ekin",
-        "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
-      },
-      "url": "https://www.last.fm/music/Grup+Ekin/_/Varsa+Cesaretiniz+Gelin",
-      "duration": "205",
-      "@attr": {
-        "rank": "15"
-      },
-      "playcount": "9"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
       "mbid": "2ac0a2bf-a292-4229-8534-5ef525b61e4d",
       "name": "I Love Kanye",
       "image": [
@@ -16508,7 +16471,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/I+Love+Kanye",
       "duration": "44",
       "@attr": {
-        "rank": "16"
+        "rank": "15"
       },
       "playcount": "9"
     },
@@ -16544,6 +16507,43 @@
       },
       "url": "https://www.last.fm/music/Daft+Punk/_/Technologic+(Vitalic+Remix)",
       "duration": "252",
+      "@attr": {
+        "rank": "16"
+      },
+      "playcount": "8"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "cb4008e6-3b0e-31bd-8ee7-fa5d77732287",
+      "name": "Varsa Cesaretiniz Gelin",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/Grup+Ekin",
+        "name": "Grup Ekin",
+        "mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c"
+      },
+      "url": "https://www.last.fm/music/Grup+Ekin/_/Varsa+Cesaretiniz+Gelin",
+      "duration": "205",
       "@attr": {
         "rank": "17"
       },
@@ -17798,7 +17798,7 @@
       ],
       "mbid": "",
       "url": "https://www.last.fm/music/Kanye+West",
-      "playcount": "747",
+      "playcount": "746",
       "@attr": {
         "rank": "1"
       },
@@ -18052,43 +18052,11 @@
           "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
         }
       ],
-      "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
-      "url": "https://www.last.fm/music/Radiohead",
-      "playcount": "110",
-      "@attr": {
-        "rank": "9"
-      },
-      "name": "Radiohead"
-    },
-    {
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "mega",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
       "mbid": "2e178faf-fbe6-44b3-8339-1b13e8ecc754",
       "url": "https://www.last.fm/music/%E6%9D%8F%E9%87%8C",
       "playcount": "108",
       "@attr": {
-        "rank": "10"
+        "rank": "9"
       },
       "name": "杏里"
     },
@@ -18120,9 +18088,41 @@
       "url": "https://www.last.fm/music/Grup+Ekin",
       "playcount": "104",
       "@attr": {
-        "rank": "11"
+        "rank": "10"
       },
       "name": "Grup Ekin"
+    },
+    {
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "mega",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "url": "https://www.last.fm/music/Radiohead",
+      "playcount": "101",
+      "@attr": {
+        "rank": "11"
+      },
+      "name": "Radiohead"
     },
     {
       "streamable": "0",
@@ -18692,43 +18692,11 @@
           "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
         }
       ],
-      "mbid": "ff294730-0315-440d-a543-54005779c15b",
-      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
-      "playcount": "36",
-      "@attr": {
-        "rank": "29"
-      },
-      "name": "The Mamas & the Papas"
-    },
-    {
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "mega",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
       "mbid": "8a00d9b5-e82a-43a1-9e85-6a648564e84d",
       "url": "https://www.last.fm/music/Lin+Pesto",
       "playcount": "35",
       "@attr": {
-        "rank": "30"
+        "rank": "29"
       },
       "name": "Lin Pesto"
     },
@@ -18760,7 +18728,7 @@
       "url": "https://www.last.fm/music/B%C3%BCy%C3%BCk+Ev+Ablukada",
       "playcount": "34",
       "@attr": {
-        "rank": "31"
+        "rank": "30"
       },
       "name": "Büyük Ev Ablukada"
     },
@@ -18792,7 +18760,7 @@
       "url": "https://www.last.fm/music/System+of+a+Down",
       "playcount": "34",
       "@attr": {
-        "rank": "32"
+        "rank": "31"
       },
       "name": "System of a Down"
     },
@@ -18824,7 +18792,7 @@
       "url": "https://www.last.fm/music/Red+Hot+Chili+Peppers",
       "playcount": "33",
       "@attr": {
-        "rank": "33"
+        "rank": "32"
       },
       "name": "Red Hot Chili Peppers"
     },
@@ -18856,7 +18824,7 @@
       "url": "https://www.last.fm/music/The+Strokes",
       "playcount": "30",
       "@attr": {
-        "rank": "34"
+        "rank": "33"
       },
       "name": "The Strokes"
     },
@@ -18888,7 +18856,7 @@
       "url": "https://www.last.fm/music/Aaron+Saloman",
       "playcount": "29",
       "@attr": {
-        "rank": "35"
+        "rank": "34"
       },
       "name": "Aaron Saloman"
     },
@@ -18920,7 +18888,7 @@
       "url": "https://www.last.fm/music/Molly+Lewis",
       "playcount": "29",
       "@attr": {
-        "rank": "36"
+        "rank": "35"
       },
       "name": "Molly Lewis"
     },
@@ -18952,7 +18920,7 @@
       "url": "https://www.last.fm/music/Muse",
       "playcount": "29",
       "@attr": {
-        "rank": "37"
+        "rank": "36"
       },
       "name": "Muse"
     },
@@ -18984,41 +18952,9 @@
       "url": "https://www.last.fm/music/%C5%9Eam",
       "playcount": "29",
       "@attr": {
-        "rank": "38"
+        "rank": "37"
       },
       "name": "Şam"
-    },
-    {
-      "streamable": "0",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "mega",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
-      "url": "https://www.last.fm/music/ABBA",
-      "playcount": "28",
-      "@attr": {
-        "rank": "39"
-      },
-      "name": "ABBA"
     },
     {
       "streamable": "0",
@@ -19048,9 +18984,41 @@
       "url": "https://www.last.fm/music/Mariem+Hassan",
       "playcount": "28",
       "@attr": {
-        "rank": "40"
+        "rank": "38"
       },
       "name": "Mariem Hassan"
+    },
+    {
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "mega",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+      "url": "https://www.last.fm/music/ABBA",
+      "playcount": "27",
+      "@attr": {
+        "rank": "39"
+      },
+      "name": "ABBA"
     },
     {
       "streamable": "0",
@@ -19080,9 +19048,41 @@
       "url": "https://www.last.fm/music/Duman",
       "playcount": "27",
       "@attr": {
-        "rank": "41"
+        "rank": "40"
       },
       "name": "Duman"
+    },
+    {
+      "streamable": "0",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "mega",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "ff294730-0315-440d-a543-54005779c15b",
+      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
+      "playcount": "27",
+      "@attr": {
+        "rank": "41"
+      },
+      "name": "The Mamas & the Papas"
     },
     {
       "streamable": "0",
@@ -19464,7 +19464,7 @@
       ],
       "mbid": "06a81817-093d-40f0-aef2-90673fa550ae",
       "url": "https://www.last.fm/music/Kanye+West/Graduation",
-      "playcount": "133",
+      "playcount": "132",
       "@attr": {
         "rank": "3"
       },
@@ -19824,38 +19824,6 @@
     },
     {
       "artist": {
-        "url": "https://www.last.fm/music/Radiohead",
-        "name": "Radiohead",
-        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/9dbcd9399ac3e622b4f508323155b644.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/9dbcd9399ac3e622b4f508323155b644.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/9dbcd9399ac3e622b4f508323155b644.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg"
-        }
-      ],
-      "mbid": "1475431a-cfd3-43ad-bf09-b3826118446f",
-      "url": "https://www.last.fm/music/Radiohead/In+Rainbows",
-      "playcount": "76",
-      "@attr": {
-        "rank": "15"
-      },
-      "name": "In Rainbows"
-    },
-    {
-      "artist": {
         "url": "https://www.last.fm/music/Kanye+West",
         "name": "Kanye West",
         "mbid": ""
@@ -19882,7 +19850,7 @@
       "url": "https://www.last.fm/music/Kanye+West/Yeezus",
       "playcount": "70",
       "@attr": {
-        "rank": "16"
+        "rank": "15"
       },
       "name": "Yeezus"
     },
@@ -19914,7 +19882,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/Mar%C5%9Flar%C4%B1m%C4%B1z",
       "playcount": "69",
       "@attr": {
-        "rank": "17"
+        "rank": "16"
       },
       "name": "Marşlarımız"
     },
@@ -19946,9 +19914,41 @@
       "url": "https://www.last.fm/music/%E7%8E%8B%E8%8F%B2/%E5%94%B1%E9%81%8A",
       "playcount": "68",
       "@attr": {
-        "rank": "18"
+        "rank": "17"
       },
       "name": "唱遊"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/Radiohead",
+        "name": "Radiohead",
+        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/9dbcd9399ac3e622b4f508323155b644.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/9dbcd9399ac3e622b4f508323155b644.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/9dbcd9399ac3e622b4f508323155b644.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/9dbcd9399ac3e622b4f508323155b644.jpg"
+        }
+      ],
+      "mbid": "1475431a-cfd3-43ad-bf09-b3826118446f",
+      "url": "https://www.last.fm/music/Radiohead/In+Rainbows",
+      "playcount": "67",
+      "@attr": {
+        "rank": "18"
+      },
+      "name": "In Rainbows"
     },
     {
       "artist": {
@@ -20624,38 +20624,6 @@
     },
     {
       "artist": {
-        "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
-        "name": "The Mamas & the Papas",
-        "mbid": "ff294730-0315-440d-a543-54005779c15b"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
-        }
-      ],
-      "mbid": "61d2b539-e1e5-4aa0-89a2-cc9054d90388",
-      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas/All+The+Leaves+Are+Brown+The+Golden+Era+Collection",
-      "playcount": "36",
-      "@attr": {
-        "rank": "40"
-      },
-      "name": "All The Leaves Are Brown The Golden Era Collection"
-    },
-    {
-      "artist": {
         "url": "https://www.last.fm/music/Cakal",
         "name": "Cakal",
         "mbid": ""
@@ -20682,7 +20650,7 @@
       "url": "https://www.last.fm/music/Cakal/DOYAMADIM",
       "playcount": "32",
       "@attr": {
-        "rank": "41"
+        "rank": "40"
       },
       "name": "DOYAMADIM"
     },
@@ -20714,7 +20682,7 @@
       "url": "https://www.last.fm/music/TurkodiRoma/Ukulele",
       "playcount": "31",
       "@attr": {
-        "rank": "42"
+        "rank": "41"
       },
       "name": "Ukulele"
     },
@@ -20746,7 +20714,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/15.+Y%C4%B1l+Se%C3%A7meler",
       "playcount": "30",
       "@attr": {
-        "rank": "43"
+        "rank": "42"
       },
       "name": "15. Yıl Seçmeler"
     },
@@ -20778,7 +20746,7 @@
       "url": "https://www.last.fm/music/Aaron+Saloman/Thoughts+and+Promises",
       "playcount": "29",
       "@attr": {
-        "rank": "44"
+        "rank": "43"
       },
       "name": "Thoughts and Promises"
     },
@@ -20810,7 +20778,7 @@
       "url": "https://www.last.fm/music/Cakal/A%C5%9Fk+Olsun",
       "playcount": "29",
       "@attr": {
-        "rank": "45"
+        "rank": "44"
       },
       "name": "Aşk Olsun"
     },
@@ -20842,7 +20810,7 @@
       "url": "https://www.last.fm/music/Molly+Lewis/On+The+Lips",
       "playcount": "29",
       "@attr": {
-        "rank": "46"
+        "rank": "45"
       },
       "name": "On The Lips"
     },
@@ -20874,7 +20842,7 @@
       "url": "https://www.last.fm/music/Cakal/Damlars%C4%B1n",
       "playcount": "28",
       "@attr": {
-        "rank": "47"
+        "rank": "46"
       },
       "name": "Damlarsın"
     },
@@ -20906,7 +20874,7 @@
       "url": "https://www.last.fm/music/Mariem+Hassan/El+Aaiun+Egdat",
       "playcount": "28",
       "@attr": {
-        "rank": "48"
+        "rank": "47"
       },
       "name": "El Aaiun Egdat"
     },
@@ -20938,9 +20906,41 @@
       "url": "https://www.last.fm/music/Grup+Yorum/Y%C4%B1ld%C4%B1zlar+Ku%C5%9Fand%C4%B1k",
       "playcount": "27",
       "@attr": {
-        "rank": "49"
+        "rank": "48"
       },
       "name": "Yıldızlar Kuşandık"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
+        "name": "The Mamas & the Papas",
+        "mbid": "ff294730-0315-440d-a543-54005779c15b"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/87d7fb52ecf6e1376bf1abea3a3ede1a.png"
+        }
+      ],
+      "mbid": "61d2b539-e1e5-4aa0-89a2-cc9054d90388",
+      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas/All+The+Leaves+Are+Brown+The+Golden+Era+Collection",
+      "playcount": "27",
+      "@attr": {
+        "rank": "49"
+      },
+      "name": "All The Leaves Are Brown The Golden Era Collection"
     },
     {
       "artist": {
@@ -21980,43 +21980,6 @@
         "fulltrack": "0",
         "#text": "0"
       },
-      "mbid": "",
-      "name": "California Dreamin'",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
-        "name": "The Mamas & the Papas",
-        "mbid": "ff294730-0315-440d-a543-54005779c15b"
-      },
-      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas/_/California+Dreamin%27",
-      "duration": "138",
-      "@attr": {
-        "rank": "28"
-      },
-      "playcount": "36"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
       "mbid": "0ec00b48-fb73-4e25-be3e-5a1b2aa0eee7",
       "name": "En nuit",
       "image": [
@@ -22045,7 +22008,7 @@
       "url": "https://www.last.fm/music/Videoclub/_/En+nuit",
       "duration": "0",
       "@attr": {
-        "rank": "29"
+        "rank": "28"
       },
       "playcount": "35"
     },
@@ -22082,83 +22045,9 @@
       "url": "https://www.last.fm/music/Cakal/_/Doyamad%C4%B1m",
       "duration": "0",
       "@attr": {
-        "rank": "30"
+        "rank": "29"
       },
       "playcount": "32"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
-      "mbid": "425bc9d3-653b-4ec3-8594-ad8ea885ebab",
-      "name": "Jigsaw Falling Into Place",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/Radiohead",
-        "name": "Radiohead",
-        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
-      },
-      "url": "https://www.last.fm/music/Radiohead/_/Jigsaw+Falling+Into+Place",
-      "duration": "274",
-      "@attr": {
-        "rank": "31"
-      },
-      "playcount": "32"
-    },
-    {
-      "streamable": {
-        "fulltrack": "0",
-        "#text": "0"
-      },
-      "mbid": "94db79c1-78c6-4318-8759-16e3b679fc9b",
-      "name": "Weird Fishes / Arpeggi",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "artist": {
-        "url": "https://www.last.fm/music/Radiohead",
-        "name": "Radiohead",
-        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
-      },
-      "url": "https://www.last.fm/music/Radiohead/_/Weird+Fishes+%2F+Arpeggi",
-      "duration": "0",
-      "@attr": {
-        "rank": "32"
-      },
-      "playcount": "31"
     },
     {
       "streamable": {
@@ -22193,7 +22082,7 @@
       "url": "https://www.last.fm/music/TurkodiRoma/_/Ukulele",
       "duration": "0",
       "@attr": {
-        "rank": "33"
+        "rank": "30"
       },
       "playcount": "31"
     },
@@ -22230,7 +22119,7 @@
       "url": "https://www.last.fm/music/Kanye+West/_/We+Don%27t+Care",
       "duration": "172",
       "@attr": {
-        "rank": "34"
+        "rank": "31"
       },
       "playcount": "30"
     },
@@ -22267,7 +22156,7 @@
       "url": "https://www.last.fm/music/Aaron+Saloman/_/Drifting",
       "duration": "145",
       "@attr": {
-        "rank": "35"
+        "rank": "32"
       },
       "playcount": "29"
     },
@@ -22304,7 +22193,7 @@
       "url": "https://www.last.fm/music/Cakal/_/A%C5%9EK+OLSUN",
       "duration": "141",
       "@attr": {
-        "rank": "36"
+        "rank": "33"
       },
       "playcount": "29"
     },
@@ -22341,7 +22230,7 @@
       "url": "https://www.last.fm/music/DakhaBrakha/_/Shchedryi+metal",
       "duration": "238",
       "@attr": {
-        "rank": "37"
+        "rank": "34"
       },
       "playcount": "29"
     },
@@ -22378,7 +22267,44 @@
       "url": "https://www.last.fm/music/Molly+Lewis/_/Crushed+Velvet",
       "duration": "0",
       "@attr": {
-        "rank": "38"
+        "rank": "35"
+      },
+      "playcount": "29"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "425bc9d3-653b-4ec3-8594-ad8ea885ebab",
+      "name": "Jigsaw Falling Into Place",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/Radiohead",
+        "name": "Radiohead",
+        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+      },
+      "url": "https://www.last.fm/music/Radiohead/_/Jigsaw+Falling+Into+Place",
+      "duration": "274",
+      "@attr": {
+        "rank": "36"
       },
       "playcount": "29"
     },
@@ -22415,7 +22341,7 @@
       "url": "https://www.last.fm/music/Cakal/_/Damlars%C4%B1n",
       "duration": "145",
       "@attr": {
-        "rank": "39"
+        "rank": "37"
       },
       "playcount": "28"
     },
@@ -22452,9 +22378,83 @@
       "url": "https://www.last.fm/music/Mariem+Hassan/_/Arrabi+al+Arabe",
       "duration": "266",
       "@attr": {
-        "rank": "40"
+        "rank": "38"
       },
       "playcount": "28"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "",
+      "name": "California Dreamin'",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/The+Mamas+&+the+Papas",
+        "name": "The Mamas & the Papas",
+        "mbid": "ff294730-0315-440d-a543-54005779c15b"
+      },
+      "url": "https://www.last.fm/music/The+Mamas+&+the+Papas/_/California+Dreamin%27",
+      "duration": "138",
+      "@attr": {
+        "rank": "39"
+      },
+      "playcount": "27"
+    },
+    {
+      "streamable": {
+        "fulltrack": "0",
+        "#text": "0"
+      },
+      "mbid": "94db79c1-78c6-4318-8759-16e3b679fc9b",
+      "name": "Weird Fishes / Arpeggi",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "artist": {
+        "url": "https://www.last.fm/music/Radiohead",
+        "name": "Radiohead",
+        "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+      },
+      "url": "https://www.last.fm/music/Radiohead/_/Weird+Fishes+%2F+Arpeggi",
+      "duration": "0",
+      "@attr": {
+        "rank": "40"
+      },
+      "playcount": "26"
     },
     {
       "streamable": {
@@ -27886,6 +27886,60 @@
   "weeklyTrackChart": [
     {
       "artist": {
+        "mbid": "49502cf2-27de-497a-a4a2-4925e86a0764",
+        "#text": "Carrera Blanca"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "",
+      "url": "https://www.last.fm/music/Carrera+Blanca/_/Adulto+funcional",
+      "name": "Adulto funcional",
+      "@attr": {
+        "rank": "1"
+      },
+      "playcount": "2"
+    },
+    {
+      "artist": {
+        "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+        "#text": "Daft Punk"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "1a96f766-97e1-41c0-baf6-2eb244c86d55",
+      "url": "https://www.last.fm/music/Daft+Punk/_/Technologic+(Vitalic+Remix)",
+      "name": "Technologic (Vitalic Remix)",
+      "@attr": {
+        "rank": "2"
+      },
+      "playcount": "2"
+    },
+    {
+      "artist": {
         "mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
         "#text": "Grup Yorum"
       },
@@ -27907,7 +27961,7 @@
       "url": "https://www.last.fm/music/Grup+Yorum/_/Haydi+Tenruh",
       "name": "Haydi Tenruh",
       "@attr": {
-        "rank": "1"
+        "rank": "3"
       },
       "playcount": "2"
     },
@@ -27934,63 +27988,9 @@
       "url": "https://www.last.fm/music/Kiss/_/I+Was+Made+for+Lovin%27+You",
       "name": "I Was Made for Lovin' You",
       "@attr": {
-        "rank": "2"
-      },
-      "playcount": "2"
-    },
-    {
-      "artist": {
-        "mbid": "49502cf2-27de-497a-a4a2-4925e86a0764",
-        "#text": "Carrera Blanca"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "mbid": "",
-      "url": "https://www.last.fm/music/Carrera+Blanca/_/Adulto+funcional",
-      "name": "Adulto funcional",
-      "@attr": {
-        "rank": "3"
-      },
-      "playcount": "1"
-    },
-    {
-      "artist": {
-        "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-        "#text": "Daft Punk"
-      },
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-        }
-      ],
-      "mbid": "1a96f766-97e1-41c0-baf6-2eb244c86d55",
-      "url": "https://www.last.fm/music/Daft+Punk/_/Technologic+(Vitalic+Remix)",
-      "name": "Technologic (Vitalic Remix)",
-      "@attr": {
         "rank": "4"
       },
-      "playcount": "1"
+      "playcount": "2"
     },
     {
       "artist": {
@@ -28016,6 +28016,33 @@
       "name": "Avanti Populo",
       "@attr": {
         "rank": "5"
+      },
+      "playcount": "1"
+    },
+    {
+      "artist": {
+        "mbid": "",
+        "#text": "Kanye West"
+      },
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+        }
+      ],
+      "mbid": "0d6d5e11-6e51-405f-92f4-a7cb2886bd6f",
+      "url": "https://www.last.fm/music/Kanye+West/_/Gorgeous",
+      "name": "Gorgeous",
+      "@attr": {
+        "rank": "6"
       },
       "playcount": "1"
     }
