@@ -1,6 +1,75 @@
 {
   "listens": [
     {
+      "inserted_at": 1785096551,
+      "listened_at": 1785090275,
+      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
+          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
+          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "DakhaBrakha",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "208334a1-abf0-4791-9705-b45838244b29"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "DakhaBrakha",
+              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44107770856,
+          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
+          "recording_name": "Im tanzen liebe",
+          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
+        },
+        "release_name": "Alambari",
+        "track_name": "Im tanzen liebe"
+      },
+      "user_name": "emomert"
+    },
+    {
+      "inserted_at": 1785096551,
+      "listened_at": 1785089917,
+      "recording_msid": "0222f03f-8f27-4f23-b907-8d8544bff1bb",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_release_mbid": "0fb96892-3890-40d8-b374-43b7e5c67d27",
+          "lastfm_track_mbid": "0d6d5e11-6e51-405f-92f4-a7cb2886bd6f",
+          "recording_msid": "0222f03f-8f27-4f23-b907-8d8544bff1bb",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Kanye West",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "164f0d73-1234-4e2c-8743-d77bf2191051"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kanye West",
+              "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 5638377094,
+          "caa_release_mbid": "d6f9a7a4-d291-44a5-be15-66101e094190",
+          "recording_mbid": "78983bbd-a1c7-4740-9016-bec613f1dacf",
+          "recording_name": "Gorgeous",
+          "release_mbid": "05b67f03-9593-4bef-bb61-01b28ec1600e"
+        },
+        "release_name": "My Beautiful Dark Twisted Fantasy",
+        "track_name": "Gorgeous"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1784885686,
       "listened_at": 1784878895,
       "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
@@ -3436,76 +3505,6 @@
         },
         "release_name": "Ptakh",
         "track_name": "Shchedryi metal"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782918558,
-      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
-          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Grup Yorum",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "0fbf1274-5a51-4e16-867c-99f918f04937"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Grup Yorum",
-              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 11736262671,
-          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
-          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
-          "recording_name": "Haydi Tenruh",
-          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
-        },
-        "release_name": "Geliyoruz",
-        "track_name": "Haydi Tenruh"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782918208,
-      "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-          "lastfm_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
-          "lastfm_track_mbid": "1638872d-76f8-4e14-a334-693730bb4738",
-          "recording_msid": "075998c4-dfc4-475f-8823-02212e492a9a",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "DakhaBrakha",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "208334a1-abf0-4791-9705-b45838244b29"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "DakhaBrakha",
-              "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
-          "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
-          "recording_name": "Im tanzen liebe",
-          "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
-        },
-        "release_name": "Alambari",
-        "track_name": "Im tanzen liebe"
       },
       "user_name": "emomert"
     }
