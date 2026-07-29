@@ -1,6 +1,41 @@
 {
   "listens": [
     {
+      "inserted_at": 1785256417,
+      "listened_at": 1785253086,
+      "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+          "lastfm_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "lastfm_track_mbid": "b0fb7304-067f-38f7-933d-29a912deeded",
+          "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Grup Yorum",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "0fbf1274-5a51-4e16-867c-99f918f04937"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Grup Yorum",
+              "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11736262671,
+          "caa_release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e",
+          "recording_mbid": "bd54fff2-51a2-4235-9c8d-5ff7e5f79fba",
+          "recording_name": "Haydi Tenruh",
+          "release_mbid": "ef9b7c38-4d90-4f6e-832f-c71d1369fe3e"
+        },
+        "release_name": "Geliyoruz",
+        "track_name": "Haydi Tenruh"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1785146480,
       "listened_at": 1785144227,
       "recording_msid": "9ee402a4-3edc-4add-9233-475fa3c880e4",
@@ -3469,47 +3504,143 @@
         "track_name": "Technologic (Vitalic Remix)"
       },
       "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782920942,
-      "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-          "lastfm_track_mbid": "1a96f766-97e1-41c0-baf6-2eb244c86d55",
-          "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Daft Punk",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Daft Punk",
-              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34368859458,
-          "caa_release_mbid": "0c976bd1-88db-48f9-ac71-e5309e0e54d5",
-          "recording_mbid": "fb751a1b-4fde-4cf3-bf4c-6cf7f8bcd599",
-          "recording_name": "Technologic (Vitalic remix)",
-          "release_mbid": "9e4cb666-a8c6-4606-bdfc-b9e176137900",
-          "url_rels": [
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/1QKWEOrj8Ee8PBu6mPVSw1"
-            }
-          ]
-        },
-        "release_name": "Human After All: Remixes",
-        "track_name": "Technologic (Vitalic Remix)"
-      },
-      "user_name": "emomert"
     }
   ],
-  "artistStats": null
+  "artistStats": {
+    "artists": [
+      {
+        "artist_mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "artist_name": "Ye",
+        "listen_count": 803
+      },
+      {
+        "artist_mbid": "0fbf1274-5a51-4e16-867c-99f918f04937",
+        "artist_name": "Grup Yorum",
+        "listen_count": 553
+      },
+      {
+        "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+        "artist_name": "Tame Impala",
+        "listen_count": 265
+      },
+      {
+        "artist_mbid": "208334a1-abf0-4791-9705-b45838244b29",
+        "artist_name": "DakhaBrakha",
+        "listen_count": 179
+      },
+      {
+        "artist_mbid": "da06c57c-d53c-4cd6-b4d0-a3f49538271c",
+        "artist_name": "Revolte Springen",
+        "listen_count": 152
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "TurkodiRoma",
+        "listen_count": 145
+      },
+      {
+        "artist_mbid": "5f67a3e3-eb7f-439f-b2af-3cad8c5c851c",
+        "artist_name": "Grup Ekin",
+        "listen_count": 141
+      },
+      {
+        "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+        "artist_name": "Radiohead",
+        "listen_count": 129
+      },
+      {
+        "artist_mbid": "692e367d-2846-442d-b13d-1177c3681c65",
+        "artist_name": "王菲",
+        "listen_count": 108
+      },
+      {
+        "artist_mbid": "188711ed-c99b-439c-844a-ca831f63a727",
+        "artist_name": "MF DOOM",
+        "listen_count": 101
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "browse Tito",
+        "listen_count": 95
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "Faye Wong",
+        "listen_count": 93
+      },
+      {
+        "artist_mbid": "8be564c3-dfba-440b-af8c-4ffbceeef45e",
+        "artist_name": "RAYE",
+        "listen_count": 90
+      },
+      {
+        "artist_mbid": "c3477250-bc5f-44e9-aa0a-144dd2d7a935",
+        "artist_name": "The Dø",
+        "listen_count": 87
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "MF DOOM",
+        "listen_count": 87
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "The Beatles",
+        "listen_count": 83
+      },
+      {
+        "artist_mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+        "artist_name": "Gorillaz",
+        "listen_count": 78
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "Lofi Girl",
+        "listen_count": 77
+      },
+      {
+        "artist_mbid": "4e024037-14b7-4aea-99ad-c6ace63b9620",
+        "artist_name": "Madvillain",
+        "listen_count": 71
+      },
+      {
+        "artist_mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "artist_name": "The Beatles",
+        "listen_count": 70
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "Ankara Echoes",
+        "listen_count": 69
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "Anri",
+        "listen_count": 62
+      },
+      {
+        "artist_mbid": null,
+        "artist_name": "Cakal",
+        "listen_count": 60
+      },
+      {
+        "artist_mbid": "1595addf-f76b-450a-a097-af852ff35f27",
+        "artist_name": "Nujabes",
+        "listen_count": 59
+      },
+      {
+        "artist_mbid": "e14075cd-abdc-4815-9a19-78263f8fc35a",
+        "artist_name": "Iyeoka",
+        "listen_count": 59
+      }
+    ],
+    "count": 25,
+    "from_ts": 1009843200,
+    "last_updated": 1785138037,
+    "offset": 0,
+    "range": "all_time",
+    "to_ts": 1785111505,
+    "total_artist_count": 1057,
+    "user_id": "emomert"
+  }
 }
