@@ -1,6 +1,63 @@
 {
   "listens": [
     {
+      "inserted_at": 1785329510,
+      "listened_at": 1785318573,
+      "recording_msid": "0ee74ca7-f3fd-4859-b31c-7445dc6f63eb",
+      "track_metadata": {
+        "additional_info": {
+          "lastfm_artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+          "lastfm_release_mbid": "031ecbde-35e1-4d3a-917f-f89f31aca1c9",
+          "lastfm_track_mbid": "0460dfc7-8e5c-4b3d-bf11-75a9b96676e7",
+          "recording_msid": "0ee74ca7-f3fd-4859-b31c-7445dc6f63eb",
+          "submission_client": "ListenBrainz lastfm importer v2"
+        },
+        "artist_name": "Tame Impala",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "63aa26c3-d59b-4da4-84ac-716b54f1ef4d"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Tame Impala",
+              "artist_mbid": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 13249592911,
+          "caa_release_mbid": "8e7746ca-7832-41b2-a731-de5b0010f37d",
+          "recording_mbid": "aee5f1d1-5c05-4d5b-a7a8-79ee4bc2c506",
+          "recording_name": "Cause I’m a Man",
+          "release_mbid": "b9410b9a-cb64-41ac-b863-fa95f8eb51ea",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/47696798"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/gb/song/1440838697"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/gb/song/1440838697"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/2O99aywAVBhaPrsiJ6zbSS"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/103052668"
+            }
+          ]
+        },
+        "release_name": "Currents",
+        "track_name": "'Cause I'm a Man"
+      },
+      "user_name": "emomert"
+    },
+    {
       "inserted_at": 1785256417,
       "listened_at": 1785253086,
       "recording_msid": "3ac32b97-7e11-4e6f-a665-cb1e837b1612",
@@ -304,8 +361,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -447,8 +504,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -840,8 +897,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -2001,8 +2058,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -2295,8 +2352,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -2452,8 +2509,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "dc7e8fa5-259a-4962-af0e-7e027b8fbf1a",
           "recording_name": "Vynnaya ya",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -2586,8 +2643,8 @@
               "join_phrase": ""
             }
           ],
-          "caa_id": 44107770856,
-          "caa_release_mbid": "f4334d69-b8bb-49a8-910b-01ff749ebde7",
+          "caa_id": 32508054576,
+          "caa_release_mbid": "0805a709-b10c-4142-abea-6004487db691",
           "recording_mbid": "bca37c53-ee7e-46e3-8131-a60dbd4f0853",
           "recording_name": "Im tanzen liebe",
           "release_mbid": "9a18c9e0-6d88-4d87-9aa2-cc1e79fb80a4"
@@ -3105,7 +3162,37 @@
           "caa_release_mbid": "4e703d36-3bc6-4f16-879c-0b974fb4a06b",
           "recording_mbid": "80942639-0db9-40d2-af78-de391f3bb445",
           "recording_name": "Карпатський реп",
-          "release_mbid": "4e703d36-3bc6-4f16-879c-0b974fb4a06b"
+          "release_mbid": "4e703d36-3bc6-4f16-879c-0b974fb4a06b",
+          "url_rels": [
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/gb/song/804796091"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/74470339"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/gb/song/804796091"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://open.qobuz.com/track/123872921"
+            },
+            {
+              "type": "streaming",
+              "url": "https://open.qobuz.com/track/123872921"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/2vei5uOlshrCg56Xr7hw9w"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/25764013"
+            }
+          ]
         },
         "release_name": "Light",
         "track_name": "Karpatskyi rep"
@@ -3462,46 +3549,6 @@
         },
         "release_name": "My Beautiful Dark Twisted Fantasy",
         "track_name": "Gorgeous"
-      },
-      "user_name": "emomert"
-    },
-    {
-      "inserted_at": 1783217269,
-      "listened_at": 1782981182,
-      "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
-      "track_metadata": {
-        "additional_info": {
-          "lastfm_artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-          "lastfm_track_mbid": "1a96f766-97e1-41c0-baf6-2eb244c86d55",
-          "recording_msid": "53cec112-3b1c-452f-8c95-91cd00d4dd99",
-          "submission_client": "ListenBrainz lastfm importer v2"
-        },
-        "artist_name": "Daft Punk",
-        "mbid_mapping": {
-          "artist_mbids": [
-            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
-          ],
-          "artists": [
-            {
-              "artist_credit_name": "Daft Punk",
-              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-              "join_phrase": ""
-            }
-          ],
-          "caa_id": 34368859458,
-          "caa_release_mbid": "0c976bd1-88db-48f9-ac71-e5309e0e54d5",
-          "recording_mbid": "fb751a1b-4fde-4cf3-bf4c-6cf7f8bcd599",
-          "recording_name": "Technologic (Vitalic remix)",
-          "release_mbid": "9e4cb666-a8c6-4606-bdfc-b9e176137900",
-          "url_rels": [
-            {
-              "type": "free streaming",
-              "url": "https://open.spotify.com/track/1QKWEOrj8Ee8PBu6mPVSw1"
-            }
-          ]
-        },
-        "release_name": "Human After All: Remixes",
-        "track_name": "Technologic (Vitalic Remix)"
       },
       "user_name": "emomert"
     }
